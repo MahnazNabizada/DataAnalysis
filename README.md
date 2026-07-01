@@ -1,4 +1,4 @@
-# DataAnalysis
+# Data Analysis
 
 ## Introduction
 
@@ -18,14 +18,15 @@ A curated collection of data analysis materials, including courses, projects, an
     - 📁 [ibm](./learning/courses/ibm/)
       - 📁 [dataanalyst](./learning/courses/ibm/dataanalyst/)
         - 📁 [01-introduction-to-data-analytics](./learning/courses/ibm/dataanalyst/01-introduction-to-data-analytics/)
-          - 📁 [practice-quizz](./learning/courses/ibm/dataanalyst/01-introduction-to-data-analytics/practice-quizz/)
+          - 📁 [practice-quiz](./learning/courses/ibm/dataanalyst/01-introduction-to-data-analytics/practice-quiz/)
+          - 📁 [graded-quiz](./learning/courses/ibm/dataanalyst/01-introduction-to-data-analytics/graded-quiz/)
 - 📂 [projects](#projects)
 
 ## About Folder Structure
 
 ### [learning](./learning/)
 
-This directory contains learning materials, notes, and resources covering core Data Analysis topics such as data cleaning, exploration, visualization, and statistical fundamentals. It serves as a reference for building a strong foundation in data analysis concepts and techniques.
+This directory contains educational materials from the courses I have completed or am currently taking. It includes lecture notes, practical exercises, graded quizzes, assignments, and reference documentation. The goal is to document my learning journey, reinforce key concepts, and provide a structured repository of knowledge for future reference.
 
 ### [projects](./projects/)
 
