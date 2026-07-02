@@ -161,3 +161,55 @@
    - [x] Emails
 
    Answer: Emails are considered a source of semi-structured data as they have some organizational properties but do not follow a rigid schema.
+
+## Wrangling Data
+
+1. **What is one of the common structural transformations used for combining data from one or more tables?**
+   - [ ] Normalization
+   - [ ] Cleaning
+   - [x] Joins
+   - [ ] Denormalization
+
+   Answer:
+
+2. **What tool allows you to discover, cleanse, and transform data with built-in operations?**
+   - [ ] Google DataPrep
+   - [x] Watson Studio Refinery
+   - [ ] Trifacta Wrangler
+   - [ ] OpenRefine
+
+   Answer: Watson Studio Refinery has built-in features that allow you to discover, cleanse, and transform data.
+
+3. **What is data called that does not fit within the context of the use case?**
+   - [ ] Duplicate data
+   - [x] Irrelevant data
+   - [ ] Missing data
+   - [ ] Relevant data
+
+   Answer: Data that does not fit within the context of the use case is called irrelevant data.
+
+## Analysing and Mining Data
+
+1. **What is one of the common measures of Central Tendency? **
+   - [ ] Regression
+   - [ ] Variance
+   - [x] Mean
+   - [ ] Classification
+
+   Answer: Mean, or the mathematical average, is one of the common measures of Central Tendency.
+
+2. **What technique is used to help identify the nature of the relationship between two variables?**
+   - [x] Regression
+   - [ ] Classification
+   - [ ] Anomaly Detection
+   - [ ] Clustering
+
+   Answer: Regression is a technique that helps identify the nature of the relationship between two variables, which could be causal or correlational.
+
+3. **What Python libraries are commonly used for data mining?**
+   - [x] NumPy
+   - [ ] Tm
+   - [x] Pandas
+   - [ ] twitter
+
+   Answer: NumPy and Pandas are popular Python libraries used for data analysis.

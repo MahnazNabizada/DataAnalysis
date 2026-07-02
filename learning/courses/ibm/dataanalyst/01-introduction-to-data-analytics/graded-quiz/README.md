@@ -84,7 +84,7 @@
 
    Answer: The average billing amount of complainants was one of the data points used to check for patterns in subscribers reporting overbilling. Serial number of meters was an important data point that helped establish the connection between the meters and overbilling.
 
-## The Data Ecosystem and Langauges for Data Professionals
+## The Data Ecosystem and Languages for Data Professionals
 
 1. **In the data analyst’s ecosystem, languages are classified by type. What are shell and scripting languages most commonly used for?**
    - [ ] Manipulating data
@@ -208,7 +208,7 @@
    - [x] Primary data
    - [ ] Copyright-free data
 
-   Answer: Data obtained from an organization’s internal CRM, HR, and workflow applications is classified as primary data.
+   Answer: Primary data is data that is typically obtained from an organization’s internal CRM, HR, and workflow applications.
 
 5. **Which of the provided options offers simple commands to specify what is to be retrieved from a relational database?**
    - [ ] API
@@ -217,3 +217,87 @@
    - [x] SQL
 
    Answer: SQL offers simple commands for retrieving data from relational databases.
+
+## Wrangling Data
+
+1. **What does a typical data wrangling workflow include?**
+   - [ ] Recognizing patterns
+   - [ ] Using mathematical techniques to identify correlations in data
+   - [x] Validating the quality of the transformed data
+   - [ ] Predicting probabilities
+
+   Answer: Validating the quality of transformed data is an essential step in a data wrangling workflow.
+
+2. **OpenRefine is an open-source tool that allows you to:**
+   - [ ] Automatically detect schemas, data types, and anomalies
+   - [x] Transform data into a variety of formats such as TSV, CSV, XLS, XML, and JSON
+   - [ ] Use add-ins such as Microsoft Power Query to identify issues and clean data
+   - [ ] Enforces applicable data governance policies automatically
+
+   Answer: Using OpenRefine, you can transform data into a wide variety of formats such as TSV, CSV, XLS, XML, and JSON.
+
+3. **What is one of the steps in a typical data cleaning workflow?**
+   - [ ] Clustering data
+   - [ ] Building classification models
+   - [x] Inspecting data to detect issues and errors
+   - [ ] Establishing relationships between data events
+
+   Answer: Inspecting data to detect issues and errors is one of the first steps in a typical data cleaning workflow.
+
+4. **When you’re combining rows of data from multiple source tables into a single table, what kind of data transformation are you performing?**
+   - [ ] Denormalization
+   - [x] Unions
+   - [ ] Normalization
+   - [ ] Joins
+
+   Answer: Unions are a common structural transformation used for combining rows of data from multiple source tables.
+
+5. **When you detect a value in your data set that is vastly different from other observations in the same data set, what would you report that as?**
+   - [ ] Irrelevant data
+   - [ ] Syntax error
+   - [x] Outlier
+   - [ ] Missing value
+
+   Answer: Outliers are values in your data set that may be vastly different from other values in the same data field.
+
+## Analysing and Mining Data
+
+1. **What is a branch of mathematics dealing with the collection, analysis, interpretation, and presentation of numerical or quantitative data?**
+   - [x] Statistics
+   - [ ] Pie
+   - [ ] Algebra
+   - [ ] Calculus
+
+   Answer: Statistics is the branch of mathematics that deals with the collection, analysis, interpretation, and presentation of numerical or quantitative data.
+
+2. **Data Mining is defined as the process of:**
+   - [ ] Preparing raw data for analysis
+   - [x] Extracting knowledge from data
+   - [ ] Identifying errors in dat
+   - [ ] Filtering data based on pre-defined criteria
+
+   Answer: Data Mining is the process of extracting knowledge from data.
+
+3. **What type of data mining operations was R specifically built to handle? **
+   - [ ] Calculating mean, median, and mode
+   - [x] Classification of data
+   - [ ] Sorting
+   - [ ] Filtering
+
+   Answer: R has libraries explicitly built for data mining operations such as classification of data.
+
+4. **When you’re calculating the middle value of a data field in a data set, what are you really calculating?**
+   - [ ] Mode
+   - [ ] Average
+   - [ ] Mean
+   - [x] Median
+
+   Answer: Median is the middle value of a data field in a data set.
+
+5. **What is the general tendency of a set of data to change over time called?**
+   - [ ] Anomaly
+   - [ ] Pattern
+   - [ ] Trend
+   - [ ] Variation
+
+   Answer: A trend is the general tendency of a set of data to change over time.
