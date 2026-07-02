@@ -1,6 +1,6 @@
 # Graded Quiz - Questions and Answers
 
-## Modern Data Ecosystem and the Role of Data Analytics
+## Module 1 - Modern Data Ecosystem and the Role of Data Analytics
 
 1. **A modern data ecosystem includes a network of continually evolving entities. It includes:**
    - [ ] Social media sources, data repositories, and APIs
@@ -42,7 +42,7 @@
 
    Answer: Emerging technologies such as Cloud Computing, Machine Learning, and Big Data are shaping today’s data ecosystem and its possibilities.
 
-## The Data Analyst Role
+## Module 1 - The Data Analyst Role
 
 1. **Why is proficiency in Statistics an important skill for a Data Analyst?**
    - [ ] For creating queries to extract required data
@@ -84,7 +84,7 @@
 
    Answer: The average billing amount of complainants was one of the data points used to check for patterns in subscribers reporting overbilling. Serial number of meters was an important data point that helped establish the connection between the meters and overbilling.
 
-## The Data Ecosystem and Languages for Data Professionals
+## Module 2 - The Data Ecosystem and Languages for Data Professionals
 
 1. **In the data analyst’s ecosystem, languages are classified by type. What are shell and scripting languages most commonly used for?**
    - [ ] Manipulating data
@@ -126,7 +126,7 @@
 
    Answer: Python supports multiple programming paradigms, such as object-oriented, imperative, functional, and procedural, making it suitable for a wide variety of use cases.
 
-## Understanding Data Repositories and Big Data Platforms
+## Module 2 - Understanding Data Repositories and Big Data Platforms
 
 1. **Data Marts and Data Warehouses have typically been relational, but the emergence of what technology has helped to let these be used for non-relational data?**
    - [ ] Data Lake
@@ -176,7 +176,7 @@
 
    Answer: Spark is a general-purpose data processing engine used for performing complex data analytics in real-time.
 
-## Gathering Data
+## Module 3 - Gathering Data
 
 1. **What are some of the steps in the process of “Identifying Data”? (Select all that apply)**
    - [ ] Define the checkpoints
@@ -218,7 +218,7 @@
 
    Answer: SQL offers simple commands for retrieving data from relational databases.
 
-## Wrangling Data
+## Module 3 - Wrangling Data
 
 1. **What does a typical data wrangling workflow include?**
    - [ ] Recognizing patterns
@@ -260,7 +260,7 @@
 
    Answer: Outliers are values in your data set that may be vastly different from other values in the same data field.
 
-## Analysing and Mining Data
+## Module 4 - Analysing and Mining Data
 
 1. **What is a branch of mathematics dealing with the collection, analysis, interpretation, and presentation of numerical or quantitative data?**
    - [x] Statistics
@@ -297,7 +297,87 @@
 5. **What is the general tendency of a set of data to change over time called?**
    - [ ] Anomaly
    - [ ] Pattern
-   - [ ] Trend
+   - [x] Trend
    - [ ] Variation
 
    Answer: A trend is the general tendency of a set of data to change over time.
+
+## Module 4 - Communicating and Sharing Data Analysis Findings
+
+1. **"A presentation is not a data dump”. What is the one thing you would do to ensure your presentation is not a data dump?**
+   - [x] Include only that information as is needed to address the business problem
+   - [ ] Not use visuals in the presentation
+   - [ ] Deliver the findings in a single slide
+   - [ ] Not include facts and figures in the presentation
+
+   Answer: By only including information that is relevant to the use case, you ensure that your presentation does not become a data dump.
+
+2. **What is the discipline of communicating information through the use of visual elements?**
+   - [ ] Data type conversion
+   - [ ] Data profiling
+   - [ ] Data regression
+   - [x] Data visualization
+
+   Answer: Data visualization is the discipline of communicating information using visual elements.
+
+3. **Matplotlib is a widely used Python data visualization library**
+   - [x] True
+   - [ ] False
+
+   Answer: Matplotlib is a Python library that is used for Data Visualization.
+
+4. **What is the goal of Data Visualization?**
+   - [x] Make information easy to comprehend, interpret, and retain
+   - [ ] Make the presentation look attractive
+   - [ ] Establish trust in the audience
+   - [ ] Make collaboration easy
+
+   Answer: The goal of Data Visualization is to make information easy to comprehend, interpret, and retain.
+
+5. **What can you do to help your audience trust you?**
+   - [ ] Hand them copies of the data sets you have used for analysis
+   - [x] Share your data sources, hypotheses, and validations
+   - [ ] Make your presentation look good
+   - [ ] Share the detailed documentation of every aspect of your project so they can verify all details
+
+   Answer: Sharing your data sources, hypotheses, and validations go a long way in establishing trust in your audience.
+
+## Module 5 - Opportunities and Learning Paths
+
+1. **Which of these is essential for getting started and growing as a Data Analyst?**
+   - [ ] Domain specialization
+   - [ ] A degree in Statistics
+   - [x] Love for numbers, a curious mind, and openness to learn
+   - [ ] A degree in Computer Science
+
+   Answer: These traits are essential for a Data Analyst role.
+
+2. **Job roles such as Project Managers, Marketing Managers, and HR Managers, can achieve greater efficiency and effectiveness in their current roles by acquiring data analysis skills, and are therefore known as analytics-enabled job roles.**
+   - [x] True
+   - [ ] False
+
+   Answer: These roles can be classified as analytics-enabled job roles.
+
+3. **What Data Analysis roles may be best suited for people with little or no technical training?**
+   - [ ] Big Data Engineer
+   - [ ] Data Analyst
+   - [x] Functional Analyst
+   - [ ] Data Scientist
+
+   Answer: A Functional Analyst role is best suited for people with little or no technical training.
+
+4. **Which of the following statement describes Data Analyst Specialist Roles?**
+   - [ ] Analysts who specialize in data lakes and data repositories
+   - [ ] Analysts who can work with Machine and Deep Learning models
+   - [x] Analysts who advance technical, statistical, and analytical skills, over time, to expert levels
+   - [ ] Analysts who specialize in specific fields like HR, Sales, and Finance
+
+   Answer: In the Data Analyst Specialist roles, you would be required to advance these skills from beginner to expert level over time.
+
+5. **A Principal Data Analyst is responsible for:**
+   - [ ] Being a domain specialist
+   - [ ] Having expertise in all tools and technologies used in data analytics
+   - [ ] Being well-versed in Big Data processing tools
+   - [x] Establishing processes in the team
+
+   Answer: A Principal Data Analyst would typically be responsible for establishing processes in their team.

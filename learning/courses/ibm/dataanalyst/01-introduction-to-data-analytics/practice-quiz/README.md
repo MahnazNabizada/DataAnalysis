@@ -1,6 +1,6 @@
 # Practice Quiz - Questions and Answers
 
-## Modern Data Ecosystem and the Role of Data Analytics
+## Module 1 - Modern Data Ecosystem and the Role of Data Analytics
 
 1. **Which emerging technology has made it possible for every enterprise to have access to limitless storage and high-performance computing?**
    - [ ] Machine learning
@@ -26,7 +26,7 @@
 
    Answer: Predictive Analytics is the analysis of historical data to predict future outcomes.
 
-## The Data Analyst Role
+## Module 1 - The Data Analyst Role
 
 1. **Which of these skills is essential to the role of a Data Analyst?**
    - [ ] DeepLearning models
@@ -44,7 +44,7 @@
 
    Answer: Sharing the process that helped you arrive at your findings lends credibility to your findings.
 
-## The Data Ecosystem and Langauges for Data Professionals
+## Module 2 - The Data Ecosystem and Langauges for Data Professionals
 
 1. **What data type is typically found in databases and spreadsheets?**
    - [ ] Social media content
@@ -86,7 +86,7 @@
 
    Answer: SQL, or Structured Query Language, is one of the most popular querying languages in use today.
 
-## Understanding Data Repositories and Big Data Platforms
+## Module 2 - Understanding Data Repositories and Big Data Platforms
 
 1. **Structured Query Language, or SQL, is the standard querying language for what type of data repository?**
    - [ ] Flat Files
@@ -136,7 +136,7 @@
 
    Answer: Hadoop, a java-based open-source framework, allows distributed storage and processing of large datasets across clusters of computers.
 
-## Gathering Data
+## Module 3 - Gathering Data
 
 1. **What are the requirements in order for data to be reliable? (Select all that apply)**
    - [ ] Data should be easy to collect
@@ -162,7 +162,7 @@
 
    Answer: Emails are considered a source of semi-structured data as they have some organizational properties but do not follow a rigid schema.
 
-## Wrangling Data
+## Module 3 - Wrangling Data
 
 1. **What is one of the common structural transformations used for combining data from one or more tables?**
    - [ ] Normalization
@@ -188,7 +188,7 @@
 
    Answer: Data that does not fit within the context of the use case is called irrelevant data.
 
-## Analysing and Mining Data
+## Module 4 - Analysing and Mining Data
 
 1. **What is one of the common measures of Central Tendency? **
    - [ ] Regression
@@ -213,3 +213,41 @@
    - [ ] twitter
 
    Answer: NumPy and Pandas are popular Python libraries used for data analysis.
+
+## Module 4 - Communicating and Sharing Data Analysis Findings
+
+1. **Data visualizations such as graphs and charts are a great way to bring data to life. **
+   - [x] True
+   - [ ] False
+
+   Answer: Visualizations are a great way to bring data to life.
+
+2. **You can use dashboards to present operational data such as daily progress data, as well as analytical data, such as the overall health of a business function.**
+   - [x] True
+   - [ ] False
+
+   Answer: Dashboards are a great way to present both operational and analytical data.
+
+3. **What spreadsheet software is preferred when multiple users need to collaborate?**
+   - [ ] R-Studio
+   - [ ] Tableau
+   - [ ] Microsoft Excel
+   - [x] Google Sheets
+
+   Answer: Google Sheets is preferred over other spreadsheets when multiple users need to collaborate.
+
+## Module 5 - Opportunities and Learning Paths
+
+1. **On the Data Analyst Specialist path, you could be starting your career as an Associate or Junior Data Analyst and working your way up to a Principal Analyst role. What are some of the factors that influence your growth on this path?**
+   - [ ] A Master’s degree in either Mathematics or Statistics
+   - [x] The experience and exposure you gain in the different areas within Data Analysis
+   - [ ] At least five to six years of experience at each level
+   - [ ] Specialization in at least one domain area
+
+   Answer: The amount of experience you gain and exposure to different areas within Data Analysis qualifies you for the next role on this path.
+
+2. **Skills such as problem-solving, communication, and storytelling are critical to the role of a Data Analyst. And like most soft skills, you’re either good at them, or you’re not; these skills cannot be acquired over time. **
+   - [ ] True
+   - [x] False
+
+   Answer: These skills can be acquired over time.
