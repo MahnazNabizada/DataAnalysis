@@ -175,3 +175,45 @@
    - [x] Perform complex analytics in real-time
 
    Answer: Spark is a general-purpose data processing engine used for performing complex data analytics in real-time.
+
+## Gathering Data
+
+1. **What are some of the steps in the process of “Identifying Data”? (Select all that apply)**
+   - [ ] Define the checkpoints
+   - [x] Determine the information you want to collect
+   - [ ] Determine the visualization tools that you will use
+   - [x] Define a plan for collecting data
+
+   Answer: Determining the information you need to collect and Defining a plan are two of the steps in the “Identifying Data” workflow.
+
+2. **What type of data refers to information obtained directly from the source?**
+   - [x] Primary data
+   - [ ] Third-party data
+   - [ ] Sensor data
+   - [ ] Secondary data
+
+   Answer: Primary data refers to information that is obtained directly from the source.
+
+3. **Web scraping is used to extract what type of data?**
+   - [ ] Images, videos, and data from NoSQL databases
+   - [ ] Text, videos, and data from relational databases
+   - [ ] Data from news sites and NoSQL databases
+   - [x] Text, videos, and images
+
+   Answer: Web scraping is used for extracting text, videos, and images from the web.
+
+4. **Data obtained from an organization’s internal CRM, HR, and workflow applications is classified as:**
+   - [ ] Third-party data
+   - [ ] Secondary data
+   - [x] Primary data
+   - [ ] Copyright-free data
+
+   Answer: Data obtained from an organization’s internal CRM, HR, and workflow applications is classified as primary data.
+
+5. **Which of the provided options offers simple commands to specify what is to be retrieved from a relational database?**
+   - [ ] API
+   - [ ] RSS Feed
+   - [ ] Web Scraping
+   - [x] SQL
+
+   Answer: SQL offers simple commands for retrieving data from relational databases.

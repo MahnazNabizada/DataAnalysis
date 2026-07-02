@@ -135,3 +135,29 @@
    - [ ] ETL
 
    Answer: Hadoop, a java-based open-source framework, allows distributed storage and processing of large datasets across clusters of computers.
+
+## Gathering Data
+
+1. **What are the requirements in order for data to be reliable? (Select all that apply)**
+   - [ ] Data should be easy to collect
+   - [x] Data should be relevant
+   - [x] Data should be free of all errors
+   - [ ] Data should be structured
+
+   Answer: For data to be considered reliable, it needs to be relevant to the use case and it needs to be free of all errors.
+
+2. **What type of data is produced by wearable devices, smart buildings, and medical devices?**
+   - [ ] Census data
+   - [ ] Observation study data
+   - [x] Sensor data
+   - [ ] Survey data
+
+   Answer: Sensor data is produced by wearable devices, smart buildings, and medical devices.
+
+3. **What type of data is semi-structured and has some organizational properties but not a rigid schema?**
+   - [ ] Web logs
+   - [ ] Data from OLTP systems
+   - [ ] Online forms
+   - [x] Emails
+
+   Answer: Emails are considered a source of semi-structured data as they have some organizational properties but do not follow a rigid schema.
