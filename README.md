@@ -14,12 +14,15 @@ A curated collection of data analysis materials, including courses, projects, an
 ## Folder Structure
 
 - 📂 [learning](#learning)
-  - 📁 [courses](./learning/courses/)
-    - 📁 [ibm](./learning/courses/ibm/)
-      - 📁 [dataanalyst](./learning/courses/ibm/dataanalyst/)
-        - 📁 [01-introduction-to-data-analytics](./learning/courses/ibm/dataanalyst/01-introduction-to-data-analytics/)
+  - 📂 [courses](./learning/courses/)
+    - 📂 [ibm](./learning/courses/ibm/)
+      - 📂 [dataanalyst](./learning/courses/ibm/dataanalyst/)
+        - 📂 [01-introduction-to-data-analytics](./learning/courses/ibm/dataanalyst/01-introduction-to-data-analytics/)
           - 📁 [practice-quiz](./learning/courses/ibm/dataanalyst/01-introduction-to-data-analytics/practice-quiz/)
           - 📁 [graded-quiz](./learning/courses/ibm/dataanalyst/01-introduction-to-data-analytics/graded-quiz/)
+        - 📂 [02-excel-basics-for-data-analysis](./learning/courses/ibm/dataanalyst/02-excel-basics-for-data-analysis/)
+          - 📁 [practice-quiz](./learning/courses/ibm/dataanalyst/02-excel-basics-for-data-analysis/practice-quiz/)
+          - 📁 [graded-quiz](./learning/courses/ibm/dataanalyst/02-excel-basics-for-data-analysis/graded-quiz/)
 - 📂 [projects](#projects)
 
 ## About Folder Structure
