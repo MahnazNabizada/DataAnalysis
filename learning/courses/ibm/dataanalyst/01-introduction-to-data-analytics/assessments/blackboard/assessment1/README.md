@@ -524,6 +524,12 @@ Choices:
 ## Question 48 — Multiple Choice ✅ (10/10)
 
 **Matplotlib is a \_\_\_\_ library for the Python programming language.**
+- D. plotting
 
-- A. Data science
-- B. Mathematics
+## Question 49 — Multiple Choice ✅ (10/10)
+**What is referred to as the graphical representation of data?.** 
+**A. Data Visualization**
+
+## Question 49 — Multiple Choice ✅ (10/10)
+**What is the default type of a histogram in Matplotlib?**
+ - **Bar**
