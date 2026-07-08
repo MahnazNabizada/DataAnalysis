@@ -30,6 +30,8 @@ A curated collection of data analysis materials, including courses, projects, an
           - 📂 [activities](./learning/courses/ibm/dataanalyst/02-excel-basics-for-data-analysis/activities/)
             - 📂 [hands-on](./learning/courses/ibm/dataanalyst/02-excel-basics-for-data-analysis/activities/hands-on/)
               - 📁 [01-cleaning-data](./learning/courses/ibm/dataanalyst/02-excel-basics-for-data-analysis/activities/hands-on/01-cleaning-data/)
+              - 📁 [02-filtering-sort-data](./learning/courses/ibm/dataanalyst/02-excel-basics-for-data-analysis/activities/hands-on/02-filtering-sort-data/)
+              - 📁 [03-using-pivot-tables](./learning/courses/ibm/dataanalyst/02-excel-basics-for-data-analysis/activities/hands-on/03-using-pivot-tables/)
           - 📁 [practice-quiz](./learning/courses/ibm/dataanalyst/02-excel-basics-for-data-analysis/practice-quiz/)
           - 📁 [graded-quiz](./learning/courses/ibm/dataanalyst/02-excel-basics-for-data-analysis/graded-quiz/)
 - 📂 [projects](#projects)
