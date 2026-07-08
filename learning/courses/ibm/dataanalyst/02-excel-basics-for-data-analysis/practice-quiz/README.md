@@ -91,3 +91,95 @@
    - [x] One cell reference is absolute, the other one is relative
 
    Answer: A mixed reference in Excel is where one part of the reference (either row or column) is fixed (absolute) while the other part can change as the formula is copied.
+
+## Module 3 - Basics of Data Quality and Privacy
+
+1. **What are the fundamental principles of data privacy mentioned? (Select all that apply.)**
+   - [ ] Transparency
+   - [x] Collection and Use
+   - [x] Confidentiality
+   - [ ] Convenience
+
+   Answer: Collection and Use refer to the appropriate gathering and handling of customer data in compliance with data privacy laws. Confidentiality ensures that a customer's personal information remains private and is a key element of data privacy regulations.
+
+2. **Which of the following are the essential traits of quality data? Select all that apply.**
+   - [ ] Scalability
+   - [x] Timeliness
+   - [x] Accuracy
+   - [x] Completeness
+
+   Answer: Timeliness is one of the five traits, stressing that data must be up-to-date and readily accessible to be useful for decision-making. Accuracy is a crucial trait of quality data. It emphasizes that data must be accurate to ensure reliable analysis. Completeness is an essential trait of quality data. The importance of having all necessary information to avoid incomplete data sets.
+
+3. **Why is it important to ensure the reliability of data?**
+   - [ ] To ensure that the data is free from errors and is accurate.
+   - [ ] To ensure that data is relevant to the project needs.
+   - [x] To avoid basing decisions on outdated or incorrect information.
+   - [ ] To make sure all required data is readily available for analysis.
+
+   Answer: The data’s reliability can be trusted, and the data sources consistently provide accurate, updated information.
+
+4. **Which of the following steps is included in the process for importing data from a text file using the Text Import Wizard in Excel? Select all that apply.**
+   - [x] Select the delimiter that separates the data fields.
+   - [x] Indicate whether your data has headers.
+   - [x] Set the data format for each column.
+   - [ ] Choose the file format you want to export the data to.
+
+   Answer: Select the delimiter that separates the data fields is a crucial step in the Text Import Wizard where you specify the character (like a comma or tab) that separates data fields in your text file. The Text Import Wizard, where you specify if the first row of your data should be treated as headers. During the import process, you can set the data format (such as General, Text, or Date) for each column to ensure that the data is correctly interpreted.
+
+5. **What is the primary responsibility of a company when it comes to data privacy?**
+   - [ ] To anonymize all data to prevent any potential breaches.
+   - [ ] To collect as much data as possible for comprehensive analysis.
+   - [x] To ensure that customer data is kept safe and complies with privacy regulations.
+   - [ ] To share collected data with third-party vendors for better service.
+
+   Answer: The primary responsibility of a company is to protect customer data and ensure compliance with various privacy laws and regulations, such as GDPR, LGPD, and CCPA.
+
+## Module 3 - Cleaning Data
+
+1. **What's one of the easiest common errors or inconsistencies to fix when importing data?**
+   - [ ] Extra white space
+   - [ ] Duplicated data
+   - [ ] Empty rows
+   - [x] Spelling mistakes
+
+   Answer: Fixing spelling mistakes by using the in-built spell checker is the easiest of them to fix
+
+2. **What is the first thing you should do when checking spelling errors in Excel?**
+   - [ ] Use a dictionary
+   - [ ] Find the misspelled data
+   - [ ] Click the Spelling button
+   - [x] Select the data you want to check for spelling
+
+   Answer: The first thing you should do when checking spelling errors in Excel is to select the data you want to spell-check.
+
+3. **What feature can you use to fix text that appears in mixed case?**
+   - [ ] Audits
+   - [ ] Filter
+   - [x] Functions
+   - [ ] AutoSum
+
+   Answer: You can use the Functions feature to fix text that appears in mixed case.
+
+4. **What is one of the functions you can use to change the text case in your data?**
+   - [ ] CASE
+   - [x] LOWER
+   - [ ] STRUCTURE
+   - [ ] CAP
+
+   Answer: You can use the LOWER function to change the text case in your data.
+
+5. **What does the Flash Fill feature have in common with the UPPER, LOWER, and PROPER functions?**
+   - [ ] Keeps cell formatting
+   - [x] Requires a helper column or row
+   - [ ] Lookup & Reference
+   - [ ] Repairs a REF error
+
+   Answer: Both the Flash Fill feature and the UPPER, LOWER, and PROPER functions require a helper row or column.
+
+6. **Which of the following tasks can Flash Fill do? Select all that apply.**
+   - [ ] Set column width
+   - [ ] Remove empty rows
+   - [x] Combine two columns of data into one
+   - [x] Separate first and last names from a single column
+
+   Answer: Flash Fill can combine two columns of data into one and it can separate first and last names from a single column

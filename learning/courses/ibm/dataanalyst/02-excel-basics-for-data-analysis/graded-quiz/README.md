@@ -147,3 +147,87 @@
    - [ ] Formula contains multiple errors
 
    Answer: When you see multiple hash symbols in a cell, it means that either the column isn't wide enough to display the full data or it contains negative date or time values.
+
+## Module 3 - Basics of Data Quality and Privacy
+
+1. **Which data quality trait can be summarized by asking if the data is really necessary?**
+   - [ ] Timeliness
+   - [ ] Reliability
+   - [x] Relevance
+   - [ ] Completeness
+
+   Answer: The Relevance data quality trait can be summarized by asking if the data is really necessary.
+
+2. **Which data quality trait refers to the availability and accessibility of the data?**
+   - [x] Timeliness
+   - [ ] Accuracy
+   - [ ] Reliability
+   - [ ] Completeness
+
+   Answer: The Timeliness data quality trait refers to the availability and accessibility of the data.
+
+3. **After importing a text file into Excel, you find some columns aren't showing all data. How can you fix all column widths at the same time?**
+   - [ ] Shorten the text so it fits
+   - [x] Select all columns and double-click one of the selected column dividers
+   - [ ] Click the Format button
+   - [ ] Drag a divider across
+
+   Answer: This will fix all column widths at the same time.
+
+## Module 3 - Cleaning Data
+
+1. **What is one of the issues that empty rows cause in your spreadsheet?**
+   - [ ] Indexing function error
+   - [x] Formula errors
+   - [ ] Data will be hidden
+   - [ ] Spell-check will fail
+
+   Answer: Having empty rows in your spreadsheet can cause errors in your formulas.
+
+2. **How to remove all empty rows at the same time in an imported spreadsheet?**
+   - [ ] You must delete the empty rows one at a time
+   - [ ] Use Search & Replace to look for empty rows and delete
+   - [ ] Use Remove Duplicates to remove empty rows
+   - [x] Select all rows and then filter for Blanks, select these and then delete
+
+   Answer: To remove all empty rows at the same time in your imported spreadsheet, select all rows, filter for Blanks, then select these and delete
+
+3. **There are two methods to locate and remove duplicated rows in Excel, what is the easiest way?**
+   - [ ] Search for the first character in rows
+   - [x] Select all data and click the Remove Duplicates button
+   - [ ] Select a column and choose Conditional Formatting > Highlight Cells Rules > Duplicate Values
+   - [ ] Use the HLOOKUP function
+
+   Answer: This is the easiest of the two methods to locate and remove duplicated rows in Excel
+
+4. **What does the PROPER function do?**
+   - [ ] Converts upper case text to lower case
+   - [ ] Repairs a REF error
+   - [ ] Converts lowercase text to uppercase
+   - [x] Changes text to sentence case
+
+   Answer: The PROPER function changes text to sentence case
+
+5. **Why do you need to use the Paste Values option when you paste contents from a helper row to the original row?**
+   - [ ] Validates the copied function
+   - [ ] Ensures consistency
+   - [ ] Keeps cell formatting the same
+   - [x] Makes sure formulas aren’t also copied
+
+   Answer: To ensure that formulas aren't also copied when you paste contents from a helper row to the original row, you use the Paste Values option
+
+6. **What is one of the ways to apply new data formats to the rest of a column?**
+   - [ ] Paste Special tool
+   - [ ] Format button
+   - [ ] Text Import wizard
+   - [x] Format Painter tool
+
+   Asnwer: You use the Format Painter tool to apply new data formats to the rest of a column
+
+7. **What tools or features can we use to split a single column with two names in it into two separate columns with a name in each? Select all that apply**
+   - [x] Flash Fill feature
+   - [ ] Paste Special
+   - [ ] Format Painter tool
+   - [x] Text to Columns feature
+
+   Answer: You can use the Flash Fill feature to split a single column with two names in it, into two separate columns with a name in each
