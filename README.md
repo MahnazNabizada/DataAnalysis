@@ -29,8 +29,7 @@ A curated collection of data analysis materials, including courses, projects, an
         - 📂 [02-excel-basics-for-data-analysis](./learning/courses/ibm/dataanalyst/02-excel-basics-for-data-analysis/)
           - 📂 [activities](./learning/courses/ibm/dataanalyst/02-excel-basics-for-data-analysis/activities/)
             - 📂 [articulate](./learning/courses/ibm/dataanalyst/02-excel-basics-for-data-analysis/activities/articulate/)
-              - 📁 [01-data-editing-formatting-formulas](./learning/courses/ibm/dataanalyst/02-excel-basics-for-data-analysis/activities/articulate/
-                01-data-editing-formatting-formulas/)
+              - 📁 [01-data-editing-formatting](./learning/courses/ibm/dataanalyst/02-excel-basics-for-data-analysis/activities/articulate/01-data-editing-formatting/)
               - 📁 [02-data-cleaning](./learning/courses/ibm/dataanalyst/02-excel-basics-for-data-analysis/activities/articulate/02-data-cleaning/)
               - 📁 [03-pivot-table](./learning/courses/ibm/dataanalyst/02-excel-basics-for-data-analysis/activities/articulate/03-pivot-table/)
             - 📂 [hands-on](./learning/courses/ibm/dataanalyst/02-excel-basics-for-data-analysis/activities/hands-on/)
