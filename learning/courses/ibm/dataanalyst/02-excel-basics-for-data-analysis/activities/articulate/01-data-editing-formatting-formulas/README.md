@@ -34,4 +34,4 @@
 
 ## Solution
 
-- [Toys Activity Dataset.xlsx](./Toys Activity Dataset.xlsx) _(12 KB)_
+- [Toys Activity Dataset.xlsx](./Toys%20Activity%20Dataset.xlsx) _(12 KB)_
