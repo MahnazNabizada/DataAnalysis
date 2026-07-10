@@ -28,6 +28,8 @@ A curated collection of data analysis materials, including courses, projects, an
           - 📁 [practice-quiz](./learning/courses/ibm/dataanalyst/01-introduction-to-data-analytics/practice-quiz/)
         - 📂 [02-excel-basics-for-data-analysis](./learning/courses/ibm/dataanalyst/02-excel-basics-for-data-analysis/)
           - 📂 [activities](./learning/courses/ibm/dataanalyst/02-excel-basics-for-data-analysis/activities/)
+            - 📂 [articulate](./learning/courses/ibm/dataanalyst/02-excel-basics-for-data-analysis/activities/articulate/)
+              - 📁 [01-data-editing-formatting-formulas](./learning/courses/ibm/dataanalyst/02-excel-basics-for-data-analysis/activities/articulate/01-data-editing-formatting-formulas/)
             - 📂 [hands-on](./learning/courses/ibm/dataanalyst/02-excel-basics-for-data-analysis/activities/hands-on/)
               - 📁 [01-cleaning-data](./learning/courses/ibm/dataanalyst/02-excel-basics-for-data-analysis/activities/hands-on/01-cleaning-data/)
               - 📁 [02-filtering-sort-data](./learning/courses/ibm/dataanalyst/02-excel-basics-for-data-analysis/activities/hands-on/02-filtering-sort-data/)
