@@ -87,3 +87,7 @@ In this exercise, you will learn how to create basic charts, such as bar and lin
 11. Your chart should look something like the one below:
 
     <img src="./2B11.png" alt="Example of Final Clustered Line Chart" style="width:40%;">
+
+## Solution
+
+- [Car_Sales_Kaggle_DV0130EN_Lab1_Start.xlsx](./Car_Sales_Kaggle_DV0130EN_Lab1_Start.xlsx) _(149 KB)_
