@@ -42,6 +42,12 @@ A curated collection of data analysis materials, including courses, projects, an
           - 📁 [final-assignment](./learning/courses/ibm/dataanalyst/02-excel-basics-for-data-analysis/final-assignment/)
           - 📁 [graded-quiz](./learning/courses/ibm/dataanalyst/02-excel-basics-for-data-analysis/graded-quiz/)
           - 📁 [practice-quiz](./learning/courses/ibm/dataanalyst/02-excel-basics-for-data-analysis/practice-quiz/)
+        - 📂 [03-data-visualization-dashboards-excel-cognos](./learning/courses/ibm/dataanalyst/03-data-visualization-dashboards-excel-cognos/)
+          - 📂 [activities](./learning/courses/ibm/dataanalyst/03-data-visualization-dashboards-excel-cognos/activities/)
+            - 📂 [articulate](./learning/courses/ibm/dataanalyst/03-data-visualization-dashboards-excel-cognos/activities/articulate/)
+              - 📁 [01-life-is-a-rollercoaster](./learning/courses/ibm/dataanalyst/03-data-visualization-dashboards-excel-cognos/activities/articulate/01-life-is-a-rollercoaster/)
+            - 📂 [hands-on](./learning/courses/ibm/dataanalyst/03-data-visualization-dashboards-excel-cognos/activities/hands-on/)
+              - 📁 [01-creating-basic-charts](./learning/courses/ibm/dataanalyst/03-data-visualization-dashboards-excel-cognos/activities/hands-on/01-creating-basic-charts/)
 - 📂 [projects](#projects)
 
 ## About Folder Structure
