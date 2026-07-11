@@ -48,6 +48,8 @@ A curated collection of data analysis materials, including courses, projects, an
               - 📁 [01-life-is-a-rollercoaster](./learning/courses/ibm/dataanalyst/03-data-visualization-dashboards-excel-cognos/activities/articulate/01-life-is-a-rollercoaster/)
             - 📂 [hands-on](./learning/courses/ibm/dataanalyst/03-data-visualization-dashboards-excel-cognos/activities/hands-on/)
               - 📁 [01-creating-basic-charts](./learning/courses/ibm/dataanalyst/03-data-visualization-dashboards-excel-cognos/activities/hands-on/01-creating-basic-charts/)
+          - 📁 [graded-quiz](./learning/courses/ibm/dataanalyst/03-data-visualization-dashboards-excel-cognos/graded-quiz/)
+          - 📁 [practice-quiz](./learning/courses/ibm/dataanalyst/03-data-visualization-dashboards-excel-cognos/practice-quiz/)
 - 📂 [projects](#projects)
 
 ## About Folder Structure
