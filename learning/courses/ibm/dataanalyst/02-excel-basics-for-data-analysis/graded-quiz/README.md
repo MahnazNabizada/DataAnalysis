@@ -231,3 +231,90 @@
    - [x] Text to Columns feature
 
    Answer: You can use the Flash Fill feature to split a single column with two names in it, into two separate columns with a name in each
+
+## Module 4 - Data Analysis Basics, Filtering and Sorting Data
+
+1. **If you have multiple filters set, how can you clear all of them at once?**
+   - [ ] Turn sorting off
+   - [ ] You must clear each filter separately
+   - [ ] Refresh the column
+   - [x] Data tab > Sort & Filter group > Clear
+
+   Answer: By going to the Data tab and selecting "Clear" in the Sort & Filter group, all filters will be removed.
+
+2. **After enabling Filtering, where can you see and access the filter controls?**
+   - [x] Each column header now has a filter control
+   - [ ] Only selected cells have filter controls
+   - [ ] Each row has filter controls
+   - [ ] You must manually select data for filtering
+
+   Answer: After enabling Filtering, each column header has a filter control that you can use to sort and filter the data in that column.
+
+3. **The IF function applies to one or two conditions, but what if you need to apply
+   multiple conditions?**
+   - [ ] Use the IF or function
+   - [x] Use the nesting capabilities of the IF function
+   - [ ] Use the IF-Then function
+   - [ ] Use separate IF functions
+
+   Answer: The nesting capabilities of the IF function allow you to apply multiple conditions by placing one IF function inside another. This approach is commonly used to handle complex logical scenarios.
+
+4. **When you use nested functions, what is required for each of the functions?**
+   - [ ] `=IF` to begin each function
+   - [ ] Each function must be alphabetically ordered
+   - [ ] Semi-colon between each function
+   - [x] A set of parentheses for each function
+
+   Answer: Each nested function requires its own set of parentheses to properly define its arguments and scope. Proper nesting and balancing of parentheses are crucial for the functions to work correctly.
+
+5. **The difference between HLOOKUP, VLOOKUP, and XLOOKUP is how they look for data.
+   How does each look for data?**
+   - [ ] HLOOKUP = by column / VLOOKUP = by row / XLOOKUP = in all directions
+   - [ ] HLOOKUP = in all directions / VLOOKUP = by column / XLOOKUP = by row
+   - [x] HLOOKUP = by row / VLOOKUP = by column / XLOOKUP = all directions
+   - [ ] HLOOKUP = by row / VLOOKUP = in all directions / XLOOKUP = by column
+
+   Answer: HLOOKUP searches for data horizontally (by row), VLOOKUP searches for data vertically (by column), and XLOOKUP can search for data in any direction (both horizontally and vertically).
+
+## Module 4 - Using Pivot Tables
+
+1. **What should you remove before making a Pivot Table?**
+   - [ ] Row labels, columns, data fields
+   - [ ] Value fields and row labels
+   - [ ] Date fields, value fields, and cells
+   - [x] Blank rows, columns, and cells
+
+   Answer: According to the video checklist, you should remove blank rows, columns, and cells before making a Pivot Table. These can interfere with the data organization and result in an inaccurate or incomplete Pivot Table.
+
+2. **What is automatically added after formatting data as a table?**
+   - [ ] Column headers at the top of columns
+   - [ ] Data bars presented at the top
+   - [x] Filter drop-downs at the top of columns
+   - [ ] Alternate light/dark rows at the bottom
+
+   Answer: When you format data as a table in Excel, filter drop-downs are automatically added to the top of each column. This allows for easy sorting and filtering of the table data.
+
+3. **After creating a pivot table and selecting it, what pane appears to the right
+   of the pivot table?**
+   - [ ] Additional pivot table examples
+   - [ ] The PivotTable Metadata pane
+   - [x] The PivotTable Fields pane
+   - [ ] The PivotTable Properties pane
+
+   Answer: After creating and selecting a pivot table, the PivotTable Fields pane appears to the right of the pivot table. This pane allows you to drag and drop fields to configure and customize the pivot table.
+
+4. **What do Timelines provide in pivot tables?**
+   - [ ] Set the pivot table to an earlier view
+   - [ ] Let you filter specifically on date-related data
+   - [ ] Preview views of different filters
+   - [ ] Provide details of all actions performed during a given period
+
+   Answer: Timelines in pivot tables allow you to filter data specifically based on date ranges, making it easy to analyze data over different time periods.
+
+5. **What is one way to remove a slicer or timeline?**
+   - [ ] Press `CTRL+Z`
+   - [x] Right-click it and select cut
+   - [ ] Create a new one
+   - [ ] Remove all filters from the pivot table
+
+   Answer: You can remove a slicer or timeline by right-clicking it and selecting "Cut" or by using the "Delete" key to remove it from the worksheet.

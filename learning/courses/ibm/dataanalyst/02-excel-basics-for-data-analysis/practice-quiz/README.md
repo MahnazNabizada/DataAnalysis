@@ -183,3 +183,91 @@
    - [x] Separate first and last names from a single column
 
    Answer: Flash Fill can combine two columns of data into one and it can separate first and last names from a single column
+
+## Module 4 - Data Analysis Basics, Filtering and Sorting Data
+
+1. **Which of the following are valid sorting orders you can choose when adding sorting
+   levels to your data? _(Select all that apply)_**
+   - [x] Oldest to Newest
+   - [x] Smallest to Largest
+   - [ ] Youngest to Oldest
+   - [x] Z to A
+
+   Answer: Oldest to Newest, Smallest to Largest and Z to A are valid sorting order, typically used for sorting numerical data in ascending order.
+
+2. **After filtering a column and getting the results, in which two ways can you return
+   to showing all the data in a column? _(Select two answers)_**
+   - [ ] Refresh the column
+   - [x] Clear the filter
+   - [ ] Refresh the worksheet
+   - [x] Turn filtering off
+
+   Answer: Clearing the filter will remove any filters applied to the column and show all the data. Turning filtering off will remove all filters from the column and display all the data.
+
+3. **What do custom filters provide that AutoFilters don't?**
+   - [x] Filter a column to see only above or below a certain value
+   - [ ] Set multiple filters at the same time
+   - [ ] Associate a formula with the filter control
+   - [ ] Display more data
+
+   Answer: Custom filters provide the capability to filter a column based on conditions like "greater than" or "less than" a certain value, which AutoFilters do not typically offer.
+
+4. **According to the video _'Useful Functions for Data Analysis'_, what is one of the
+   most common functions a Data Analyst might use?**
+   - [x] COUNTIF
+   - [ ] AVERAGE
+   - [ ] INT
+   - [ ] RANDBETWEEN
+
+   Answer: The "COUNTIF" function is commonly used by data analysts to count the number of cells that meet a specific condition, making it one of the most useful functions for data analysis.
+
+5. **What does VLOOKUP stand for?**
+   - [x] Vertical Lookup
+   - [ ] Variable Lookup
+   - [ ] Volume Lookup
+   - [ ] Virtual Lookup
+
+   Answer: VLOOKUP stands for Vertical Lookup. It is used to search for a value in the first column of a table and return a value in the same row from a specified column.
+
+## Module 4 - Using Pivot Tables
+
+1. **Before creating a pivot table, how should you format your data?**
+   - [x] As a table
+   - [ ] Conditional formatting
+   - [ ] Sort & filter
+   - [ ] Cell size
+
+   Answer: Formatting your data as a table ensures that the pivot table can easily recognize and organize your data, especially when new data is added.
+
+2. **How can you add more filters to the pivot table?**
+   - [ ] Use a function to add more filters to the pivot table
+   - [x] Drag a field to the Filters area of the PivotTable Fields pane
+   - [ ] First add filters to the original table data
+   - [ ] Use a formula to add more filters to the pivot table
+
+   Answer: To add more filters to a pivot table, you drag a field to the Filters area of the PivotTable Fields pane. This allows you to filter the pivot table data based on the selected field.
+
+3. **What must you do first before adding another slicer to a pivot table?**
+   - [ ] Remove all existing slicers from the pivot table
+   - [ ] Remove all current filters from the pivot table
+   - [ ] Add additional fields to the pivot table
+   - [x] Select a cell in the pivot table
+
+   Answer: Before adding another slicer, you must first select a cell in the pivot table to ensure that the slicer is associated with the correct pivot table.
+
+4. **What are slicers?**
+   - [ ] Split pivot tables
+   - [ ] Header filters
+   - [ ] Standard filters
+   - [x] On-screen graphical filter objects
+
+   Answer: Slicers are on-screen graphical filter objects that provide a user-friendly way to filter data in pivot tables and tables.
+
+5. **Which of the following features in Excel provides suggested combinations of data
+   for creating Pivot Tables based on the selected data?**
+   - [ ] Slicers
+   - [x] Recommended Pivot Tables
+   - [ ] Filters
+   - [ ] Timelines
+
+   Answer: This feature suggests combinations of data for Pivot Tables based on the selected data, making it easier to create effective Pivot Tables.
