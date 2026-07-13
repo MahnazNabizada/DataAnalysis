@@ -149,3 +149,27 @@
    - [x] Create visualizations
 
    Answer: These options are tasks you should perform before creating a dashboard. You should create several visualizations first, and then you can use them to populate your dashboard.
+
+5. **How many free trial days do you get when you sign up for Cognos Analytics?**
+   - [ ] 15 days
+   - [ ] 30 days
+   - [ ] 60 days
+   - [ ] The trial is unlimited but with reduced features
+
+6. **Which of the following are features provided by Cognos Analytics? _(Select all that apply)_**
+   - [ ] Data modeling
+   - [ ] Advanced analytics
+   - [ ] Pivot tables and charts
+   - [ ] Interactive dashboards
+
+7. **Which feature in Cognos Analytics would you use to help with offering insights into your data?**
+   - [ ] Help
+   - [ ] The Assistant
+   - [ ] Advanced Analytics
+   - [ ] The IBM Accelerator Catalog
+
+8. **After you've selected your dataset, what is the first thing you need to select when creating a new dashboard in Cognos Analytics?**
+   - [ ] A field
+   - [ ] A widget
+   - [ ] A template
+   - [ ] A visualization style

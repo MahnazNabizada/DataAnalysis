@@ -100,3 +100,37 @@
    - [x] Formatted the data as a table.
 
    Answer: Format the data as a table, Verifiy data is clean and error free and Create pivot tables to help analyze data shoud have done prior creating a dashboard.
+
+## Module 3 - Getting started with IBM Cognos Analytics
+
+1. **How many free trial days do you get when you sign up for Cognos Analytics?**
+   - [ ] 15 days
+   - [x] 30 days
+   - [ ] 60 days
+   - [ ] The trial is unlimited but with reduced features
+
+   Answer: Correct. You get a free 30-day trial period when you sign up for Cognos Analytics
+
+2. **Which of the following are features provided by Cognos Analytics? _(Select all that apply)_**
+   - [x] Data modeling
+   - [x] Advanced analytics
+   - [ ] Pivot tables and charts
+   - [x] Interactive dashboards
+
+   Answer: These are features provided by Cognos Analytics
+
+3. **Which feature in Cognos Analytics would you use to help with offering insights into your data?**
+   - [ ] Help
+   - [x] The Assistant
+   - [ ] Advanced Analytics
+   - [ ] The IBM Accelerator Catalog
+
+   Answer: This Cognos Analytics feature allows you to ask questions to get real time insights into your datas
+
+4. **After you've selected your dataset, what is the first thing you need to select when creating a new dashboard in Cognos Analytics?**
+   - [ ] A field
+   - [ ] A widget
+   - [x] A template
+   - [ ] A visualization style
+
+   Answer: After you've selected your dataset, the first thing you need to select when creating a new dashboard in Cognos Analytics is a template for your dashboard
