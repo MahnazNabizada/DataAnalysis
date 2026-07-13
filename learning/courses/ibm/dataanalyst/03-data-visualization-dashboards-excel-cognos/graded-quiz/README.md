@@ -81,3 +81,37 @@
     - [ ] Use the plus and minus buttons in the PivotChart to expand BMW and collapse Cadillac and Hyundai individually.
 
     Answer: To show BMW in detail while keeping other manufacturers collapsed, expand BMW in the connected PivotTable and let the PivotChart reflect that view.
+
+## Module 2 - Creating Advanced Charts
+
+1. **What do treemaps use to represent hierarchical data categories?**
+   - [ ] Treemaps use data points on a line.
+   - [x] Treemaps use color, size, and closeness of shapes.
+   - [ ] Treemaps use interconnected circles.
+   - [ ] Treemaps use different shapes.
+
+   Answer: Treemaps use color, size and closeness of shapes to represent hierarchical data categories.
+
+2. **Histograms can look like a bar chart, what's the key difference?**
+   - [ ] Bar charts use horizontal bars.
+   - [ ] Histograms use Axis Options to display different bin sizes.
+   - [x] Bar charts compare data and histograms display the distribution of data.
+   - [ ] Histograms use bins.
+
+   Answer: This is the key difference between histograms and bar charts.
+
+3. **What kind of data works best with filled map charts?**
+   - [ ] Numerical data
+   - [x] Data containing geographical regions
+   - [ ] Raw data
+   - [ ] Scientific data
+
+   Answer: Geographical data, containing regional information of some kind, works best with filled map charts.
+
+4. **What are sparklines typically used for?**
+   - [ ] To contrast numerical values.
+   - [x] To show data trends.
+   - [ ] To highlight a data range.
+   - [ ] To show regional information.
+
+   Answer: Sparklines are typically used to show data trends, such as seasonal increases and decreases, economic cycles, and share, rate and price fluctuations.
