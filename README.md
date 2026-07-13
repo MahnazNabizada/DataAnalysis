@@ -48,6 +48,8 @@ A curated collection of data analysis materials, including courses, projects, an
               - 📁 [01-life-is-a-rollercoaster](./learning/courses/ibm/dataanalyst/03-data-visualization-dashboards-excel-cognos/activities/articulate/01-life-is-a-rollercoaster/)
             - 📂 [hands-on](./learning/courses/ibm/dataanalyst/03-data-visualization-dashboards-excel-cognos/activities/hands-on/)
               - 📁 [01-creating-basic-charts](./learning/courses/ibm/dataanalyst/03-data-visualization-dashboards-excel-cognos/activities/hands-on/01-creating-basic-charts/)
+              - 📁 [02-creating-advanced-charts](./learning/courses/ibm/dataanalyst/03-data-visualization-dashboards-excel-cognos/activities/hands-on/02-creating-advanced-charts/)
+              - 📁 [03-creating-simple-dashboard-excel](./learning/courses/ibm/dataanalyst/03-data-visualization-dashboards-excel-cognos/activities/hands-on/03-creating-simple-dashboard-excel/)
           - 📁 [graded-quiz](./learning/courses/ibm/dataanalyst/03-data-visualization-dashboards-excel-cognos/graded-quiz/)
           - 📁 [practice-quiz](./learning/courses/ibm/dataanalyst/03-data-visualization-dashboards-excel-cognos/practice-quiz/)
 - 📂 [projects](#projects)
