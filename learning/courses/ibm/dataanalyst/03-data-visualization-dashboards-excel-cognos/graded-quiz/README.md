@@ -64,7 +64,7 @@
    - [x] Visualizations help stakeholders see patterns, trends, and comparisons more quickly than raw data alone.
    - [ ] Visualizations mainly make reports look more attractive without improving understanding.
 
-   Answer: Effective visualizations require deliberate choices about what to highlight, which helps focus the story on the most important information._ A well-chosen chart can make relationships in the data easier to interpret at a glance._
+   Answer: Effective visualizations require deliberate choices about what to highlight, which helps focus the story on the most important information. A well-chosen chart can make relationships in the data easier to interpret at a glance
 
 9. **An analyst must choose a chart for a sales report. The report may either compare sales across regions or show how sales changed over the last 12 months. Which guideline best supports the chart choice?**
    - [ ] Use a time series chart to compare regions, and use a bar chart only when there is no time element.
