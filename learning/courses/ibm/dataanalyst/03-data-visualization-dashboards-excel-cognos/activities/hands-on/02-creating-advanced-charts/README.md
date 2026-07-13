@@ -11,7 +11,7 @@ In this exercise, you will learn how to create advanced charts, such as a sunbur
 5. Select column B, then hold **SHIFT** and select column C.
 6. On the Charts group of the Insert tab, click **Other Charts** and choose **Sunburst** from the Hierarchical category.
 
-   <img src="./A6.png" alt="Image of Selecting Sunburst Chart" style="width:40%;">
+   <img src="./A6.webp" alt="Image of Selecting Sunburst Chart" style="width:40%;">
 
 7. Click on the floating chart area to access the Chart tab in the ribbon.
 8. On the Labels group of the Chart tab, click **Chart Title** and select **Edit Chart Title…**.
@@ -19,7 +19,7 @@ In this exercise, you will learn how to create advanced charts, such as a sunbur
 10. On the Labels group of the Chart tab, click **Legend** and select **Show Legend at Right**.
 11. Your chart should look something like the one below:
 
-    <img src="./A11.png" alt="Image of Subburst Chart" style="width:40%;">
+    <img src="./A11.webp" alt="Image of Subburst Chart" style="width:40%;">
 
 ## Task B: Create a Scatter Chart
 
@@ -29,7 +29,7 @@ In this exercise, you will learn how to create advanced charts, such as a sunbur
 4.  Select column E, then hold **SHIFT** and select column F.
 5.  On the Charts group of the Insert tab, click **Scatter Chart** and choose **Scatter with only Markers** from the Scatter category.
 
-    <img src="./B5.png" alt="Image of Selecting Scatter with only Markers" style="width:40%;">
+    <img src="./B5.webp" alt="Image of Selecting Scatter with only Markers" style="width:40%;">
 
 6.  Drag the chart across to the right of the sheet.
 7.  Click on the floating chart area to access the Chart tab in the ribbon.
@@ -42,7 +42,7 @@ In this exercise, you will learn how to create advanced charts, such as a sunbur
 14. On the Labels group of the Chart tab, click **Legend** and select **None**.
 15. Your chart should look something like the one below:
 
-    <img src="./B15.png" alt="Image of Scatter with only Markers Chart" style="width:40%;">
+    <img src="./B15.webp" alt="Image of Scatter with only Markers Chart" style="width:40%;">
 
 ## Task C: Create a Histogram Chart
 
@@ -52,7 +52,7 @@ In this exercise, you will learn how to create advanced charts, such as a sunbur
 4. Select column B, then hold **SHIFT** and select column C.
 5. On the Charts group of the Insert tab, click **Other Charts** and choose **Histogram** from the Statistical category.
 
-   <img src="./C5.png" alt="Image of Selecting Histogram Chart" style="width:40%;">
+   <img src="./C5.webp" alt="Image of Selecting Histogram Chart" style="width:40%;">
 
 6. Drag the chart across to the right of the sheet.
 7. Click on the floating chart area to access the Chart tab in the ribbon.
@@ -63,7 +63,7 @@ In this exercise, you will learn how to create advanced charts, such as a sunbur
 12. On the right side menu bar Format, select Series "Price" > **Fill** > **Orange, Accent 2**.
 13. Your chart should look something like the one below:
 
-    <img src="./C13.png" alt="Image of Selecting Filters" style="width:40%;">
+    <img src="./C13.webp" alt="Image of Selecting Filters" style="width:40%;">
 
 ## Solution
 

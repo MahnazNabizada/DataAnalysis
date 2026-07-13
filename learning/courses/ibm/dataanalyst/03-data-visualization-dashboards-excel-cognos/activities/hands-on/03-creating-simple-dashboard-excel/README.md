@@ -30,7 +30,7 @@ In this exercise, you will learn how to set up a simple dashboard with visualiza
 21. Select the **Dashboard** tab, click somewhere in the middle of the sheet, and press **CTRL+V**.
 22. At the end of this exercise your Dashboard worksheet should look like the image below:
 
-    <img src="./A22.png" alt="Image of Dashboard worksheet" style="width:40%;">
+    <img src="./A22.webp" alt="Image of Dashboard worksheet" style="width:40%;">
 
 ---
 
@@ -48,27 +48,27 @@ In this exercise, you will learn how to organize and layout the content of a das
 6.  Select and drag the **Model slicer** to the bottom left of the sheet under the Pie chart.
 7.  Drag and resize all the charts to make them fit better.
 
-    <img src="./B27.png" alt="Image of Resizing all Charts" style="width:40%;">
+    <img src="./B27.webp" alt="Image of Resizing all Charts" style="width:40%;">
 
 8.  Select the **View** tab in the ribbon, and uncheck **Gridlines** and **Headings**.
 
-    <img src="./B28.png" alt="Image of Uncheking Gridlines and Headings" style="width:40%;">
+    <img src="./B28.webp" alt="Image of Uncheking Gridlines and Headings" style="width:40%;">
 
 9.  Double-click any tab to collapse the ribbon.
 10. In the **Manufacturer slicer**, select **Audi** and click the **Multi-Select** button. Then scroll the slicer and select only **Audi, BMW, Mercedes-B, Porsche, Volkswagen**.
 
-    <img src="./B210.png" alt="Image of Multi Selecting Slicers" style="width:15%;">
+    <img src="./B210.webp" alt="Image of Multi Selecting Slicers" style="width:15%;">
 
 11. Click on the **Bar chart** area to access the Chart tab in the ribbon.
 12. On the Labels group of the Chart tab, click **Chart Title** and select **Edit Chart Title…**.
 13. In the text input area of the dialog box Edit Title, write "Average Price and Year Resale Value of German Car Models" and click **OK**.
 14. In the **Model slicer**, click the **Clear Filter** button.
 
-    <img src="./B214.png" alt="Image of Clear Model slicer Filter" style="width:25%;">
+    <img src="./B214.webp" alt="Image of Clear Model slicer Filter" style="width:25%;">
 
 Finally your dashboard should look similar to the image below:
 
-<img src="./Dashboard.png" alt="Image of Final Dashboard" style="width:50%;">
+<img src="./Dashboard.webp" alt="Image of Final Dashboard" style="width:50%;">
 
 ## Solution
 
