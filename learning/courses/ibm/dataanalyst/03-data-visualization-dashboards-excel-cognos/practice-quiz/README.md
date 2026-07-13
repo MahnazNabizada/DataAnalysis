@@ -67,3 +67,36 @@
    - [ ] Non-comparable categories
 
    Answer: Waterfall charts are suitable for displaying data which represents inflows and outflows, such as financial data
+
+## Module 2 - Creating Dashboards using Spreadsheets
+
+1. **Which of the following are benefits of dashboards in Excel?** _(Select all that apply)_
+   - [x] Dashboards can be updated dynamically as source data changes.
+   - [x] Dashboards can offer useful insights into your data.
+   - [ ] Dashboards provide a way to monitor the performance of your data applications.
+   - [x] Dashboards can alert you to trends and patterns.
+
+   Answer: Dashboards can be updated dynamically as source data, changes and offer useful insights into your data and alert you to trends and patterns
+
+2. **Which of the following applications would be considered an advanced data analysis and visualization application?** _(Select all that apply)_
+   - [x] Bokeh (in Python)
+   - [x] Tableau
+   - [ ] Google Sheets
+   - [x] Cognos Analytics
+   - [ ] Excel (Full Desktop version)
+
+   Answer: Tableau, Cognos Analytics and Bokeh are advanced data analysis and visualization applications
+
+3. **You should try and add as much information and as many visualizations as possible into your dashboard so that it conveys the most amount of information possible.**
+   - [ ] True
+   - [x] False
+
+   Asnwer: It is a good idea to keep the amount of information and the number of visualizations in a dashboard to a minimum, so that the story you are trying to convey around your key message is clearer to the viewer.
+
+4. **According to the 'Creating a Simple Dashboard using Excel' video, which of the following should you have already done prior to creating a dashboard?** _(Select all that apply)_
+   - [x] Created pivot tables to help analyze data.
+   - [x] Verified data is clean and error free.
+   - [ ] Created a data analysis findings report.
+   - [x] Formatted the data as a table.
+
+   Answer: Format the data as a table, Verifiy data is clean and error free and Create pivot tables to help analyze data shoud have done prior creating a dashboard.

@@ -115,3 +115,37 @@
    - [ ] To show regional information.
 
    Answer: Sparklines are typically used to show data trends, such as seasonal increases and decreases, economic cycles, and share, rate and price fluctuations.
+
+## Module 2 - Creating Dashboards using Spreadsheets
+
+1. **Which one of the following statements best describes the main purpose of a digital dashboard?**
+   - [ ] To display all your charts in one location.
+   - [ ] To provide a static data-findings report of your business data.
+   - [x] To display the most important or relevant information in a single place.
+   - [ ] To analyse different types of data.
+
+   Answer: Dashboards provide a means for you to display the most important or relevant information in one central location to make it easier for the viewer to understand the information being presented to them.
+
+2. **According to the 'Creating a Simple Dashboard using Excel' video, what did subject matter experts advise when building dashboards?**
+   - [x] Displaying too much information means your key points can get lost.
+   - [ ] Having as many visualizations as possible can help you clearly define your key points.
+   - [ ] Bright colors highlight key points.
+   - [ ] Use numbers as much as possible to help focus users on your key points.
+
+   Answer: The subject matter experts advised that if you provide and display too much information, when building dashboards, your key points can get lost.
+
+3. **Which feature in Excel enables you to precisely control what information is displayed in a visualization such as a chart?**
+   - [ ] Sorting
+   - [x] Filters
+   - [ ] Pivot Tables
+   - [ ] Sparklines
+
+   Answer: You can use filters in Excel to precisely control what information is displayed in a chart. You can use filters to expressly include or exclude specific parts of your data, and you can add multiple conditional clauses.
+
+4. **Which of the following tasks should you perform before creating a dashboard? _(Select all that apply)_**
+   - [x] Format the data as a table first
+   - [x] Remove blank data rows
+   - [ ] Format the data as a CSV file first
+   - [x] Create visualizations
+
+   Answer: These options are tasks you should perform before creating a dashboard. You should create several visualizations first, and then you can use them to populate your dashboard.
