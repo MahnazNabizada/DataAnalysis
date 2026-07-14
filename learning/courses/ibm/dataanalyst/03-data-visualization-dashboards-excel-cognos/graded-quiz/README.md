@@ -173,3 +173,37 @@
    - [ ] A widget
    - [ ] A template
    - [ ] A visualization style
+
+## Module 3 - Creating Visualizations and Dashboards with Cognos Analytics
+
+1. **How can you filter on a particular data field in Cognos Analytics?**
+   - [ ] Type in the name of the field in the 'Filters' area at the top of the page.
+   - [x] Drag the data field to the 'This tab' area at the top of the page.
+   - [x] Drag the data field to the 'All tabs' area at the top of the page.
+   - [ ] Drag the 'Filter' field at the top of the page on to the relevant data field area.
+
+   Answer: You can drag a data field to the 'All tabs' or data field to the 'This tab' area to set a filter on it.
+
+2. **In Cognos Analytics what is the first thing you must do when creating a new dashboard?**
+   - [ ] Select visualizations
+   - [x] Choose a template layout for your dashboard
+   - [ ] Upload a spreadsheet or workbook
+   - [ ] Provide questions and answers to the assistant
+
+   Answer: This is the first step you take when building a dashboard.
+
+3. **Which of the following methods can be used in Cognos Analytics to create visualizations? _(Select all that apply)_**
+   - [x] By using the Assistant to suggest questions and suggested visualizations.
+   - [x] By automatic recommended visualizations.
+   - [ ] By using widgets.
+   - [x] By manually populating by dragging and dropping.
+
+   Answer: These methods can be used in Cognos Analytics to create visualizations.
+
+4. **How can you create infographics in Cognos Analytics?**
+   - [ ] Use Exclude to filter out some data.
+   - [ ] Ask the Assistant different questions.
+   - [ ] Modify navigation paths.
+   - [x] Drag and drop a widget shape icon onto a visualization.
+
+   Answer: This is how you can create infographics in Cognos Analytics.
