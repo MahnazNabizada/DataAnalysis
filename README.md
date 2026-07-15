@@ -54,6 +54,7 @@ A curated collection of data analysis materials, including courses, projects, an
               - 📁 [05-creating-dashboard-cognos-analytics](./learning/courses/ibm/dataanalyst/03-data-visualization-dashboards-excel-cognos/activities/hands-on/05-creating-dashboard-cognos-analytics/)
               - 📁 [06-advanced-dashboard-cognos-analytics](./learning/courses/ibm/dataanalyst/03-data-visualization-dashboards-excel-cognos/activities/hands-on/06-advanced-dashboard-cognos-analytics/)
               - 📁 [07-creating-dashboard-google-data-studio](./learning/courses/ibm/dataanalyst/03-data-visualization-dashboards-excel-cognos/activities/hands-on/07-creating-dashboard-google-data-studio/)
+          - 📁 [final-assignment](./learning/courses/ibm/dataanalyst/03-data-visualization-dashboards-excel-cognos/final-assignment/)
           - 📁 [graded-quiz](./learning/courses/ibm/dataanalyst/03-data-visualization-dashboards-excel-cognos/graded-quiz/)
           - 📁 [practice-quiz](./learning/courses/ibm/dataanalyst/03-data-visualization-dashboards-excel-cognos/practice-quiz/)
 - 📂 [projects](#projects)
