@@ -174,3 +174,38 @@
    - [ ] To delete the data value from the selected data source
 
    Answer: This is a valid reason to use the Exclude option on a data value in a dashboard
+
+## Module 3 - Creating and Configuring Visualizations with Google Looker Studio
+
+1. **Which item types can be created using the 'Create' button in Looker Studio? _(Select all that apply)_**
+   - [x] Explorers
+   - [x] Reports
+   - [ ] Dashboards
+   - [x] Data sources
+
+   Answer: You can create reports, data sources and explorers from the 'Create' menu in Looker Studio.
+
+2. **Which methods can you use to share a report with colleagues in Looker Studio? _(Select all that apply)_**
+   - [x] Download the report and share it as an email attachment
+   - [ ] Provide permissions to the report in the report's properties pane
+   - [x] Embed the report as a URL
+   - [x] Provide a link
+   - [x] By invitation
+
+   Answer: You can share a report with colleagues in Looker Studio by: downloading it and sending it as an email attachment, embedding the report as a URL, sending them a link to the report or sending an invitation.
+
+3. **Which feature in Looker Studio enables you to configure the color scheme and canvas size used by all the pages in your report?**
+   - [ ] Current page settings
+   - [ ] Blend data
+   - [x] Theme and layout
+   - [ ] Report settings
+
+   Answer: You use the 'Theme and layout' feature to configure the color scheme and canvas size used by all the pages in your report.
+
+4. **Which feature in Looker Studio enables you to combine the data rows in multiple datasets into a visualization?**
+   - [ ] Join data
+   - [x] Blend data
+   - [ ] Data control
+   - [ ] Include filter
+
+   Answer: You use the blend data feature in Looker Studio to combine the data rows in multiple datasets into a visualization.
