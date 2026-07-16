@@ -60,6 +60,13 @@ A curated collection of data analysis materials, including courses, projects, an
           - 📁 [final-assignment](./learning/courses/ibm/dataanalyst/03-data-visualization-dashboards-excel-cognos/final-assignment/)
           - 📁 [graded-quiz](./learning/courses/ibm/dataanalyst/03-data-visualization-dashboards-excel-cognos/graded-quiz/)
           - 📁 [practice-quiz](./learning/courses/ibm/dataanalyst/03-data-visualization-dashboards-excel-cognos/practice-quiz/)
+        - 📂 [04-python-for-data-science-ai-development](./learning/courses/ibm/dataanalyst/04-python-for-data-science-ai-development/)
+          - 📂 [activities](./learning/courses/ibm/dataanalyst/04-python-for-data-science-ai-development/activities/)
+            - 📂 [hands-on](./learning/courses/ibm/dataanalyst/04-python-for-data-science-ai-development/activities/hands-on/)
+              - 📁 [01-write-your-first-program](./learning/courses/ibm/dataanalyst/04-python-for-data-science-ai-development/activities/hands-on/01-write-your-first-program/)
+              - 📁 [02-types](./learning/courses/ibm/dataanalyst/04-python-for-data-science-ai-development/activities/hands-on/02-types/)
+          - 📁 [graded-quiz](./learning/courses/ibm/dataanalyst/04-python-for-data-science-ai-development/graded-quiz/)
+          - 📁 [practice-quiz](./learning/courses/ibm/dataanalyst/04-python-for-data-science-ai-development/practice-quiz/)
 - 📂 [projects](#projects)
 
 ## About Folder Structure
