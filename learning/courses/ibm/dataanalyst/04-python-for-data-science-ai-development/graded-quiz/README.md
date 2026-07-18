@@ -105,8 +105,6 @@
 
 ## Module 2 - Python Data Structures
 
-## Python Data Structures Quiz
-
 1. **Examine the tuple** `A=((11,12),[21,22])`, **which contains a tuple and list. What is the outcome of the following operation** `A[1]`**?**
    - [x] [21,22]
    - [ ] (11,12)

@@ -183,8 +183,6 @@
 
 ## Module 2 - Sets
 
-## Python Sets Quiz
-
 1. **Consider the following set:** `{"A","A"}`, **what will the result be when you create the set?**
    - [ ] {"A", "A"}
    - [ ] {"A", "B"}
