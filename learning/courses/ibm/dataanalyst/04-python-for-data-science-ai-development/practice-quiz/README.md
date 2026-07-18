@@ -89,3 +89,62 @@
    - [ ] 2
 
    **Answer:** The method helps you locate the position of the first character in a given string that matches the first character of a specified substring.
+
+## Module 2 - Lists and Tuples
+
+1. **Consider the following tuple:**
+
+   ```python
+      say_what = ('say', 'what', 'you', 'will')
+   ```
+
+   **What is the result of the following?** `say_what[-1]`
+   - [ ] 'what!'
+   - [ ] say_what '
+   - [x] 'will'
+   - [ ] 'you!'
+
+   **Answer:** An index of −1 corresponds to the last item of a tuple, such as the string 'will'.
+
+2. **Consider the following tuple** `A = (1, 2, 3, 4, 5)`. **What is the outcome of the following?** `A[1:4]`
+   - [x] (2, 3, 4)
+   - [ ] (1, 2, 3, 4)
+   - [ ] (3, 4, 5)
+   - [ ] (2, 3, 4, 5)
+
+   **Answer:** The indexes 1, 2, and 3 of the tuple correspond to these elements.
+
+3. **Consider the following list** `B = [1, 2, [3, 'a'], [4, 'b']]`. **What is the result of** `B[3][1]`**?**
+   - [ ] 2
+   - [x] 'b'
+   - [ ] [4, 'b']
+   - [ ] 'a'
+
+   **Answer:** The list that follows relates to the index of nested list B[3].
+
+4. **What is the outcome of the following operation?**
+
+   ```python
+      [1, 2, 3] + [1, 1, 1]
+   ```
+
+   - [ ] [1, 2, 3; 1, 1, 1]
+   - [x] [1, 2, 3, 1, 1, 1]
+   - [ ] TypeError
+   - [ ] [2, 3, 4]
+
+   **Answer:** The addition operator combines lists through concatenation.
+
+5. **What will be the length of the list A after executing the following code:**
+
+   ```python
+      A = [1]
+      A.append([2, 3, 4, 5])
+   ```
+
+   - [ ] 10
+   - [x] 2
+   - [ ] 5
+   - [ ] 6
+
+   **Answer:** Append adds the entire list [2, 3, 4, 5] as a single element.
