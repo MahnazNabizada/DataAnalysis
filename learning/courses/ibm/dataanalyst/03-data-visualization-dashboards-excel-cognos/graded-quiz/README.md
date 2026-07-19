@@ -64,7 +64,7 @@
    - [x] Visualizations help stakeholders see patterns, trends, and comparisons more quickly than raw data alone.
    - [ ] Visualizations mainly make reports look more attractive without improving understanding.
 
-   Answer: Effective visualizations require deliberate choices about what to highlight, which helps focus the story on the most important information._ A well-chosen chart can make relationships in the data easier to interpret at a glance._
+   Answer: Effective visualizations require deliberate choices about what to highlight, which helps focus the story on the most important information. A well-chosen chart can make relationships in the data easier to interpret at a glance
 
 9. **An analyst must choose a chart for a sales report. The report may either compare sales across regions or show how sales changed over the last 12 months. Which guideline best supports the chart choice?**
    - [ ] Use a time series chart to compare regions, and use a bar chart only when there is no time element.
@@ -81,3 +81,129 @@
     - [ ] Use the plus and minus buttons in the PivotChart to expand BMW and collapse Cadillac and Hyundai individually.
 
     Answer: To show BMW in detail while keeping other manufacturers collapsed, expand BMW in the connected PivotTable and let the PivotChart reflect that view.
+
+## Module 2 - Creating Advanced Charts
+
+1. **What do treemaps use to represent hierarchical data categories?**
+   - [ ] Treemaps use data points on a line.
+   - [x] Treemaps use color, size, and closeness of shapes.
+   - [ ] Treemaps use interconnected circles.
+   - [ ] Treemaps use different shapes.
+
+   Answer: Treemaps use color, size and closeness of shapes to represent hierarchical data categories.
+
+2. **Histograms can look like a bar chart, what's the key difference?**
+   - [ ] Bar charts use horizontal bars.
+   - [ ] Histograms use Axis Options to display different bin sizes.
+   - [x] Bar charts compare data and histograms display the distribution of data.
+   - [ ] Histograms use bins.
+
+   Answer: This is the key difference between histograms and bar charts.
+
+3. **What kind of data works best with filled map charts?**
+   - [ ] Numerical data
+   - [x] Data containing geographical regions
+   - [ ] Raw data
+   - [ ] Scientific data
+
+   Answer: Geographical data, containing regional information of some kind, works best with filled map charts.
+
+4. **What are sparklines typically used for?**
+   - [ ] To contrast numerical values.
+   - [x] To show data trends.
+   - [ ] To highlight a data range.
+   - [ ] To show regional information.
+
+   Answer: Sparklines are typically used to show data trends, such as seasonal increases and decreases, economic cycles, and share, rate and price fluctuations.
+
+## Module 2 - Creating Dashboards using Spreadsheets
+
+1. **Which one of the following statements best describes the main purpose of a digital dashboard?**
+   - [ ] To display all your charts in one location.
+   - [ ] To provide a static data-findings report of your business data.
+   - [x] To display the most important or relevant information in a single place.
+   - [ ] To analyse different types of data.
+
+   Answer: Dashboards provide a means for you to display the most important or relevant information in one central location to make it easier for the viewer to understand the information being presented to them.
+
+2. **According to the 'Creating a Simple Dashboard using Excel' video, what did subject matter experts advise when building dashboards?**
+   - [x] Displaying too much information means your key points can get lost.
+   - [ ] Having as many visualizations as possible can help you clearly define your key points.
+   - [ ] Bright colors highlight key points.
+   - [ ] Use numbers as much as possible to help focus users on your key points.
+
+   Answer: The subject matter experts advised that if you provide and display too much information, when building dashboards, your key points can get lost.
+
+3. **Which feature in Excel enables you to precisely control what information is displayed in a visualization such as a chart?**
+   - [ ] Sorting
+   - [x] Filters
+   - [ ] Pivot Tables
+   - [ ] Sparklines
+
+   Answer: You can use filters in Excel to precisely control what information is displayed in a chart. You can use filters to expressly include or exclude specific parts of your data, and you can add multiple conditional clauses.
+
+4. **Which of the following tasks should you perform before creating a dashboard? _(Select all that apply)_**
+   - [x] Format the data as a table first
+   - [x] Remove blank data rows
+   - [ ] Format the data as a CSV file first
+   - [x] Create visualizations
+
+   Answer: These options are tasks you should perform before creating a dashboard. You should create several visualizations first, and then you can use them to populate your dashboard.
+
+5. **How many free trial days do you get when you sign up for Cognos Analytics?**
+   - [ ] 15 days
+   - [ ] 30 days
+   - [ ] 60 days
+   - [ ] The trial is unlimited but with reduced features
+
+6. **Which of the following are features provided by Cognos Analytics? _(Select all that apply)_**
+   - [ ] Data modeling
+   - [ ] Advanced analytics
+   - [ ] Pivot tables and charts
+   - [ ] Interactive dashboards
+
+7. **Which feature in Cognos Analytics would you use to help with offering insights into your data?**
+   - [ ] Help
+   - [ ] The Assistant
+   - [ ] Advanced Analytics
+   - [ ] The IBM Accelerator Catalog
+
+8. **After you've selected your dataset, what is the first thing you need to select when creating a new dashboard in Cognos Analytics?**
+   - [ ] A field
+   - [ ] A widget
+   - [ ] A template
+   - [ ] A visualization style
+
+## Module 3 - Creating Visualizations and Dashboards with Cognos Analytics
+
+1. **How can you filter on a particular data field in Cognos Analytics?**
+   - [ ] Type in the name of the field in the 'Filters' area at the top of the page.
+   - [x] Drag the data field to the 'This tab' area at the top of the page.
+   - [x] Drag the data field to the 'All tabs' area at the top of the page.
+   - [ ] Drag the 'Filter' field at the top of the page on to the relevant data field area.
+
+   Answer: You can drag a data field to the 'All tabs' or data field to the 'This tab' area to set a filter on it.
+
+2. **In Cognos Analytics what is the first thing you must do when creating a new dashboard?**
+   - [ ] Select visualizations
+   - [x] Choose a template layout for your dashboard
+   - [ ] Upload a spreadsheet or workbook
+   - [ ] Provide questions and answers to the assistant
+
+   Answer: This is the first step you take when building a dashboard.
+
+3. **Which of the following methods can be used in Cognos Analytics to create visualizations? _(Select all that apply)_**
+   - [x] By using the Assistant to suggest questions and suggested visualizations.
+   - [x] By automatic recommended visualizations.
+   - [ ] By using widgets.
+   - [x] By manually populating by dragging and dropping.
+
+   Answer: These methods can be used in Cognos Analytics to create visualizations.
+
+4. **How can you create infographics in Cognos Analytics?**
+   - [ ] Use Exclude to filter out some data.
+   - [ ] Ask the Assistant different questions.
+   - [ ] Modify navigation paths.
+   - [x] Drag and drop a widget shape icon onto a visualization.
+
+   Answer: This is how you can create infographics in Cognos Analytics.

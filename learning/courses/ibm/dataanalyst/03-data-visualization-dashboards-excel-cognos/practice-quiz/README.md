@@ -33,3 +33,179 @@
    - [x] The connected PivotTable updates automatically to reflect the same filter.
 
    Answer: A PivotChart and its connected PivotTable are linked, so filtering one immediately updates the other.
+
+## Module 2 - Creating Advanced Charts
+
+1. **How does a treemap display the proportion of data represented?\***
+   - [ ] As numerical values
+   - [ ] As data points on a line
+   - [x] As rectangular shapes
+   - [ ] As columns
+
+   Answer: A treemap represents data as a series of rectangular shapes.
+
+2. **What are scatter charts commonly used for?**
+   - [x] To compare statistical, scientific, and engineering data values
+   - [ ] To compare sales, and inventory data values
+   - [ ] To display distribution of data grouped into bins
+   - [ ] To compare values across hierarchy levels
+
+   Answer: Scatter charts are commonly used to compare statistical, scientific, and engineering data values.
+
+3. **When you are creating a sparklines visualization, which two methods can you use to specify where the sparklines should appear on a worksheet? (Select two answers)**
+   - [x] Enter the cell reference in the Location Range box.
+   - [x] On the worksheet select a cell and Excel will add the cell reference to the Location Range box for you.
+   - [ ] Highlight the column, then right-click the intended cell location, and select Insert.
+   - [ ] Right-click the intended cell location, and select Paste.
+
+   Answer: On the worksheet select a cell and Excel will add the cell reference to the Location Range box for you and Enter the cell reference in the Location Range box are the two methods you can use to specify the location of a sparklines visualization.
+
+4. **What's one data type intended for waterfall charts?**
+   - [x] Financial data
+   - [ ] Progressively decreasing proportions
+   - [ ] Stock performance data
+   - [ ] Non-comparable categories
+
+   Answer: Waterfall charts are suitable for displaying data which represents inflows and outflows, such as financial data
+
+## Module 2 - Creating Dashboards using Spreadsheets
+
+1. **Which of the following are benefits of dashboards in Excel?** _(Select all that apply)_
+   - [x] Dashboards can be updated dynamically as source data changes.
+   - [x] Dashboards can offer useful insights into your data.
+   - [ ] Dashboards provide a way to monitor the performance of your data applications.
+   - [x] Dashboards can alert you to trends and patterns.
+
+   Answer: Dashboards can be updated dynamically as source data, changes and offer useful insights into your data and alert you to trends and patterns
+
+2. **Which of the following applications would be considered an advanced data analysis and visualization application?** _(Select all that apply)_
+   - [x] Bokeh (in Python)
+   - [x] Tableau
+   - [ ] Google Sheets
+   - [x] Cognos Analytics
+   - [ ] Excel (Full Desktop version)
+
+   Answer: Tableau, Cognos Analytics and Bokeh are advanced data analysis and visualization applications
+
+3. **You should try and add as much information and as many visualizations as possible into your dashboard so that it conveys the most amount of information possible.**
+   - [ ] True
+   - [x] False
+
+   Asnwer: It is a good idea to keep the amount of information and the number of visualizations in a dashboard to a minimum, so that the story you are trying to convey around your key message is clearer to the viewer.
+
+4. **According to the 'Creating a Simple Dashboard using Excel' video, which of the following should you have already done prior to creating a dashboard?** _(Select all that apply)_
+   - [x] Created pivot tables to help analyze data.
+   - [x] Verified data is clean and error free.
+   - [ ] Created a data analysis findings report.
+   - [x] Formatted the data as a table.
+
+   Answer: Format the data as a table, Verifiy data is clean and error free and Create pivot tables to help analyze data shoud have done prior creating a dashboard.
+
+## Module 3 - Getting started with IBM Cognos Analytics
+
+1. **How many free trial days do you get when you sign up for Cognos Analytics?**
+   - [ ] 15 days
+   - [x] 30 days
+   - [ ] 60 days
+   - [ ] The trial is unlimited but with reduced features
+
+   Answer: Correct. You get a free 30-day trial period when you sign up for Cognos Analytics
+
+2. **Which of the following are features provided by Cognos Analytics? _(Select all that apply)_**
+   - [x] Data modeling
+   - [x] Advanced analytics
+   - [ ] Pivot tables and charts
+   - [x] Interactive dashboards
+
+   Answer: These are features provided by Cognos Analytics
+
+3. **Which feature in Cognos Analytics would you use to help with offering insights into your data?**
+   - [ ] Help
+   - [x] The Assistant
+   - [ ] Advanced Analytics
+   - [ ] The IBM Accelerator Catalog
+
+   Answer: This Cognos Analytics feature allows you to ask questions to get real time insights into your datas
+
+4. **After you've selected your dataset, what is the first thing you need to select when creating a new dashboard in Cognos Analytics?**
+   - [ ] A field
+   - [ ] A widget
+   - [x] A template
+   - [ ] A visualization style
+
+   Answer: After you've selected your dataset, the first thing you need to select when creating a new dashboard in Cognos Analytics is a template for your dashboard
+
+## Module 3 - Creating Dashboards with Cognos Analytics
+
+1. **The usage property field for a data value is fixed and cannot be modified.**
+   - [ ] True
+   - [x] False
+
+   Answer: You can modify the usage property of a data value. The options are Measure, Identifier, and Attribute
+
+2. **Which of the following methods is a valid way to create visualizations in Cognos Analytics? _(Select all that apply)_**
+   - [x] Manually drag data values from the data source pane onto your dashboard canvas
+   - [x] Use the Assistant
+   - [x] Drag visualizations directly onto your dashboard canvas
+   - [ ] Drag pins directly onto your dashboard canvas
+
+   Answer: These are valid method for creating visualizations in Cognos Analytics
+
+3. **Which two ways can you ask the Assistant a question when creating a dashboard in Cognos Analytics? _(Select two answers)_**
+   - [ ] Whenever you open 'Help', the Assistant will automatically prompt you to enter a question
+   - [x] Type a question into the 'Ask a question' box
+   - [x] Click 'Suggest questions' in the Assistant
+   - [ ] Right-click an existing visualization and choose 'Ask the Assistant'.
+
+   Answer: This is a valid way of asking the Assistant a question when creating a dashboard in Cognos Analytics
+
+4. **What are the two ways to create calculations in Cognos Analytics? _(Select two answers)_**
+   - [ ] Search for calculations.
+   - [x] Start typing in the Expression box.
+   - [x] Select operators and functions from the left pane.
+   - [ ] Ask the Cognos Assistant.
+
+   Answer: Selecting operators and functions from the left pane or starting to type in the Expression box, are the two ways to create calculations in Cognos Analytics.
+
+5. **Why might you use the Exclude option on a data value in a dashboard?**
+   - [ ] To help the visualization bring that data value into sharper focus
+   - [x] To help the visualization bring other more relevant data into sharper focus when you have outliers in your data which sway the results
+   - [ ] To show only that data value in your dashboard
+   - [ ] To delete the data value from the selected data source
+
+   Answer: This is a valid reason to use the Exclude option on a data value in a dashboard
+
+## Module 3 - Creating and Configuring Visualizations with Google Looker Studio
+
+1. **Which item types can be created using the 'Create' button in Looker Studio? _(Select all that apply)_**
+   - [x] Explorers
+   - [x] Reports
+   - [ ] Dashboards
+   - [x] Data sources
+
+   Answer: You can create reports, data sources and explorers from the 'Create' menu in Looker Studio.
+
+2. **Which methods can you use to share a report with colleagues in Looker Studio? _(Select all that apply)_**
+   - [x] Download the report and share it as an email attachment
+   - [ ] Provide permissions to the report in the report's properties pane
+   - [x] Embed the report as a URL
+   - [x] Provide a link
+   - [x] By invitation
+
+   Answer: You can share a report with colleagues in Looker Studio by: downloading it and sending it as an email attachment, embedding the report as a URL, sending them a link to the report or sending an invitation.
+
+3. **Which feature in Looker Studio enables you to configure the color scheme and canvas size used by all the pages in your report?**
+   - [ ] Current page settings
+   - [ ] Blend data
+   - [x] Theme and layout
+   - [ ] Report settings
+
+   Answer: You use the 'Theme and layout' feature to configure the color scheme and canvas size used by all the pages in your report.
+
+4. **Which feature in Looker Studio enables you to combine the data rows in multiple datasets into a visualization?**
+   - [ ] Join data
+   - [x] Blend data
+   - [ ] Data control
+   - [ ] Include filter
+
+   Answer: You use the blend data feature in Looker Studio to combine the data rows in multiple datasets into a visualization.
