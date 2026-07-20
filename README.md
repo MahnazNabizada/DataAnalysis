@@ -73,6 +73,8 @@ A curated collection of data analysis materials, including courses, projects, an
               - 📁 [08-conditions-branching](./learning/courses/ibm/dataanalyst/04-python-for-data-science-ai-development/activities/hands-on/08-conditions-branching/)
               - 📁 [09-loops](./learning/courses/ibm/dataanalyst/04-python-for-data-science-ai-development/activities/hands-on/09-loops/)
               - 📁 [10-functions](./learning/courses/ibm/dataanalyst/04-python-for-data-science-ai-development/activities/hands-on/10-functions/)
+              - 📁 [11-exception-handling](./learning/courses/ibm/dataanalyst/04-python-for-data-science-ai-development/activities/hands-on/11-exception-handling/)
+              - 📁 [12-objects-classes](./learning/courses/ibm/dataanalyst/04-python-for-data-science-ai-development/activities/hands-on/12-objects-classess/)
           - 📁 [graded-quiz](./learning/courses/ibm/dataanalyst/04-python-for-data-science-ai-development/graded-quiz/)
           - 📁 [practice-quiz](./learning/courses/ibm/dataanalyst/04-python-for-data-science-ai-development/practice-quiz/)
 - 📂 [projects](#projects)

@@ -339,3 +339,161 @@
    - [ ] abc1
 
    **Answer:** The function concatenates the string with the number 1.
+
+## Module 3 - Exception Handlings
+
+1. **Why do we use exception handlers?**
+   - [ ] To read a file
+   - [ ] To write a file
+   - [ ] To terminate a program
+   - [x] To catch errors within a program
+
+   **Answer:** Exception handlers catch errors in the codes.
+
+2. **What is the purpose of a try…except statement?**
+   - [ ] Executes only when a particular condition is true
+   - [ ] Executes the code block under a specific condition
+   - [ ] Crash a program when errors occur
+   - [x] Catch and handle exceptions when an error occurs
+
+   **Answer:** It handles code crashes in case of errors.
+
+3. **Consider the following code:**
+
+   ```python
+      a = 1
+      try:
+         b = int(input("Please enter a number to divide a: "))
+         a = a / b
+         print("Success a =", a)
+      except:
+         print("There was an error")
+   ```
+
+   **If the user enters the value of `b` as 0, what is expected as the output?**
+   - [ ] Success a=1/0
+   - [ ] ZeroDivisionError
+   - [ ] Success a=NaN
+   - [x] There was an error
+
+   **Answer:** This division will generate an error, leading to the exception part.
+
+## Module 3 - Objects and Classes
+
+1.  **Which of the following statements will create an object 'C1' for the class that uses radius as 4 and color as 'yellow'?**
+
+    ```python
+       class Circle(object):
+          # Constructor
+          def __init__(self, radius=3, color='blue'):
+             self.radius = radius
+             self.color = color
+
+          # Method
+          def add_radius(self, r):
+             self.radius = self.radius + r
+    ```
+
+    - [ ] `C1 = Circle('yellow', 4)`
+    - [ ] `C1.radius = Circle.radius(4)`
+    - [ ] `C1.color = Circle.color('yellow')`
+    - [x] `C1 = Circle(4, 'yellow')`
+    - [ ] `C1 = Circle()`
+
+    **Answer:** `C1 = Circle(4, 'yellow')` correctly creates an instance of the Circle class with C1 having a radius of 4 and its color set to 'yellow.'
+
+2.  **Consider the execution of the following lines of code:**
+
+    ```python
+       CircleObject = Circle()
+       CircleObject.radius = 10
+    ```
+
+    **What are the values of the radius and color attributes for the CircleObject after their execution?**
+
+    ```python
+       class Circle(object):
+          # Constructor
+          def __init__(self, radius=3, color='blue'):
+             self.radius = radius
+             self.color = color
+
+          # Method
+          def add_radius(self, r):
+             self.radius = self.radius + r
+             return self.radius
+    ```
+
+    - [ ] 10, 'red'
+    - [ ] 3, 'blue'
+    - [x] 10, 'blue'
+    - [ ] 3, 'red'
+
+    **Answer:** The radius attribute is updated to 10 while the color attribute is kept as default 'blue.'
+
+3.  **What is the color attribute of the object V1?**
+
+    ```python
+       class Vehicle:
+          color = "white"
+
+          def __init__(self, max_speed, mileage):
+             self.max_speed = max_speed
+             self.mileage = mileage
+             self.seating_capacity = None
+
+          def assign_seating_capacity(self, seating_capacity):
+             self.seating_capacity = seating_capacity
+
+       V1 = Vehicle(150, 25)
+    ```
+
+    - [x] 'white'
+    - [ ] Error in creation of object
+    - [ ] 25
+    - [ ] 150
+
+    **Answer:** The default setting for the 'color' attribute is 'white,' eliminating the need to pass it while creating the object.
+
+4.  **Which of the following options would create an appropriate object that points to a red, 5-seater vehicle with a maximum speed of 200kmph and a mileage of 20kmpl?**
+
+    ```python
+       class Vehicle:
+          color = "white"
+
+          def __init__(self, max_speed, mileage):
+             self.max_speed = max_speed
+             self.mileage = mileage
+             self.seating_capacity = None
+
+          def assign_seating_capacity(self, seating_capacity):
+             self.seating_capacity = seating_capacity
+
+       V1 = Vehicle(150, 25)
+    ```
+
+    - [ ] `Car = Vehicle(200, 20)`
+    - [x] `Car = Vehicle(200, 20) Car.color = 'red' Car.assign_seating_capacity(5)`
+    - [ ] `Car = Vehicle(200, 20) Car.color = 'red'`
+    - [ ] `Car = Vehicle(200, 20) Car.assign_seating_capacity(5)`
+
+    **Answer:** All attributes are correctly assigned here.
+
+5.  **What is the value printed upon execution of the code shown below?**
+
+    ```python
+    class Graph():
+       def __init__(self, id):
+          self.id = id
+          self.id = 80
+
+    val = Graph(200)
+    print(val.id)
+    ```
+
+    - [x] 80
+    - [ ] 200
+    - [ ] invalid syntax
+    - [ ] 0
+
+    **Answer:** The value of the attribute is overwritten to 80 every time the object is created, irrespective of the value of the attribute passed.
