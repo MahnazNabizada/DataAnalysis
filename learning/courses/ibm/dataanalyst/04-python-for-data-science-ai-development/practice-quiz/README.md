@@ -497,3 +497,45 @@
     - [ ] 0
 
     **Answer:** The value of the attribute is overwritten to 80 every time the object is created, irrespective of the value of the attribute passed.
+
+## Module 4 - Pandas
+
+1. **What Python object do you cast to a data frame?**
+   - [ ] set
+   - [x] Dictionary
+   - [ ] tuple
+   - [ ] List
+
+   **Answer:** Dictionary can be cast to a data frame in Python.
+
+2. **How would you access the first row and first column in the DataFrame df?**
+   - [ ] `df.iloc[0,1]`
+   - [ ] `df.iloc[1,1]`
+   - [x] `df.iloc[0,0]`
+   - [ ] `df.iloc[1,0]`
+
+   **Answer:** As Python uses zero-based indexing, the output here will be the first row and first column.
+
+3. **What is the proper way to load a CSV file using pandas?**
+   - [x] `pandas.read_csv('data.csv')`
+   - [ ] `pandas.from_csv('data.csv')`
+   - [ ] `pandas.load_csv('data.csv')`
+   - [ ] `pandas.import_csv('data.csv')`
+
+   **Answer:** `pandas.read_csv('data.csv')` loads CSV files using pandas.
+
+4. **Assume that you have a data frame containing details of various musical artists, their famous albums, their genres, and various other parameters. Here, `Genre` is the fifth column in the sequence and there is an entry of "Disco" in the 7th row of the data. How would you select the Genre disco?**
+   - [x] `df.iloc[6, 4]`
+   - [ ] `df.iloc[6, 'genre']`
+   - [ ] `df.iloc[7, 5]`
+   - [ ] `df.iloc[7, 'Genre']`
+
+   **Answer:** `df.iloc[6, 4]` will return the genre "disco."
+
+5. **Assume that you have a data frame containing details of various musical artists, their famous albums, their genres, and various other parameters. Here, `Album` is the second column. How do we retrieve records from row 3 through row 6?**
+   - [x] `df.loc[2:5, 'Album']`
+   - [ ] `df.loc[2:5, 1]`
+   - [ ] `df.iloc[2:6, 3]`
+   - [ ] `df.loc[2, 'Album']`
+
+   **Answer:** `df.loc[2:5, 'Album']` will return the desired result.

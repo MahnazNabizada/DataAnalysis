@@ -347,3 +347,37 @@
     - [x] To identify precise exception classification and source location
 
     **Answer:** Granular except statements enable accurate identification of exception types and facilitate targeted error responses, enhancing debugging capabilities and exception management precision.
+
+## Module 4 - Reading and Writing Files with Open
+
+1. **What are the most commonly used modes when opening a file?**
+   - [ ] (a)ppend, (r)edline, (w)rite
+   - [x] (a)ppend, (r)ead, (w)rite
+   - [ ] (s)ave, (r)ead, (w)rite
+   - [ ] (a)ppend, (c)lose, (w)rite
+
+   **Answer:** (a)ppend, (r)ead, (w)rite are the three modes of operation.
+
+2. **Which data attribute retrieves the file's title?**
+   - [ ] `file1.close()`
+   - [ ] `file1.open()`
+   - [ ] `file1.mode`
+   - [x] `file1.name`
+
+   **Answer:** The name attribute returns the filename.
+
+3. **Which command instructs Python to initiate a new line?**
+   - [x] `\n`
+   - [ ] `\b`
+   - [ ] `\q`
+   - [ ] `\e`
+
+   **Answer:** In Python `\n` instructs the code to begin a new line.
+
+4. **Which method is used to write data into a file in Python?**
+   - [ ] `file1.close()`
+   - [ ] `file1.read()`
+   - [x] `file1.write()`
+   - [ ] `file1.open()`
+
+   **Answer:** The "write" method writes data into a file.
