@@ -186,3 +186,164 @@
     - [ ] False
 
     **Answer:** The in operator checks if an element exists within a set and returns True when the element is found.
+
+## Module 3 - Python Programming Fundamentals
+
+1. **A traffic management system uses the following code to control pedestrian crossing signals:**
+
+   ```python
+      signal_state = "Red"
+      if signal_state == "Green":
+         print("Walk")
+      else:
+         print("Wait")
+      print("Look both ways")
+   ```
+
+   **What message will pedestrians see on the display?**
+   - [ ] Walk / Look both ways
+   - [ ] Walk / Wait
+   - [x] Wait / Look both ways
+   - [ ] Look both ways
+
+   **Answer:** Since the signal_state is "Red" and not "Green," the else clause executes first, followed by the unconditional print statement.
+
+2. **A temperature monitoring system uses the following code to check if a reading exceeds a threshold:**
+
+   ```python
+      current_temp = 18
+      current_temp = current_temp > 25
+   ```
+
+   **What value will be stored in current_temp after these lines execute?**
+   - [ ] 18
+   - [ ] True
+   - [ ] 25
+   - [x] False
+
+   **Answer:** The comparison 18 > 25 evaluates to False, which becomes the new value stored in the current_temp variable.
+
+3. **A file download progress tracker uses the following code to show the percentage remaining:**
+
+   ```python
+      remaining_percent = 100
+      while remaining_percent > 25:
+         print(f"{remaining_percent}% remaining")
+         remaining_percent = remaining_percent - 25
+   ```
+
+   **What will be displayed to the user during this download?**
+   - [x] 100% remaining / 75% remaining / 50% remaining
+   - [ ] 100% remaining / 75% remaining / 50% remaining / 25% remaining
+   - [ ] 100% remaining / 75% remaining / 50% remaining / 25% remaining / 0% remaining
+   - [ ] 100% remaining
+
+   **Answer:** The loop tracks download progress and prints each percentage until it drops to 25% or below, showing only these three values.
+
+4. **A graphics application uses a class to represent screen coordinates. What will be displayed when the following code runs?**
+
+   ```python
+      class Coordinate(object):
+         def __init__(self, x, y):
+            self.x = x
+            self.y = y
+         def display(self):
+            print(f"Position: ({self.x}, {self.y})")
+      cursor = Coordinate(15, 30)
+      cursor.display()
+   ```
+
+   - [ ] (15, 30)
+   - [ ] Position: (x, y)
+   - [x] Position: (15, 30)
+   - [ ] Coordinate(15, 30)
+
+   **Answer:** The display method shows the position using the numeric values that were passed when creating the coordinate object.
+
+5. **A museum curator is labeling artifacts using Python. The following code processes a list of ancient items:**
+
+   ```python
+      items = ["Vase", "Statue", "Mask"]
+      for index, item in enumerate(items, start=1):
+         print(f"Exhibit {index}: {item} - Ancient Greece")
+   ```
+
+   **What will be displayed on the museum labels?**
+   - [x] Exhibit 1: Vase - Ancient Greece / Exhibit 2: Statue - Ancient Greece / Exhibit 3: Mask - Ancient Greece
+   - [ ] Exhibit Vase: 1 - Ancient Greece / Exhibit Statue: 2 - Ancient Greece / Exhibit Mask: 3 - Ancient Greece
+   - [ ] Vase - Ancient Greece / Statue - Ancient Greece / Mask - Ancient Greece
+   - [ ] Exhibit 0: Vase - Ancient Greece / Exhibit 1: Statue - Ancient Greece / Exhibit 2: Mask - Ancient Greece
+
+   **Answer:** The enumerate function with start=1 begins counting from 1 instead of 0, creating sequential exhibit numbers for each item.
+
+6. **What is the result of running the following lines of code?**
+
+   ```python
+      class Points(object):
+         def __init__(self, x, y):
+            self.x = x
+            self.y = y
+         def print_point(self):
+            print('x=', self.x, ' y=', self.y)
+      p2 = Points('Boston', 'Chicago')
+      p2.y = 'Denver'
+      p2.print_point()
+   ```
+
+   - [ ] x= Boston y= Chicago
+   - [ ] x= Denver y= Denver
+   - [ ] x= Denver y= Boston
+   - [x] x= Boston y= Denver
+
+   **Answer:** The attribute y was changed to 'Denver' before the print_point method was called, resulting in the modified output.
+
+7. **Given the conditional function delta, under what circumstances does this function evaluate unity?**
+
+   ```python
+      def delta(x):
+         if x == 0:
+            y = 1
+         else:
+            y = 0
+         return y
+   ```
+
+   - [ ] When the parameter represents any non-zero value
+   - [ ] Under no computational conditions
+   - [ ] When the argument equals unity
+   - [x] When the parameter equals zero
+
+   **Answer:** The function evaluates unity when the input parameter satisfies the zero-equality condition.
+
+8. **What is the output of the following line of code?**
+
+   ```python
+      a = 1
+      def do(x):
+         a = 100
+         return x + a
+      print(do(1))
+   ```
+
+   - [ ] 102
+   - [ ] 2
+   - [x] 101
+   - [ ] 1
+
+   **Answer:** The function uses the local variable a=100 within its scope, ignoring the global variable a=1, and adds it to the parameter value.
+
+9. **Which function definition demonstrates the most efficient implementation for adding two numbers?**
+   - [ ] Intermediate variable assignment before return
+   - [x] Direct return of parameter summation
+   - [ ] Built-in sum function with tuple conversion
+   - [ ] Built-in sum function with individual parameters
+
+   **Answer:** This implementation returns the arithmetic sum of two parameters, demonstrating optimal efficiency through minimal computational overhead.
+
+10. **What constitutes the primary rationale for implementing granular exception handling with explicitly typed catch blocks?**
+    - [ ] To ensure complete program termination upon error occurrence
+    - [ ] Explicit exception typing provides no operational benefit
+    - [ ] To enable selective code segment bypassing during execution
+    - [x] To identify precise exception classification and source location
+
+    **Answer:** Granular except statements enable accurate identification of exception types and facilitate targeted error responses, enhancing debugging capabilities and exception management precision.
