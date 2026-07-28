@@ -81,6 +81,8 @@ A curated collection of data analysis materials, including courses, projects, an
               - 📁 [13-reading-files](./learning/courses/ibm/dataanalyst/04-python-for-data-science-ai-development/activities/hands-on/13-reading-files/)
               - 📁 [14-writing-files](./learning/courses/ibm/dataanalyst/04-python-for-data-science-ai-development/activities/hands-on/14-writing-files/)
               - 📁 [15-loading-data-pandas](./learning/courses/ibm/dataanalyst/04-python-for-data-science-ai-development/activities/hands-on/15-loading-data-pandas/)
+              - 📁 [16-onedimension-numpy](./learning/courses/ibm/dataanalyst/04-python-for-data-science-ai-development/activities/hands-on/16-onedimension-numpy/)
+              - 📁 [17-twodimension-numpy](./learning/courses/ibm/dataanalyst/04-python-for-data-science-ai-development/activities/hands-on/17-twodimension-numpy/)
             - 📂 [practice-lab](./learning/courses/ibm/dataanalyst/04-python-for-data-science-ai-development/activities/practice-lab/)
               - 📁 [01-text-analysis](./learning/courses/ibm/dataanalyst/04-python-for-data-science-ai-development/activities/practice-lab/01-text-analysis/)
               - 📁 [02-selecting-data-in-dataframe](./learning/courses/ibm/dataanalyst/04-python-for-data-science-ai-development/activities/practice-lab/02-selecting-data-in-dataframe/)

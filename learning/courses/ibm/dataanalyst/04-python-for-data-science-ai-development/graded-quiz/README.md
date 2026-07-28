@@ -381,3 +381,111 @@
    - [ ] `file1.open()`
 
    **Answer:** The "write" method writes data into a file.
+
+## Module 4 - Working with Data in Python
+
+1. **In a machine learning algorithm, two feature vectors are represented as NumPy arrays:** `a=np.array([-1,1])` **and** `b=np.array([1,1])`. **What will be returned when calculating** `np.dot(a,b)`**?**
+   - [ ] array([0,2])
+   - [x] 0
+   - [ ] array([[-1, -1], [1, 1]])
+   - [ ] 1
+
+   **Answer:** The dot product of these vectors performs element-wise multiplication, then addition: (-1×1) + (1×1) = -1 + 1 = 0.
+
+2. **What does the following code calculate in NumPy:** `np.dot(A.T, B)`**?**
+   - [ ] Element-wise multiplication of the transpose of A and B
+   - [ ] The dot product of the diagonal elements
+   - [x] It performs matrix multiplication between the transposed version of A and matrix B
+   - [ ] The sum of all elements in both matrices
+
+   **Answer:** The .T attribute transposes matrix A before performing matrix multiplication with B.
+
+3. **What does the shape attribute tell you about a NumPy array?**
+   - [ ] It returns the total number of elements in the array.
+   - [ ] It returns the memory allocated for the array.
+   - [ ] It returns the data type of the array elements.
+   - [x] It returns a tuple indicating the size of the array in each dimension.
+
+   **Answer:** The shape attribute provides the array's dimensions as a tuple of integers.
+
+4. **What happens when you multiply a NumPy array by a scalar value?**
+   - [ ] Only the first row is multiplied by the scalar
+   - [x] Each element in the array is multiplied by the scalar value
+   - [ ] Only the diagonal elements are multiplied by the scalar
+   - [ ] The scalar becomes a new dimension in the array
+
+   **Answer:** When multiplying an array by a scalar, the operation is applied to every element in the array.
+
+5. **Given the following file content for "Example1.txt":**
+   This is line 1
+   This is line 2
+   This is line 3
+
+   **What would be the output of this code?**
+
+   ```python
+      with open("Example1.txt","r") as file1:
+         FileContent = file1.readline()
+         print(FileContent)
+   ```
+
+   - [x] This is line 1
+   - [ ] This
+   - [ ] Empty output
+   - [ ] This is line 1 This is line 2 This is line 3
+
+   **Answer:** The readline() method reads only the first line of the file.
+
+6. **Consider the following line of code:**
+
+   ```python
+      with open(example1,"r") as file1:
+   ```
+
+   **What mode is the file object in?**
+   - [ ] append
+   - [ ] write
+   - [x] read
+   - [ ] binary
+
+   **Answer:** The mode is set to "r" for read.
+
+7. **How can you write multiple lines to a file at once using a list?**
+   - [ ] Convert the list to a string first
+   - [ ] Use the insert() method to place lines in the file
+   - [x] Use a for loop to iterate through the list, writing each element with write()
+   - [ ] Use the print() function with a file parameter
+
+   **Answer:** You can iterate through a list and write each element to the file.
+
+8. **What task do the following lines of code accomplish?**
+
+   ```python
+      with open('Example2.txt','r') as readfile:
+         with open('Example3.txt','w') as writefile:
+            for line in readfile:
+                  writefile.write(line)
+   ```
+
+   - [x] Copying the text from Example2.txt to Example3.txt
+   - [ ] Checking the mode of the open function for each file object
+   - [ ] Printing out the content of Example2.txt
+   - [ ] Reading the content of Example2.txt
+
+   **Answer:** This is the expected outcome.
+
+9. **Using the loc method, how would you access the second row of a DataFrame's column named "artist"?**
+   - [ ] `df.artist[1]`
+   - [ ] `df.loc[2, 'artist']`
+   - [ ] `df.loc['artist', 1]`
+   - [x] `df.loc[1, 'artist']`
+
+   **Answer:** The loc method uses row index and column labels to access data.
+
+10. **What function would you use to load a CSV file in Pandas?**
+    - [x] `pd.read_csv(path)`
+    - [ ] `np.read_csv(path)`
+    - [ ] `pd.read_excel(path)`
+    - [ ] `pd.load_csv(path)`
+
+    **Answer:** The read_csv method will read the CSV file in Pandas.

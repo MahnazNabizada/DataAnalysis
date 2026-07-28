@@ -539,3 +539,29 @@
    - [ ] `df.loc[2, 'Album']`
 
    **Answer:** `df.loc[2:5, 'Album']` will return the desired result.
+
+## Module 4 - NumPy
+
+1. **What Python library serves as a foundation for Pandas and is used for scientific computing?**
+   - [x] Numpy
+   - [ ] OS
+   - [ ] Requests
+   - [ ] datetime
+
+   **Answer:** Numpy serves as a foundation for Pandas and is used for scientific computing.
+
+2. **What attribute retrieves the number of elements in a numpy array?**
+   - [x] `a.size`
+   - [ ] `a.shape`
+   - [ ] `a.ndim`
+   - [ ] `a.dtype`
+
+   **Answer:** size will return the total number of elements in an array of any dimension.
+
+3. **How would you change the first element to 10 in this array?** `c = np.array([100,1,2,3,0])`
+   - [ ] `c[1]=10`
+   - [ ] `c[4]=10`
+   - [x] `c[0]=10`
+   - [ ] `c[2]=10`
+
+   **Answer:** Index 0 references the first element.
