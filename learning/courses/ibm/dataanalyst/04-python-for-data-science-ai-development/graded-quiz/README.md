@@ -489,3 +489,85 @@
     - [ ] `pd.load_csv(path)`
 
     **Answer:** The read_csv method will read the CSV file in Pandas.
+
+## Module 5 - APIs and Data Collection
+
+1. **A web developer is troubleshooting an HTTP response with a status code of 404. What does this indicate about the client’s request?**
+   - [x] The requested resource could not be found on the server
+   - [ ] The server encountered an internal error while processing the request
+   - [ ] The client lacks proper authentication to access the resource
+   - [ ] The request was successful, and the resource was retrieved
+
+   **Answer:** The 404 status code means “Not Found” and indicates that the server cannot find the requested resource.
+
+2. **What is the relationship between parent and child elements in an HTML document tree used in BeautifulSoup?**
+   - [ ] Child elements must always be of the same type as their parent elements
+   - [x] Child elements are nested within parent elements, allowing navigation up and down the tree
+   - [ ] Parent elements can only be accessed after all child elements are processed
+   - [ ] Parent elements can only contain a maximum of three child elements
+
+   **Answer:** BeautifulSoup represents HTML as a tree where nested tags become children of their containing tags.
+
+3. **A programmer is extracting cryptocurrency data using the PyCoinGecko API. When receiving the response, what format conversion is needed to work with the data as a Python dictionary?**
+   - [ ] Apply the csv() method to the response object
+   - [x] Apply the json() method to the response object
+   - [ ] Apply the xml() method to the response object
+   - [ ] Apply the text attribute to the response object
+
+   **Answer:** The json() method converts the JSON response to a Python dictionary that can be easily manipulated.
+
+4. **When working with time series data, what is the purpose of pandas’ to_datetime function?**
+   - [x] To convert timestamps into standard datetime objects for easier analysis and visualization
+   - [ ] To compare dates across multiple datasets
+   - [ ] To filter out non-business days from financial data
+   - [ ] To extract only the date portion from datetime objects
+
+   **Answer:** The to_datetime function standardizes time data, enabling proper sorting, filtering, and display of time-based information.
+
+5. **A web developer is creating an HTML table showing quarterly sales results. How should they structure the HTML to display this tabular data properly?**
+   - [x] Use a `<table>` tag with `<tr>` tags for rows and `<td>` tags for cells
+   - [ ] Use a `<form>` tag with `<input>` tags for each cell
+   - [ ] Use a `<div>` tag with `<span>` tags for each data point
+   - [ ] Use a `<p>` tag with `<br>` tags between each row
+
+   **Answer:** This structure creates proper HTML tables where `<tr>` defines rows and `<td>` defines individual cells within each row.
+
+6. **What is the difference between GET and POST HTTP methods when making requests?**
+   - [ ] GET requests can send files while POST requests cannot
+   - [ ] GET requests use JSON while POST requests use XML
+   - [x] GET requests include data in the URL, while POST requests send data in the request body
+   - [ ] GET requests are asynchronous, while POST requests are synchronous
+
+   **Answer:** This fundamental difference affects how data is transmitted and the visibility of parameters.
+
+7. **What distinguishes REST APIs from other types of APIs?**
+   - [ ] They are restricted to local communication within a single application
+   - [ ] They can only be implemented in Python
+   - [x] They communicate through the internet using HTTP methods and typically exchange data in formats like JSON
+   - [ ] They require specialized hardware to function
+
+   **Answer:** REST (Representational State Transfer) APIs use web protocols for communication between clients and servers.
+
+8. **What Python library would you use to parse XML files?**
+   - [ ] pandas.xml
+   - [ ] beautifulsoup.xml
+   - [ ] json.parser
+   - [x] xml.etree
+
+   **Answer:** `xml.etree` is a Python library module used to parse and work with XML files.
+
+9. **A developer is creating an application that needs to retrieve data from a REST API. Which code snippet correctly sends a GET request with parameters?**
+   - [ ] `import requests; r = requests.get('https://api.example.com/data?name=John&ID=123', data={'secure': True})`
+   - [x] `import requests; payload = {'name': 'John', 'ID': '123'}; r = requests.get('https://api.example.com/data', params=payload)`
+   - [ ] `import requests; r = requests.post('https://api.example.com/data', headers={'name': 'John', 'ID': '123'})`
+   - [ ] `import requests; r = requests.get('https://api.example.com/data', json={'name': 'John', 'ID': '123'})`
+
+   **Answer:** This properly formats a GET request with query parameters using the `params` argument.
+
+10. **A data scientist needs to extract player statistics from an NBA website. After obtaining the HTML, what BeautifulSoup method would help locate all table rows containing player data?**
+    - [ ] `soup.search('players')` to find player information
+    - [ ] `soup.extract('statistics')` to pull out statistical data
+    - [x] `soup.find_all('tr')` to identify all table rows
+    - [ ] `soup.read_table()` to automatically process the table
+
+    **Answer:** The `find_all` method returns all instances of the specified tag, allowing further processing of each row.

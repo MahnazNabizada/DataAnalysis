@@ -565,3 +565,63 @@
    - [ ] `c[2]=10`
 
    **Answer:** Index 0 references the first element.
+
+## Module 5 - Simple APIs
+
+1. **What does API stand for?**
+   - [x] Application Programming Interface
+   - [ ] Application Programming Interaction
+   - [ ] Application Process Interface
+   - [ ] Automatic Program Interaction
+
+   **Answer:** API stands for Application Programming Interface.
+
+2. **Which data format is commonly found in the HTTP message for API requests?**
+   - [ ] XML
+   - [x] JSON
+   - [ ] HTML
+   - [ ] YAML
+
+   **Answer:** JSON is the most common data format found in HTTP message for API requests.
+
+3. **What is the primary purpose of an API?**
+   - [ ] To provide security to web applications.
+   - [ ] To design user interfaces for mobile applications.
+   - [x] To connect and enable communication between software applications.
+   - [ ] To handle server-side database operations.
+
+   **Answer:** Primary role of API is to establish a connection and enable communication between different parts of a software application.
+
+## Module 5 - REST APIs, Web Scraping, and Working with Files
+
+1. **What is the function of "GET" in HTTP requests?**
+   - [ ] Deletes a specific resource
+   - [ ] Returns the response from the client to the requestor
+   - [ ] Sends data to create or update a resource
+   - [x] Carries the request from the client to the server
+
+   **Answer:** GET carries the request from the client to the server.
+
+2. **What does URL stand for?**
+   - [ ] Uniform Resource Learning
+   - [ ] Uniform Request Location
+   - [x] Uniform Resource Locator
+   - [ ] Unilateral Resistance Locator
+
+   **Answer:** URL stands for Uniform Resource Locator and acts as a resource locator, which is why URLs are also called web addresses.
+
+3. **What does the file extension “csv” stand for?**
+   - [ ] Comma Serrated Values
+   - [x] Comma Separated Values
+   - [ ] Comma Separation Valuations
+   - [ ] Common Separated Variables
+
+   **Answer:** CSV stands for Comma Separated Values, a data format where each value is separated by a comma (`,`).
+
+4. **What is web scraping?**
+   - [ ] The process to describe communication options
+   - [x] The process to extract data from a particular website
+   - [ ] The process to request and retrieve information from a client
+   - [ ] The process to display all data within a URL
+
+   **Answer:** Web scraping is the process of extracting data from a web page.
