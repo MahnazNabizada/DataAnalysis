@@ -61,3 +61,35 @@
     - [ ] period="ytd"
     - [x] period="6mo"
     - [ ] period="max"
+
+## Stock Data Using a Web Scraping
+
+1. **What is the primary role of the BeautifulSoup library in the web scraping process?**
+   - [ ] To automatically control a web browser like Firefox or Chrome.
+   - [ ] To download the raw HTML content from a specific URL.
+   - [x] To parse HTML or XML content and create a navigable tree structure.
+   - [ ] To directly convert scraped data into a machine learning model.
+
+2. **In an HTML document, which tag is used to define a single table row that contains table cell data?**
+   - [ ] `<table>`
+   - [ ] `<td>`
+   - [x] `<tr>`
+   - [ ] `<th>`
+
+3. **When using the** `find_all('p')` **method on a BeautifulSoup soup object, what kind of result is returned?**
+   - [ ] A single string containing the text from all paragraph tags combined.
+   - [ ] A Pandas DataFrame with all paragraphs organized into rows.
+   - [x] A list-like iterable containing all the paragraph (`<p>`) tag objects.
+   - [ ] The first paragraph (`<p>`) tag found in the document.
+
+4. **According to the module content, what is a significant limitation of using the** `pandas.read_html()` **function for web scraping?**
+   - [ ] It is significantly slower than using BeautifulSoup for all tasks.
+   - [ ] It requires a paid subscription, unlike open-source libraries like BeautifulSoup.
+   - [x] It can only extract data from HTML `<table>` tags and is not flexible for other content.
+   - [ ] It cannot download data from websites that use HTTPS.
+
+5. **In the HTML tree structure, if the** `<head>` **tag and** `<body>` **tag are both directly inside the** `<html>` **tag, what is their relationship to each other?**
+   - [ ] The `<body>` tag is the parent of the `<head>` tag.
+   - [x] They are siblings.
+   - [ ] The `<head>` tag is a child of the `<body>` tag.
+   - [ ] They are both descendants but not children of the `<html>` tag.
