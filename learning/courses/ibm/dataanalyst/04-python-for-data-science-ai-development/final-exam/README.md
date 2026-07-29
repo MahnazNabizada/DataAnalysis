@@ -201,7 +201,7 @@
 
     - [ ] array([1, 1, 1, 1, 1])
     - [ ] array([0.1, 1.0, 0.1, 1.0, 0.1])
-    - [ ] Division by zero error
+    - [x] Division by zero error
     - [ ] array([0, 0, 0, 0, 0])
 
     **Answer:** Correct! Arrays divide element by element, resulting in divide by 0 errors for the numbers at Index 1 and Index 3.
@@ -216,7 +216,7 @@
 
     - [ ] array([1,1,1,1,1])
     - [ ] array([0,0,0,0,0])
-    - [ ] array([2,2,2,2,2])
+    - [x] array([2,2,2,2,2])
     - [ ] array([11, 11, 11, 11, 11])
 
     **Answer:** Each element of the array has the constant added to it.

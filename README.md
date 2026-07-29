@@ -95,6 +95,13 @@ A curated collection of data analysis materials, including courses, projects, an
           - 📁 [graded-quiz](./learning/courses/ibm/dataanalyst/04-python-for-data-science-ai-development/graded-quiz/)
           - 📁 [practice-project](./learning/courses/ibm/dataanalyst/04-python-for-data-science-ai-development/practice-project/)
           - 📁 [practice-quiz](./learning/courses/ibm/dataanalyst/04-python-for-data-science-ai-development/practice-quiz/)
+        - 📂 [05-projects-for-data-science]
+          - 📁 [graded-assignments](./learning/courses/ibm/dataanalyst/05-projects-for-data-science/graded-assignments/)
+          - 📁 [practice-project](./learning/courses/ibm/dataanalyst/05-projects-for-data-science/practice-project/)
+            - 📂 [extracting-stock-data](./learning/courses/ibm/dataanalyst/05-projects-for-data-science/practice-project/extracting-stock-data/)
+          - 📁 [webscraping](./learning/courses/ibm/dataanalyst/05-projects-for-data-science/webscraping/)
+            - 📂 [review](./learning/courses/ibm/dataanalyst/05-projects-for-data-science/webscraping/review/)
+            - 📂 [wikipedia-scraping](./learning/courses/ibm/dataanalyst/05-projects-for-data-science/webscraping/wikipedia-scraping/)
 - 📂 [projects](#projects)
 
 ## About Folder Structure
