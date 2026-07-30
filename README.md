@@ -65,6 +65,7 @@ A curated collection of data analysis materials, including courses, projects, an
             - 📂 [articulate](./learning/courses/ibm/dataanalyst/04-python-for-data-science-ai-development/activities/articulate/)
               - 📁 [01-lists-exercises](./learning/courses/ibm/dataanalyst/04-python-for-data-science-ai-development/activities/articulate/01-lists-exercises/)
               - 📁 [02-tuples-exercises](./learning/courses/ibm/dataanalyst/04-python-for-data-science-ai-development/activities/articulate/02-tuples-exercises/)
+              - 📁 [03-webscraping](./learning/courses/ibm/dataanalyst/04-python-for-data-science-ai-development/activities/articulate/03-webscraping/)
             - 📂 [hands-on](./learning/courses/ibm/dataanalyst/04-python-for-data-science-ai-development/activities/hands-on/)
               - 📁 [01-write-your-first-program](./learning/courses/ibm/dataanalyst/04-python-for-data-science-ai-development/activities/hands-on/01-write-your-first-program/)
               - 📁 [02-types](./learning/courses/ibm/dataanalyst/04-python-for-data-science-ai-development/activities/hands-on/02-types/)
