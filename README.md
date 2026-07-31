@@ -111,6 +111,9 @@ A curated collection of data analysis materials, including courses, projects, an
           - 📁 [webscraping](./learning/courses/ibm/dataanalyst/05-projects-for-data-science/webscraping/)
             - 📂 [review](./learning/courses/ibm/dataanalyst/05-projects-for-data-science/webscraping/review/)
             - 📂 [wikipedia-scraping](./learning/courses/ibm/dataanalyst/05-projects-for-data-science/webscraping/wikipedia-scraping/)
+        - 📂 [06-databases-sql-for-data-science-python](./learning/courses/ibm/dataanalyst/06-databases-sql-for-data-science-python/)
+          - 📂 [activities](./learning/courses/ibm/dataanalyst/06-databases-sql-for-data-science-python/activities/articulate/01-build-er-diagram-company-hr-database/)
+            - 📁 [01-build-er-diagram-company-hr-database](./learning/courses/ibm/dataanalyst/06-databases-sql-for-data-science-python/activities/articulate/01-build-er-diagram-company-hr-database/)
 - 📂 [projects](#projects)
 
 ## About Folder Structure
