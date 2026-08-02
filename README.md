@@ -90,14 +90,14 @@ Inside each course:
 
 **Track:** IBM Data Analyst — [`learning/courses/ibm/dataanalyst/`](./learning/courses/ibm/dataanalyst/)
 
-| # | Course | Status | Topics |
-|:--|:--|:--|:--|
-| 01 | [Introduction to Data Analytics](./learning/courses/ibm/dataanalyst/01-introduction-to-data-analytics/) | ✅ Complete | Analytics fundamentals, data ecosystems, case analysis, outlier identification |
-| 02 | [Excel Basics for Data Analysis](./learning/courses/ibm/dataanalyst/02-excel-basics-for-data-analysis/) | ✅ Complete | Data editing and formatting, cleaning, filtering and sorting, pivot tables |
-| 03 | [Data Visualization and Dashboards with Excel and Cognos](./learning/courses/ibm/dataanalyst/03-data-visualization-dashboards-excel-cognos/) | ✅ Complete | Basic and advanced charts, Excel dashboards, Cognos Analytics, Google Data Studio |
-| 04 | [Python for Data Science, AI & Development](./learning/courses/ibm/dataanalyst/04-python-for-data-science-ai-development/) | ✅ Complete | Python core, data structures, OOP, file I/O, pandas, NumPy, REST APIs, web scraping |
-| 05 | [Python Project for Data Science](./learning/courses/ibm/dataanalyst/05-projects-for-data-science/) | ✅ Complete | Applied extraction and visualization, stock and revenue data, dashboard building |
-| 06 | [Databases and SQL for Data Science with Python](./learning/courses/ibm/dataanalyst/06-databases-sql-for-data-science-python/) | 🚧 In progress | ER diagrams, relational modelling, `SELECT`, `COUNT`/`DISTINCT`/`LIMIT`, `INSERT`/`UPDATE`/`DELETE` |
+| #   | Course                                                                                                                                       | Status         | Topics                                                                                                                                                 |
+| :-- | :------------------------------------------------------------------------------------------------------------------------------------------- | :------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 01  | [Introduction to Data Analytics](./learning/courses/ibm/dataanalyst/01-introduction-to-data-analytics/)                                      | ✅ Complete    | Analytics fundamentals, data ecosystems, case analysis, outlier identification                                                                         |
+| 02  | [Excel Basics for Data Analysis](./learning/courses/ibm/dataanalyst/02-excel-basics-for-data-analysis/)                                      | ✅ Complete    | Data editing and formatting, cleaning, filtering and sorting, pivot tables                                                                             |
+| 03  | [Data Visualization and Dashboards with Excel and Cognos](./learning/courses/ibm/dataanalyst/03-data-visualization-dashboards-excel-cognos/) | ✅ Complete    | Basic and advanced charts, Excel dashboards, Cognos Analytics, Google Data Studio                                                                      |
+| 04  | [Python for Data Science, AI & Development](./learning/courses/ibm/dataanalyst/04-python-for-data-science-ai-development/)                   | ✅ Complete    | Python core, data structures, OOP, file I/O, pandas, NumPy, REST APIs, web scraping                                                                    |
+| 05  | [Python Project for Data Science](./learning/courses/ibm/dataanalyst/05-projects-for-data-science/)                                          | ✅ Complete    | Applied extraction and visualization, stock and revenue data, dashboard building                                                                       |
+| 06  | [Databases and SQL for Data Science with Python](./learning/courses/ibm/dataanalyst/06-databases-sql-for-data-science-python/)               | 🚧 In progress | ER diagrams, relational modelling, `SELECT`, `COUNT`/`DISTINCT`/`LIMIT`/`OFFSET`, `INSERT`/`UPDATE`/`DELETE`, `CREATE TABLE`/`ALTER`/`TRUNCATE`/`DROP` |
 
 ---
 
@@ -107,45 +107,45 @@ Only tools that actually appear in the repository are listed.
 
 ### Languages
 
-| Technology | Where it is used |
-|:--|:--|
-| **Python** | Notebooks and scripts across courses 04–05 |
-| **SQL** | Query practice and DDL scripts in course 06 |
+| Technology | Where it is used                            |
+| :--------- | :------------------------------------------ |
+| **Python** | Notebooks and scripts across courses 04–05  |
+| **SQL**    | Query practice and DDL scripts in course 06 |
 
 ### Data Analysis
 
-| Technology | Where it is used |
-|:--|:--|
-| **pandas** | DataFrame loading, selection, and transformation; `read_html` table extraction |
-| **NumPy** | 1-D and 2-D array operations, numeric manipulation |
-| **Microsoft Excel** | Cleaning, filtering, pivot tables, slicers, timelines (courses 01–03) |
+| Technology          | Where it is used                                                               |
+| :------------------ | :----------------------------------------------------------------------------- |
+| **pandas**          | DataFrame loading, selection, and transformation; `read_html` table extraction |
+| **NumPy**           | 1-D and 2-D array operations, numeric manipulation                             |
+| **Microsoft Excel** | Cleaning, filtering, pivot tables, slicers, timelines (courses 01–03)          |
 
 ### Visualization
 
-| Technology | Where it is used |
-|:--|:--|
-| **Matplotlib** | Plotting in Python labs and the stock data dashboard |
-| **Seaborn** | Statistical plots in the file-formats lab |
-| **IBM Cognos Analytics** | Product sales, customer, and advanced dashboards |
-| **Google Data Studio** | Dashboard hands-on lab |
+| Technology               | Where it is used                                     |
+| :----------------------- | :--------------------------------------------------- |
+| **Matplotlib**           | Plotting in Python labs and the stock data dashboard |
+| **Seaborn**              | Statistical plots in the file-formats lab            |
+| **IBM Cognos Analytics** | Product sales, customer, and advanced dashboards     |
+| **Google Data Studio**   | Dashboard hands-on lab                               |
 
 ### Data Acquisition
 
-| Technology | Where it is used |
-|:--|:--|
-| **Requests** | HTTP access to REST APIs and web pages |
-| **BeautifulSoup 4** | HTML parsing and web scraping |
-| **lxml** | HTML/XML table parsing backend |
-| **yfinance** | Historical share price, dividend, and company data |
-| **nba_api**, **randomuser** | API consumption examples |
+| Technology                  | Where it is used                                   |
+| :-------------------------- | :------------------------------------------------- |
+| **Requests**                | HTTP access to REST APIs and web pages             |
+| **BeautifulSoup 4**         | HTML parsing and web scraping                      |
+| **lxml**                    | HTML/XML table parsing backend                     |
+| **yfinance**                | Historical share price, dividend, and company data |
+| **nba_api**, **randomuser** | API consumption examples                           |
 
 ### Databases
 
-| Technology | Where it is used |
-|:--|:--|
-| **SQLite** | `Company.db` schema for the HR ER-diagram activity |
-| **DB Browser for SQLite** | `.sqbpro` project file accompanying the database |
-| **draw.io** | ER diagram source for the company HR model |
+| Technology                | Where it is used                                   |
+| :------------------------ | :------------------------------------------------- |
+| **SQLite**                | `Company.db` schema for the HR ER-diagram activity |
+| **DB Browser for SQLite** | `.sqbpro` project file accompanying the database   |
+| **draw.io**               | ER diagram source for the company HR model         |
 
 ### Formats
 
@@ -223,18 +223,18 @@ Car sales and customer loyalty data turned into interactive reporting: basic and
 
 ## Where to Find Things
 
-| Looking for | Location |
-|:--|:--|
-| **Course notes and worked solutions** | `activities/` in each course, plus the `README.md` inside each exercise folder |
-| **Guided labs** | `activities/hands-on/` |
-| **In-course activities** | `activities/articulate/` |
-| **Open practice** | `activities/practice-lab/` |
-| **Quizzes and answers** | `practice-quiz/` and `graded-quiz/` |
-| **Scored assessments** | `assessments/blackboard/` |
-| **Capstones** | `final-assignment/`, `final-exam/`, or `final-project/`, depending on the course |
-| **Datasets** | Stored beside the exercise that uses them (`.xlsx`, `.csv`, `.json`, `.db`) |
-| **Notebooks** | `learning/courses/ibm/dataanalyst/**/*.ipynb` |
-| **Personal projects** | [`projects/`](./projects/) — reserved for self-directed work outside the course track |
+| Looking for                           | Location                                                                              |
+| :------------------------------------ | :------------------------------------------------------------------------------------ |
+| **Course notes and worked solutions** | `activities/` in each course, plus the `README.md` inside each exercise folder        |
+| **Guided labs**                       | `activities/hands-on/`                                                                |
+| **In-course activities**              | `activities/articulate/`                                                              |
+| **Open practice**                     | `activities/practice-lab/`                                                            |
+| **Quizzes and answers**               | `practice-quiz/` and `graded-quiz/`                                                   |
+| **Scored assessments**                | `assessments/blackboard/`                                                             |
+| **Capstones**                         | `final-assignment/`, `final-exam/`, or `final-project/`, depending on the course      |
+| **Datasets**                          | Stored beside the exercise that uses them (`.xlsx`, `.csv`, `.json`, `.db`)           |
+| **Notebooks**                         | `learning/courses/ibm/dataanalyst/**/*.ipynb`                                         |
+| **Personal projects**                 | [`projects/`](./projects/) — reserved for self-directed work outside the course track |
 
 > [!NOTE]
 > [`projects/`](./projects/) is currently a placeholder. Independent, non-course analyses will land there as they are completed.
