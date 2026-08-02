@@ -2,8 +2,6 @@
 
 ## Module 1 - Basic SQL
 
-## SQL Databases Quiz
-
 1. **Which of the following statements about databases is accurate? Select all that apply.** — 1/1
    - [x] Databases can store data and allow queries on that data.
    - [x] Various types of databases exist, such as relational, hierarchical, and NoSQL.
@@ -43,3 +41,43 @@
    - [x] It defines which specific rows should be updated.
 
    **Answer:** The WHERE clause filters the result set. Omitting it would mean updating every row in the table.
+
+## Module 2 - Introduction to Relational Databases and Tables
+
+1. **What is the function of a primary key?** — 1/1
+   - [x] The primary key uniquely identifies each row in a table.
+   - [ ] The primary key is used to identify any rows in the table that contain NULL values.
+   - [ ] The primary key is used to grant access to a table.
+   - [ ] The primary key enables you to add data to columns.
+
+   **Answer:** The primary key uniquely identifies each row in a table.
+
+2. **True or False: Data Manipulation Language statements like INSERT, SELECT, UPDATE, and DELETE are used to read and modify data.** — 1/1
+   - [x] True
+   - [ ] False
+
+   **Answer:** Data Manipulation Language statements like INSERT, SELECT, UPDATE, and DELETE are used to read and modify data.
+
+3. **Data Definition Language (or DDL) statements are used to define, change, or delete database objects such as tables. Which of the following statements are all DDL statements?** — 1/1
+   - [ ] SELECT and DELETE
+   - [ ] INSERT and UPDATE
+   - [x] CREATE, ALTER, DROP
+   - [ ] SELECT, INSERT, UPDATE
+
+   **Answer:** The CREATE, ALTER, and DROP statements act on objects such as tables, not the data within the table.
+
+4. **Which of the following queries will change the data type of an existing column (phone) to the varchar data type?** — 1/1
+   - [x] `ALTER TABLE author MODIFY phone VARCHAR(20);`
+   - [ ] `ALTER TABLE author ALTER COLUMN phone SET TYPE VARCHAR(20);`
+   - [ ] `ALTER COLUMN phone SET DATA TYPE VARCHAR(20);`
+   - [ ] `ALTER TABLE author ALTER COLUMN phone DATA TYPE = VARCHAR(20);`
+
+   **Answer:** This query will change the data type to varchar.
+
+5. **The five basic SQL commands are:**
+   - [ ] None of the above
+   - [ ] CREATE, INSERT, RETRIEVE, MODIFY, DELETE
+   - [ ] SELECT, COPY, PASTE, INSERT, ALTER
+   - [x] CREATE, SELECT, INSERT, UPDATE, DELETE
+
+   **Answer:** The five basic SQL commands are CREATE, SELECT, INSERT, UPDATE, and DELETE.

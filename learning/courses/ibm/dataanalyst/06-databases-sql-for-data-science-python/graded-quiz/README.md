@@ -61,3 +61,45 @@
    - [x] The first 5 entries in the INSTRUCTOR table where LASTNAME is 'Smith.'
 
    **Answer:** The WHERE clause filters the results based on the LASTNAME, and the LIMIT clause restricts the output to the first 5 rows.
+
+## Module 2 - DB Concepts and Tables
+
+1. **Which of the following statements about a database is/are correct?**
+   - [x] A database is a logically coherent collection of data with some inherent meaning
+   - [ ] Data can only be added and queried from a database but not modified.
+   - [ ] Only SQL can be used to query data in a database.
+   - [ ] All of the above
+
+   **Answer:** A database is a repository or logically coherent collection of data with some inherent meaning.
+
+2. **Attributes of an entity become **\_\_\_\_** in a table.**
+   - [x] columns
+   - [ ] keys
+   - [ ] constraints
+   - [ ] rows
+
+   **Answer:** Attributes of an entity become columns in a table.
+
+3. **The CREATE TABLE statement is a **\_\_\_\_**.**
+   - [ ] DML statement
+   - [x] DDL statement
+   - [ ] DQL statement
+   - [ ] All of the above
+
+   **Answer:** The CREATE TABLE statement defines a table, so it is a DDL statement.
+
+4. **Which command is used for removing a table and all its data from the database?**
+   - [x] DROP table command
+   - [ ] CREATE command
+   - [ ] TRUNCATE table command
+   - [ ] ALTER table command
+
+   **Answer:** Drop command deletes the entire table along with its contents from the database.
+
+5. **What would be the correct syntax to add a column 'ID' that contains 7 character alpha-numeric values to a database table 'Employees' using MySQL?**
+   - [ ] `ALTER Employees TABLE ADD ID char`
+   - [ ] `ALTER Employees ADD COLUMN ID varchar(7)`
+   - [x] `ALTER TABLE Employees ADD ID char(7)`
+   - [ ] `ALTER TABLE COLUMN Employees ID char(7)`
+
+   **Answer:** This is the appropriate syntax for the said task.
