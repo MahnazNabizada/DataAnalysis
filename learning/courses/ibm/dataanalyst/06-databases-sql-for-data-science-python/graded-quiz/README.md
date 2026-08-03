@@ -103,3 +103,95 @@
    - [ ] `ALTER TABLE COLUMN Employees ID char(7)`
 
    **Answer:** This is the appropriate syntax for the said task.
+
+## Module 3 - Refining Your Results
+
+1. **You want to select the author's `lastname` from a table, but you only remember that it starts with the letter `J`. Which of the following queries uses the correct string pattern?**
+   - [ ] `SELECT lastname FROM author WHERE lastname LIKE 'J#';`
+   - [x] `SELECT lastname FROM author WHERE lastname LIKE 'J%';`
+   - [ ] `SELECT lastname FROM author WHERE lastname LIKE 'J*';`
+   - [ ] `SELECT lastname FROM author WHERE lastname LIKE 'J$';`
+
+   **Answer:** The `%` wildcard represents zero or more characters, so `LIKE 'J%'` returns all last names that begin with the letter `J`.
+
+2. **In SQL, which of the following is the correct way to sort a result set in descending order?**
+   - [x] `SELECT * FROM TABLE_NAME ORDER BY ID DESC;`
+   - [ ] `SELECT ID FROM TABLE_NAME ORDER BY ID;`
+   - [ ] `SELECT ID FROM TABLE_NAME ORDER BY ID DESC;`
+   - [ ] `SELECT * FROM TABLE_NAME ORDER BY ID;`
+
+   **Answer:** The `DESC` keyword sorts the results in descending order. `ORDER BY ID DESC` arranges records from the highest ID to the lowest.
+
+3. **What is the role of the `HAVING` clause in SQL queries in MySQL?** _(Select all that apply.)_
+   - [ ] Checks whether individual data records meet a specified condition.
+   - [x] Restricts the result set for a query using the `GROUP BY` clause.
+   - [x] It does **not** organize the result set in a specific order.
+   - [ ] Acts as an alternative to the `WHERE` clause in all SQL queries.
+
+   **Answer:** The `HAVING` clause is used with `GROUP BY` to filter grouped results based on aggregate conditions. Unlike `ORDER BY`, it does not sort the results.
+
+4. **Which of the following best describes the function of the SQL query below?**
+
+   ```sql
+   SELECT *
+   FROM employees
+   ORDER BY emp_name
+   LIMIT 5;
+   ```
+
+   - [ ] Retrieves the top 5 `emp_name` values ordered alphabetically.
+   - [ ] Retrieves the entire contents of the table, sorted alphabetically by `emp_name`.
+   - [x] Retrieves all the columns of the first 5 rows of the table, sorted alphabetically by `emp_name`.
+   - [ ] Retrieves all the columns of the first 5 rows of the table, sorted in reverse alphabetical order by `emp_name`.
+
+   **Answer:** `ORDER BY emp_name` sorts the records alphabetically, and `LIMIT 5` returns only the first five rows from the sorted result.
+
+5. **Which of the following SQL statements lists the number of customers in each country, showing only the countries with more than five customers?**
+   - [x] `SELECT COUNT(CustomerID), Country FROM Customers GROUP BY Country HAVING COUNT(CustomerID) > 5;`
+   - [ ] `SELECT COUNT(CustomerID), Country FROM Customers GROUP BY Country HAVING CustomerID > 5;`
+   - [ ] `SELECT COUNT(CustomerID), Country FROM Customers GROUP BY Country HAVING COUNT(Customers) > 5;`
+   - [ ] `SELECT COUNT(CustomerID), Country FROM Customers GROUP BY Country HAVING COUNT(CustomerID) < 5;`
+
+   **Answer:** `GROUP BY Country` groups customers by country, `COUNT(CustomerID)` counts the customers in each group, and `HAVING COUNT(CustomerID) > 5` filters the results to include only countries with more than five customers.
+
+## Module 3 - Functions, Multiple Tables, and Sub-queries
+
+1. **Which of the following queries will return the data for employees who belong to the department with the highest department ID?**
+   - [ ] `SELECT * FROM EMPLOYEES WHERE DEP_ID = MAX(DEP_ID);`
+   - [ ] `SELECT * FROM EMPLOYEES WHERE DEPT_ID_DEP = MAX(SELECT DEPT_ID_DEP FROM DEPARTMENTS);`
+   - [x] `SELECT * FROM EMPLOYEES WHERE DEP_ID = (SELECT MAX(DEPT_ID_DEP) FROM DEPARTMENTS);`
+   - [ ] `SELECT * FROM EMPLOYEES WHERE DEP_ID = (SELECT DEPT_ID_DEP FROM DEPARTMENTS WHERE DEPT_ID_DEP IS MAX);`
+
+   **Answer:** This query uses a subquery with the `MAX()` function to retrieve the highest department ID from the `DEPARTMENTS` table, then returns all employees belonging to that department.
+
+2. **A `DEPARTMENTS` table contains `DEP_NAME` and `DEPT_ID_DEP` columns, and an `EMPLOYEES` table contains `F_NAME` and `DEP_ID`. You want to retrieve the department name for each employee. Which query correctly accomplishes this?**
+   - [ ] `SELECT E.F_NAME, D.DEP_NAME FROM EMPLOYEES, DEPARTMENTS;`
+   - [ ] `SELECT D.F_NAME, E.DEP_NAME FROM EMPLOYEES E, DEPARTMENTS D WHERE D.DEPT_ID_DEP = E.DEP_ID;`
+   - [ ] `SELECT F_NAME, DEP_NAME FROM EMPLOYEES E, DEPARTMENTS D WHERE E.DEPT_ID_DEP = D.DEP_ID;`
+   - [x] `SELECT F_NAME, DEP_NAME FROM EMPLOYEES, DEPARTMENTS WHERE DEPT_ID_DEP = DEP_ID;`
+
+   **Answer:** This query performs an **implicit join** between the `EMPLOYEES` and `DEPARTMENTS` tables by matching `DEP_ID` with `DEPT_ID_DEP`, allowing the employee's first name and department name to be returned together.
+
+3. **You are writing a query that will give you the total cost to the Pet Rescue organization of rescuing animals. The cost of each rescue is stored in the `Cost` column, and you want the result column to be called `Total_Cost`. Which SQL query is correct?**
+   - [ ] `SELECT SUM(Cost) FROM PetRescue;`
+   - [x] `SELECT SUM(Cost) AS Total_Cost FROM PetRescue;`
+   - [ ] `SELECT SUM(Total_Cost) FROM PetRescue;`
+   - [ ] `SELECT Total_Cost FROM PetRescue;`
+
+   **Answer:** The `SUM(Cost)` aggregate function calculates the total rescue cost, and the `AS` keyword assigns the alias `Total_Cost` to the result column.
+
+4. **Which of the following queries correctly calculates the total number of days an employee has lived, using their date of birth (`DOB`) and the current date, in MySQL?**
+   - [ ] `SELECT (CURRENT_DATE - DOB) FROM Employees;`
+   - [x] `SELECT DATEDIFF(CURRENT_DATE, DOB) FROM Employees;`
+   - [ ] `SELECT FROM_DAYS(DATEDIFF(CURRENT_DATE, DOB)) FROM Employees;`
+   - [ ] `SELECT FROM_DAYS(DATE_SUB(CURRENT_DATE, DOB)) FROM Employees;`
+
+   **Answer:** The `DATEDIFF()` function returns the number of days between two dates. In this case, it calculates the number of days from the employee's date of birth to the current date.
+
+5. **You have a table of medicines named `MEDS`. The manufacturing date is stored in the `DOM` column, and each medicine expires exactly one year later. Which SQL statement generates the medicine name and its expiry date as a column named `DOE`?**
+   - [ ] `SELECT NAME, DATE_ADD(DOM, INTERVAL 1 YEARS) AS DOE FROM MEDS;`
+   - [ ] `SELECT NAME, DATEADD(DOM, INTERVAL 1 YEAR) FROM MEDS;`
+   - [x] `SELECT NAME, DATE_ADD(DOM, INTERVAL 1 YEAR) AS DOE FROM MEDS;`
+   - [ ] `SELECT NAME, DATEADD(DOM, INTERVAL 1 YEAR) AS DOE FROM MEDS;`
+
+   **Answer:** The `DATE_ADD()` function adds one year to the manufacturing date (`DOM`), and the `AS DOE` clause assigns the alias `DOE` to the calculated expiry date column.
