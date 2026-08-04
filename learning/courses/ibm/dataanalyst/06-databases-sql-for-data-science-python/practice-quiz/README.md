@@ -178,3 +178,41 @@
    - [ ] Built-in functions, Implicit joins, `JOIN` operators.
 
    **Answer:** SQL supports retrieving data from multiple tables using **subqueries**, **implicit joins**, and explicit **JOIN operators** such as `INNER JOIN`, `LEFT JOIN`, `RIGHT JOIN`, and `FULL OUTER JOIN`.
+
+## Module 4 - Accessing Databases using Python
+
+1. **Which API do you use to connect to a database from Python?** — 1/1
+   - [ ] REST API
+   - [ ] Census API
+   - [ ] Watson API
+   - [x] DB API
+
+   **Answer:** A DB API will enable you to connect to a database from Python to access and manipulate data.
+
+2. **Which of the following functions would you use to query data from a table in SQLite using Python?** — 1/1
+   - [ ] `sqlite.query()`
+   - [ ] `sqlite.cursor()`
+   - [x] `sqlite.cursor.execute()`
+   - [ ] `sqlite.connect()`
+
+   **Answer:** The function "sqlite.cursor.execute()" is used to execute SQL queries and statements in SQLite from Python.
+
+3. **True or false: Resources used by the db API are released automatically when the program ends. There is no need to specifically close the connection.** — 1/1
+   - [ ] True
+   - [x] False
+
+   **Answer:** It is important to use the close() method to close connections and avoid unused connections taking up resources.
+
+4. **Which of the following is the correct order for accessing relational databases using Python?** — 1/1
+   - [x] connect, create and execute SQL statements, close connection.
+   - [ ] create statements, connect.
+   - [ ] create and execute SQL statements, connect, close connection.
+   - [ ] create, execute Python statements, connect, close connection.
+
+   **Answer:** Correct.
+
+5. **Line magics: start with a single % (percent) sign and apply to a particular line in a cell.**
+   - [x] True.
+   - [ ] False
+
+   **Answer:** Correct.
