@@ -186,3 +186,388 @@
     - [ ] False
 
     **Answer:** The in operator checks if an element exists within a set and returns True when the element is found.
+
+## Module 3 - Python Programming Fundamentals
+
+1. **A traffic management system uses the following code to control pedestrian crossing signals:**
+
+   ```python
+      signal_state = "Red"
+      if signal_state == "Green":
+         print("Walk")
+      else:
+         print("Wait")
+      print("Look both ways")
+   ```
+
+   **What message will pedestrians see on the display?**
+   - [ ] Walk / Look both ways
+   - [ ] Walk / Wait
+   - [x] Wait / Look both ways
+   - [ ] Look both ways
+
+   **Answer:** Since the signal_state is "Red" and not "Green," the else clause executes first, followed by the unconditional print statement.
+
+2. **A temperature monitoring system uses the following code to check if a reading exceeds a threshold:**
+
+   ```python
+      current_temp = 18
+      current_temp = current_temp > 25
+   ```
+
+   **What value will be stored in current_temp after these lines execute?**
+   - [ ] 18
+   - [ ] True
+   - [ ] 25
+   - [x] False
+
+   **Answer:** The comparison 18 > 25 evaluates to False, which becomes the new value stored in the current_temp variable.
+
+3. **A file download progress tracker uses the following code to show the percentage remaining:**
+
+   ```python
+      remaining_percent = 100
+      while remaining_percent > 25:
+         print(f"{remaining_percent}% remaining")
+         remaining_percent = remaining_percent - 25
+   ```
+
+   **What will be displayed to the user during this download?**
+   - [x] 100% remaining / 75% remaining / 50% remaining
+   - [ ] 100% remaining / 75% remaining / 50% remaining / 25% remaining
+   - [ ] 100% remaining / 75% remaining / 50% remaining / 25% remaining / 0% remaining
+   - [ ] 100% remaining
+
+   **Answer:** The loop tracks download progress and prints each percentage until it drops to 25% or below, showing only these three values.
+
+4. **A graphics application uses a class to represent screen coordinates. What will be displayed when the following code runs?**
+
+   ```python
+      class Coordinate(object):
+         def __init__(self, x, y):
+            self.x = x
+            self.y = y
+         def display(self):
+            print(f"Position: ({self.x}, {self.y})")
+      cursor = Coordinate(15, 30)
+      cursor.display()
+   ```
+
+   - [ ] (15, 30)
+   - [ ] Position: (x, y)
+   - [x] Position: (15, 30)
+   - [ ] Coordinate(15, 30)
+
+   **Answer:** The display method shows the position using the numeric values that were passed when creating the coordinate object.
+
+5. **A museum curator is labeling artifacts using Python. The following code processes a list of ancient items:**
+
+   ```python
+      items = ["Vase", "Statue", "Mask"]
+      for index, item in enumerate(items, start=1):
+         print(f"Exhibit {index}: {item} - Ancient Greece")
+   ```
+
+   **What will be displayed on the museum labels?**
+   - [x] Exhibit 1: Vase - Ancient Greece / Exhibit 2: Statue - Ancient Greece / Exhibit 3: Mask - Ancient Greece
+   - [ ] Exhibit Vase: 1 - Ancient Greece / Exhibit Statue: 2 - Ancient Greece / Exhibit Mask: 3 - Ancient Greece
+   - [ ] Vase - Ancient Greece / Statue - Ancient Greece / Mask - Ancient Greece
+   - [ ] Exhibit 0: Vase - Ancient Greece / Exhibit 1: Statue - Ancient Greece / Exhibit 2: Mask - Ancient Greece
+
+   **Answer:** The enumerate function with start=1 begins counting from 1 instead of 0, creating sequential exhibit numbers for each item.
+
+6. **What is the result of running the following lines of code?**
+
+   ```python
+      class Points(object):
+         def __init__(self, x, y):
+            self.x = x
+            self.y = y
+         def print_point(self):
+            print('x=', self.x, ' y=', self.y)
+      p2 = Points('Boston', 'Chicago')
+      p2.y = 'Denver'
+      p2.print_point()
+   ```
+
+   - [ ] x= Boston y= Chicago
+   - [ ] x= Denver y= Denver
+   - [ ] x= Denver y= Boston
+   - [x] x= Boston y= Denver
+
+   **Answer:** The attribute y was changed to 'Denver' before the print_point method was called, resulting in the modified output.
+
+7. **Given the conditional function delta, under what circumstances does this function evaluate unity?**
+
+   ```python
+      def delta(x):
+         if x == 0:
+            y = 1
+         else:
+            y = 0
+         return y
+   ```
+
+   - [ ] When the parameter represents any non-zero value
+   - [ ] Under no computational conditions
+   - [ ] When the argument equals unity
+   - [x] When the parameter equals zero
+
+   **Answer:** The function evaluates unity when the input parameter satisfies the zero-equality condition.
+
+8. **What is the output of the following line of code?**
+
+   ```python
+      a = 1
+      def do(x):
+         a = 100
+         return x + a
+      print(do(1))
+   ```
+
+   - [ ] 102
+   - [ ] 2
+   - [x] 101
+   - [ ] 1
+
+   **Answer:** The function uses the local variable a=100 within its scope, ignoring the global variable a=1, and adds it to the parameter value.
+
+9. **Which function definition demonstrates the most efficient implementation for adding two numbers?**
+   - [ ] Intermediate variable assignment before return
+   - [x] Direct return of parameter summation
+   - [ ] Built-in sum function with tuple conversion
+   - [ ] Built-in sum function with individual parameters
+
+   **Answer:** This implementation returns the arithmetic sum of two parameters, demonstrating optimal efficiency through minimal computational overhead.
+
+10. **What constitutes the primary rationale for implementing granular exception handling with explicitly typed catch blocks?**
+    - [ ] To ensure complete program termination upon error occurrence
+    - [ ] Explicit exception typing provides no operational benefit
+    - [ ] To enable selective code segment bypassing during execution
+    - [x] To identify precise exception classification and source location
+
+    **Answer:** Granular except statements enable accurate identification of exception types and facilitate targeted error responses, enhancing debugging capabilities and exception management precision.
+
+## Module 4 - Reading and Writing Files with Open
+
+1. **What are the most commonly used modes when opening a file?**
+   - [ ] (a)ppend, (r)edline, (w)rite
+   - [x] (a)ppend, (r)ead, (w)rite
+   - [ ] (s)ave, (r)ead, (w)rite
+   - [ ] (a)ppend, (c)lose, (w)rite
+
+   **Answer:** (a)ppend, (r)ead, (w)rite are the three modes of operation.
+
+2. **Which data attribute retrieves the file's title?**
+   - [ ] `file1.close()`
+   - [ ] `file1.open()`
+   - [ ] `file1.mode`
+   - [x] `file1.name`
+
+   **Answer:** The name attribute returns the filename.
+
+3. **Which command instructs Python to initiate a new line?**
+   - [x] `\n`
+   - [ ] `\b`
+   - [ ] `\q`
+   - [ ] `\e`
+
+   **Answer:** In Python `\n` instructs the code to begin a new line.
+
+4. **Which method is used to write data into a file in Python?**
+   - [ ] `file1.close()`
+   - [ ] `file1.read()`
+   - [x] `file1.write()`
+   - [ ] `file1.open()`
+
+   **Answer:** The "write" method writes data into a file.
+
+## Module 4 - Working with Data in Python
+
+1. **In a machine learning algorithm, two feature vectors are represented as NumPy arrays:** `a=np.array([-1,1])` **and** `b=np.array([1,1])`. **What will be returned when calculating** `np.dot(a,b)`**?**
+   - [ ] array([0,2])
+   - [x] 0
+   - [ ] array([[-1, -1], [1, 1]])
+   - [ ] 1
+
+   **Answer:** The dot product of these vectors performs element-wise multiplication, then addition: (-1×1) + (1×1) = -1 + 1 = 0.
+
+2. **What does the following code calculate in NumPy:** `np.dot(A.T, B)`**?**
+   - [ ] Element-wise multiplication of the transpose of A and B
+   - [ ] The dot product of the diagonal elements
+   - [x] It performs matrix multiplication between the transposed version of A and matrix B
+   - [ ] The sum of all elements in both matrices
+
+   **Answer:** The .T attribute transposes matrix A before performing matrix multiplication with B.
+
+3. **What does the shape attribute tell you about a NumPy array?**
+   - [ ] It returns the total number of elements in the array.
+   - [ ] It returns the memory allocated for the array.
+   - [ ] It returns the data type of the array elements.
+   - [x] It returns a tuple indicating the size of the array in each dimension.
+
+   **Answer:** The shape attribute provides the array's dimensions as a tuple of integers.
+
+4. **What happens when you multiply a NumPy array by a scalar value?**
+   - [ ] Only the first row is multiplied by the scalar
+   - [x] Each element in the array is multiplied by the scalar value
+   - [ ] Only the diagonal elements are multiplied by the scalar
+   - [ ] The scalar becomes a new dimension in the array
+
+   **Answer:** When multiplying an array by a scalar, the operation is applied to every element in the array.
+
+5. **Given the following file content for "Example1.txt":**
+   This is line 1
+   This is line 2
+   This is line 3
+
+   **What would be the output of this code?**
+
+   ```python
+      with open("Example1.txt","r") as file1:
+         FileContent = file1.readline()
+         print(FileContent)
+   ```
+
+   - [x] This is line 1
+   - [ ] This
+   - [ ] Empty output
+   - [ ] This is line 1 This is line 2 This is line 3
+
+   **Answer:** The readline() method reads only the first line of the file.
+
+6. **Consider the following line of code:**
+
+   ```python
+      with open(example1,"r") as file1:
+   ```
+
+   **What mode is the file object in?**
+   - [ ] append
+   - [ ] write
+   - [x] read
+   - [ ] binary
+
+   **Answer:** The mode is set to "r" for read.
+
+7. **How can you write multiple lines to a file at once using a list?**
+   - [ ] Convert the list to a string first
+   - [ ] Use the insert() method to place lines in the file
+   - [x] Use a for loop to iterate through the list, writing each element with write()
+   - [ ] Use the print() function with a file parameter
+
+   **Answer:** You can iterate through a list and write each element to the file.
+
+8. **What task do the following lines of code accomplish?**
+
+   ```python
+      with open('Example2.txt','r') as readfile:
+         with open('Example3.txt','w') as writefile:
+            for line in readfile:
+                  writefile.write(line)
+   ```
+
+   - [x] Copying the text from Example2.txt to Example3.txt
+   - [ ] Checking the mode of the open function for each file object
+   - [ ] Printing out the content of Example2.txt
+   - [ ] Reading the content of Example2.txt
+
+   **Answer:** This is the expected outcome.
+
+9. **Using the loc method, how would you access the second row of a DataFrame's column named "artist"?**
+   - [ ] `df.artist[1]`
+   - [ ] `df.loc[2, 'artist']`
+   - [ ] `df.loc['artist', 1]`
+   - [x] `df.loc[1, 'artist']`
+
+   **Answer:** The loc method uses row index and column labels to access data.
+
+10. **What function would you use to load a CSV file in Pandas?**
+    - [x] `pd.read_csv(path)`
+    - [ ] `np.read_csv(path)`
+    - [ ] `pd.read_excel(path)`
+    - [ ] `pd.load_csv(path)`
+
+    **Answer:** The read_csv method will read the CSV file in Pandas.
+
+## Module 5 - APIs and Data Collection
+
+1. **A web developer is troubleshooting an HTTP response with a status code of 404. What does this indicate about the client’s request?**
+   - [x] The requested resource could not be found on the server
+   - [ ] The server encountered an internal error while processing the request
+   - [ ] The client lacks proper authentication to access the resource
+   - [ ] The request was successful, and the resource was retrieved
+
+   **Answer:** The 404 status code means “Not Found” and indicates that the server cannot find the requested resource.
+
+2. **What is the relationship between parent and child elements in an HTML document tree used in BeautifulSoup?**
+   - [ ] Child elements must always be of the same type as their parent elements
+   - [x] Child elements are nested within parent elements, allowing navigation up and down the tree
+   - [ ] Parent elements can only be accessed after all child elements are processed
+   - [ ] Parent elements can only contain a maximum of three child elements
+
+   **Answer:** BeautifulSoup represents HTML as a tree where nested tags become children of their containing tags.
+
+3. **A programmer is extracting cryptocurrency data using the PyCoinGecko API. When receiving the response, what format conversion is needed to work with the data as a Python dictionary?**
+   - [ ] Apply the csv() method to the response object
+   - [x] Apply the json() method to the response object
+   - [ ] Apply the xml() method to the response object
+   - [ ] Apply the text attribute to the response object
+
+   **Answer:** The json() method converts the JSON response to a Python dictionary that can be easily manipulated.
+
+4. **When working with time series data, what is the purpose of pandas’ to_datetime function?**
+   - [x] To convert timestamps into standard datetime objects for easier analysis and visualization
+   - [ ] To compare dates across multiple datasets
+   - [ ] To filter out non-business days from financial data
+   - [ ] To extract only the date portion from datetime objects
+
+   **Answer:** The to_datetime function standardizes time data, enabling proper sorting, filtering, and display of time-based information.
+
+5. **A web developer is creating an HTML table showing quarterly sales results. How should they structure the HTML to display this tabular data properly?**
+   - [x] Use a `<table>` tag with `<tr>` tags for rows and `<td>` tags for cells
+   - [ ] Use a `<form>` tag with `<input>` tags for each cell
+   - [ ] Use a `<div>` tag with `<span>` tags for each data point
+   - [ ] Use a `<p>` tag with `<br>` tags between each row
+
+   **Answer:** This structure creates proper HTML tables where `<tr>` defines rows and `<td>` defines individual cells within each row.
+
+6. **What is the difference between GET and POST HTTP methods when making requests?**
+   - [ ] GET requests can send files while POST requests cannot
+   - [ ] GET requests use JSON while POST requests use XML
+   - [x] GET requests include data in the URL, while POST requests send data in the request body
+   - [ ] GET requests are asynchronous, while POST requests are synchronous
+
+   **Answer:** This fundamental difference affects how data is transmitted and the visibility of parameters.
+
+7. **What distinguishes REST APIs from other types of APIs?**
+   - [ ] They are restricted to local communication within a single application
+   - [ ] They can only be implemented in Python
+   - [x] They communicate through the internet using HTTP methods and typically exchange data in formats like JSON
+   - [ ] They require specialized hardware to function
+
+   **Answer:** REST (Representational State Transfer) APIs use web protocols for communication between clients and servers.
+
+8. **What Python library would you use to parse XML files?**
+   - [ ] pandas.xml
+   - [ ] beautifulsoup.xml
+   - [ ] json.parser
+   - [x] xml.etree
+
+   **Answer:** `xml.etree` is a Python library module used to parse and work with XML files.
+
+9. **A developer is creating an application that needs to retrieve data from a REST API. Which code snippet correctly sends a GET request with parameters?**
+   - [ ] `import requests; r = requests.get('https://api.example.com/data?name=John&ID=123', data={'secure': True})`
+   - [x] `import requests; payload = {'name': 'John', 'ID': '123'}; r = requests.get('https://api.example.com/data', params=payload)`
+   - [ ] `import requests; r = requests.post('https://api.example.com/data', headers={'name': 'John', 'ID': '123'})`
+   - [ ] `import requests; r = requests.get('https://api.example.com/data', json={'name': 'John', 'ID': '123'})`
+
+   **Answer:** This properly formats a GET request with query parameters using the `params` argument.
+
+10. **A data scientist needs to extract player statistics from an NBA website. After obtaining the HTML, what BeautifulSoup method would help locate all table rows containing player data?**
+    - [ ] `soup.search('players')` to find player information
+    - [ ] `soup.extract('statistics')` to pull out statistical data
+    - [x] `soup.find_all('tr')` to identify all table rows
+    - [ ] `soup.read_table()` to automatically process the table
+
+    **Answer:** The `find_all` method returns all instances of the specified tag, allowing further processing of each row.

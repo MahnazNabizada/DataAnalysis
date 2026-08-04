@@ -339,3 +339,289 @@
    - [ ] abc1
 
    **Answer:** The function concatenates the string with the number 1.
+
+## Module 3 - Exception Handlings
+
+1. **Why do we use exception handlers?**
+   - [ ] To read a file
+   - [ ] To write a file
+   - [ ] To terminate a program
+   - [x] To catch errors within a program
+
+   **Answer:** Exception handlers catch errors in the codes.
+
+2. **What is the purpose of a try…except statement?**
+   - [ ] Executes only when a particular condition is true
+   - [ ] Executes the code block under a specific condition
+   - [ ] Crash a program when errors occur
+   - [x] Catch and handle exceptions when an error occurs
+
+   **Answer:** It handles code crashes in case of errors.
+
+3. **Consider the following code:**
+
+   ```python
+      a = 1
+      try:
+         b = int(input("Please enter a number to divide a: "))
+         a = a / b
+         print("Success a =", a)
+      except:
+         print("There was an error")
+   ```
+
+   **If the user enters the value of `b` as 0, what is expected as the output?**
+   - [ ] Success a=1/0
+   - [ ] ZeroDivisionError
+   - [ ] Success a=NaN
+   - [x] There was an error
+
+   **Answer:** This division will generate an error, leading to the exception part.
+
+## Module 3 - Objects and Classes
+
+1.  **Which of the following statements will create an object 'C1' for the class that uses radius as 4 and color as 'yellow'?**
+
+    ```python
+       class Circle(object):
+          # Constructor
+          def __init__(self, radius=3, color='blue'):
+             self.radius = radius
+             self.color = color
+
+          # Method
+          def add_radius(self, r):
+             self.radius = self.radius + r
+    ```
+
+    - [ ] `C1 = Circle('yellow', 4)`
+    - [ ] `C1.radius = Circle.radius(4)`
+    - [ ] `C1.color = Circle.color('yellow')`
+    - [x] `C1 = Circle(4, 'yellow')`
+    - [ ] `C1 = Circle()`
+
+    **Answer:** `C1 = Circle(4, 'yellow')` correctly creates an instance of the Circle class with C1 having a radius of 4 and its color set to 'yellow.'
+
+2.  **Consider the execution of the following lines of code:**
+
+    ```python
+       CircleObject = Circle()
+       CircleObject.radius = 10
+    ```
+
+    **What are the values of the radius and color attributes for the CircleObject after their execution?**
+
+    ```python
+       class Circle(object):
+          # Constructor
+          def __init__(self, radius=3, color='blue'):
+             self.radius = radius
+             self.color = color
+
+          # Method
+          def add_radius(self, r):
+             self.radius = self.radius + r
+             return self.radius
+    ```
+
+    - [ ] 10, 'red'
+    - [ ] 3, 'blue'
+    - [x] 10, 'blue'
+    - [ ] 3, 'red'
+
+    **Answer:** The radius attribute is updated to 10 while the color attribute is kept as default 'blue.'
+
+3.  **What is the color attribute of the object V1?**
+
+    ```python
+       class Vehicle:
+          color = "white"
+
+          def __init__(self, max_speed, mileage):
+             self.max_speed = max_speed
+             self.mileage = mileage
+             self.seating_capacity = None
+
+          def assign_seating_capacity(self, seating_capacity):
+             self.seating_capacity = seating_capacity
+
+       V1 = Vehicle(150, 25)
+    ```
+
+    - [x] 'white'
+    - [ ] Error in creation of object
+    - [ ] 25
+    - [ ] 150
+
+    **Answer:** The default setting for the 'color' attribute is 'white,' eliminating the need to pass it while creating the object.
+
+4.  **Which of the following options would create an appropriate object that points to a red, 5-seater vehicle with a maximum speed of 200kmph and a mileage of 20kmpl?**
+
+    ```python
+       class Vehicle:
+          color = "white"
+
+          def __init__(self, max_speed, mileage):
+             self.max_speed = max_speed
+             self.mileage = mileage
+             self.seating_capacity = None
+
+          def assign_seating_capacity(self, seating_capacity):
+             self.seating_capacity = seating_capacity
+
+       V1 = Vehicle(150, 25)
+    ```
+
+    - [ ] `Car = Vehicle(200, 20)`
+    - [x] `Car = Vehicle(200, 20) Car.color = 'red' Car.assign_seating_capacity(5)`
+    - [ ] `Car = Vehicle(200, 20) Car.color = 'red'`
+    - [ ] `Car = Vehicle(200, 20) Car.assign_seating_capacity(5)`
+
+    **Answer:** All attributes are correctly assigned here.
+
+5.  **What is the value printed upon execution of the code shown below?**
+
+    ```python
+    class Graph():
+       def __init__(self, id):
+          self.id = id
+          self.id = 80
+
+    val = Graph(200)
+    print(val.id)
+    ```
+
+    - [x] 80
+    - [ ] 200
+    - [ ] invalid syntax
+    - [ ] 0
+
+    **Answer:** The value of the attribute is overwritten to 80 every time the object is created, irrespective of the value of the attribute passed.
+
+## Module 4 - Pandas
+
+1. **What Python object do you cast to a data frame?**
+   - [ ] set
+   - [x] Dictionary
+   - [ ] tuple
+   - [ ] List
+
+   **Answer:** Dictionary can be cast to a data frame in Python.
+
+2. **How would you access the first row and first column in the DataFrame df?**
+   - [ ] `df.iloc[0,1]`
+   - [ ] `df.iloc[1,1]`
+   - [x] `df.iloc[0,0]`
+   - [ ] `df.iloc[1,0]`
+
+   **Answer:** As Python uses zero-based indexing, the output here will be the first row and first column.
+
+3. **What is the proper way to load a CSV file using pandas?**
+   - [x] `pandas.read_csv('data.csv')`
+   - [ ] `pandas.from_csv('data.csv')`
+   - [ ] `pandas.load_csv('data.csv')`
+   - [ ] `pandas.import_csv('data.csv')`
+
+   **Answer:** `pandas.read_csv('data.csv')` loads CSV files using pandas.
+
+4. **Assume that you have a data frame containing details of various musical artists, their famous albums, their genres, and various other parameters. Here, `Genre` is the fifth column in the sequence and there is an entry of "Disco" in the 7th row of the data. How would you select the Genre disco?**
+   - [x] `df.iloc[6, 4]`
+   - [ ] `df.iloc[6, 'genre']`
+   - [ ] `df.iloc[7, 5]`
+   - [ ] `df.iloc[7, 'Genre']`
+
+   **Answer:** `df.iloc[6, 4]` will return the genre "disco."
+
+5. **Assume that you have a data frame containing details of various musical artists, their famous albums, their genres, and various other parameters. Here, `Album` is the second column. How do we retrieve records from row 3 through row 6?**
+   - [x] `df.loc[2:5, 'Album']`
+   - [ ] `df.loc[2:5, 1]`
+   - [ ] `df.iloc[2:6, 3]`
+   - [ ] `df.loc[2, 'Album']`
+
+   **Answer:** `df.loc[2:5, 'Album']` will return the desired result.
+
+## Module 4 - NumPy
+
+1. **What Python library serves as a foundation for Pandas and is used for scientific computing?**
+   - [x] Numpy
+   - [ ] OS
+   - [ ] Requests
+   - [ ] datetime
+
+   **Answer:** Numpy serves as a foundation for Pandas and is used for scientific computing.
+
+2. **What attribute retrieves the number of elements in a numpy array?**
+   - [x] `a.size`
+   - [ ] `a.shape`
+   - [ ] `a.ndim`
+   - [ ] `a.dtype`
+
+   **Answer:** size will return the total number of elements in an array of any dimension.
+
+3. **How would you change the first element to 10 in this array?** `c = np.array([100,1,2,3,0])`
+   - [ ] `c[1]=10`
+   - [ ] `c[4]=10`
+   - [x] `c[0]=10`
+   - [ ] `c[2]=10`
+
+   **Answer:** Index 0 references the first element.
+
+## Module 5 - Simple APIs
+
+1. **What does API stand for?**
+   - [x] Application Programming Interface
+   - [ ] Application Programming Interaction
+   - [ ] Application Process Interface
+   - [ ] Automatic Program Interaction
+
+   **Answer:** API stands for Application Programming Interface.
+
+2. **Which data format is commonly found in the HTTP message for API requests?**
+   - [ ] XML
+   - [x] JSON
+   - [ ] HTML
+   - [ ] YAML
+
+   **Answer:** JSON is the most common data format found in HTTP message for API requests.
+
+3. **What is the primary purpose of an API?**
+   - [ ] To provide security to web applications.
+   - [ ] To design user interfaces for mobile applications.
+   - [x] To connect and enable communication between software applications.
+   - [ ] To handle server-side database operations.
+
+   **Answer:** Primary role of API is to establish a connection and enable communication between different parts of a software application.
+
+## Module 5 - REST APIs, Web Scraping, and Working with Files
+
+1. **What is the function of "GET" in HTTP requests?**
+   - [ ] Deletes a specific resource
+   - [ ] Returns the response from the client to the requestor
+   - [ ] Sends data to create or update a resource
+   - [x] Carries the request from the client to the server
+
+   **Answer:** GET carries the request from the client to the server.
+
+2. **What does URL stand for?**
+   - [ ] Uniform Resource Learning
+   - [ ] Uniform Request Location
+   - [x] Uniform Resource Locator
+   - [ ] Unilateral Resistance Locator
+
+   **Answer:** URL stands for Uniform Resource Locator and acts as a resource locator, which is why URLs are also called web addresses.
+
+3. **What does the file extension “csv” stand for?**
+   - [ ] Comma Serrated Values
+   - [x] Comma Separated Values
+   - [ ] Comma Separation Valuations
+   - [ ] Common Separated Variables
+
+   **Answer:** CSV stands for Comma Separated Values, a data format where each value is separated by a comma (`,`).
+
+4. **What is web scraping?**
+   - [ ] The process to describe communication options
+   - [x] The process to extract data from a particular website
+   - [ ] The process to request and retrieve information from a client
+   - [ ] The process to display all data within a URL
+
+   **Answer:** Web scraping is the process of extracting data from a web page.
