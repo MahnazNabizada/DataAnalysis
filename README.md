@@ -97,7 +97,7 @@ Inside each course:
 | 03  | [Data Visualization and Dashboards with Excel and Cognos](./learning/courses/ibm/dataanalyst/03-data-visualization-dashboards-excel-cognos/) | ✅ Complete | Basic and advanced charts, Excel dashboards, Cognos Analytics, Google Data Studio   |
 | 04  | [Python for Data Science, AI & Development](./learning/courses/ibm/dataanalyst/04-python-for-data-science-ai-development/)                   | ✅ Complete | Python core, data structures, OOP, file I/O, pandas, NumPy, REST APIs, web scraping |
 | 05  | [Python Project for Data Science](./learning/courses/ibm/dataanalyst/05-projects-for-data-science/)                                          | ✅ Complete | Applied extraction and visualization, stock and revenue data, dashboard building    |
-| 06  | [Databases and SQL for Data Science with Python](./learning/courses/ibm/dataanalyst/06-databases-sql-for-data-science-python/)               | ⏳ Module 4 | ER diagrams, relational modelling, Relational DB, Intermediate SQL                  |
+| 06  | [Databases and SQL for Data Science with Python](./learning/courses/ibm/dataanalyst/06-databases-sql-for-data-science-python/)               | ⏳ Module 5 | ER diagrams, relational modelling, Relational DB, Intermediate SQL                  |
 
 ---
 

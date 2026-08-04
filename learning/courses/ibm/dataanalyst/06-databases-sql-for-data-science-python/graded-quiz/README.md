@@ -195,3 +195,59 @@
    - [ ] `SELECT NAME, DATEADD(DOM, INTERVAL 1 YEAR) AS DOE FROM MEDS;`
 
    **Answer:** The `DATE_ADD()` function adds one year to the manufacturing date (`DOM`), and the `AS DOE` clause assigns the alias `DOE` to the calculated expiry date column.
+
+## Module 4 - Accessing databases using Python
+
+1. **Which of the following statements establishes the connection between a Jupyter Notebook SQL extension and an SQLite database `EMP.db`?**
+   - [x] `%sql sqlite:///EMP.db`
+   - [ ] `%sql`<br>`sqlite:///EMP.db`
+   - [ ] `%sql sqlite:/EMP.db`
+   - [ ] `%sql sqlite3://EMP.db`
+
+   **Answer:** `%sql sqlite:///EMP.db` is the correct syntax for establishing a connection between a Jupyter Notebook SQL extension and an SQLite database.
+
+2. **Which two of the following can be stated as uses of cell magic in Jupyter Notebooks?** _(Select two.)_
+   - [x] Coding in a Jupyter Notebook using a programming language other than Python.
+   - [ ] Converting Jupyter Notebook's default programming language to a desired one.
+   - [x] Timing a complete cell block as required.
+   - [ ] Loading an SQL database into a Jupyter Notebook.
+
+   **Answer:** Cell magic commands operate on an entire notebook cell. Common uses include executing code in languages other than Python (such as SQL) and timing the execution of an entire cell.
+
+3. **What would be the outcome of the following Python code?**
+
+   ```python
+   import sqlite3
+   import pandas as pd
+
+   conn = sqlite3.connect('HR.db')
+   data = pd.read_csv('./employees.csv')
+   data.to_sql('Employees', conn)
+   ```
+
+   - [x] The CSV file is read and converted into an SQL table `Employees` under the `HR` database.
+   - [ ] The CSV file is converted to an SQL file.
+   - [ ] The code throws a syntax error.
+   - [ ] The CSV file is saved to the `HR.db` file created by the code.
+
+   **Answer:** The `read_csv()` function loads the CSV file into a pandas DataFrame, and `to_sql()` writes that DataFrame to an SQL table named `Employees` in the SQLite database.
+
+4. **What is the correct way to query a database table using Python?** _(Choose two.)_
+   - [x] `out = pandas.read_sql(query_statement, connection_object)`
+   - [ ] `out = dataframe.read_sql(query_statement, connection_object)`
+   - [x]
+     ```python
+     cursor = connection.execute(query_statement)
+     out = cursor.fetchall()
+     ```
+   - [ ] `out = connection.execute(query_statement)`
+
+   **Answer:** You can query a database using either `pandas.read_sql()` to return the results as a DataFrame or by executing the query with a database cursor and retrieving the results using `fetchall()`.
+
+5. **Which of the following statements would you use to perform a statistical analysis of data in a pandas DataFrame `df`?**
+   - [x] `df.describe()`
+   - [ ] `df.head()`
+   - [ ] `df.tail()`
+   - [ ] `df.info()`
+
+   **Answer:** The `describe()` method generates descriptive statistics for the DataFrame, including count, mean, standard deviation, minimum, maximum, and quartile values.
