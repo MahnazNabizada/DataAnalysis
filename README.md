@@ -62,7 +62,8 @@ DataAnalysis/
 │               ├── 03-data-visualization-dashboards-excel-cognos/
 │               ├── 04-python-for-data-science-ai-development/
 │               ├── 05-projects-for-data-science/
-│               └── 06-databases-sql-for-data-science-python/
+|               ├── 06-databases-sql-for-data-science-python/
+│               └── 07-data-analysis-with-python/
 └── projects/
 ```
 
@@ -77,6 +78,7 @@ Inside each course:
 ├── assessments/
 │   └── blackboard/       # Scored module assessments
 ├── final-assignment/     # Capstone deliverable (naming varies per course)
+├── final-exam/           # Graded final course exam questions with answers (naming varies per course)
 ├── graded-quiz/          # Graded quizzes with answers
 └── practice-quiz/        # Ungraded practice questions
 ```
