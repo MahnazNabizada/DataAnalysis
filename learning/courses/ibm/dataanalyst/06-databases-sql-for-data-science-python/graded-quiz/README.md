@@ -251,3 +251,72 @@
    - [ ] `df.info()`
 
    **Answer:** The `describe()` method generates descriptive statistics for the DataFrame, including count, mean, standard deviation, minimum, maximum, and quartile values.
+
+## Module 5 - Graded Quiz on Assignment
+
+## SQL for Data Science: Chicago Datasets Quiz
+
+1. **What is the total number of crimes recorded in the CRIME table?**
+   - [ ] 53
+   - [ ] 433
+   - [x] 533
+   - [ ] 555
+
+2. **Which of the following is the correct query to list community areas (name and number) with per capita income less than 11000?**
+   - [ ] `SELECT COMMUNITY_AREA_NUMBER, COMMUNITY_AREA_NAME WHERE CENSUS_DATA FROM PER_CAPITA_INCOME<11000`
+   - [ ] `SELECT COMMUNITY AREA NUMBER, COMMUNITY_AREA_NAME FROM CENSUS_DATA WHERE PER_CAPITA_INCOME<11000`
+   - [x] `SELECT COMMUNITY_AREA_NUMBER, COMMUNITY_AREA_NAME FROM CENSUS_DATA WHERE PER_CAPITA_INCOME<11000`
+   - [ ] `SELECT COMMUNITY_AREA_NUMBER, COMMUNITY_AREA_NAME FROM CENSUS_DATA WHERE PER_CAPITA_INCOME>11000`
+
+3. **When you list all case numbers for crimes involving a minor, how many rows of data are retrieved?**
+   - [x] 2
+   - [ ] 1
+   - [ ] 4
+   - [ ] 3
+
+4. **Which of the following can be used as a query for identifying all kidnapping crimes involving a child?**
+   - [x] `SELECT * FROM CHICAGO_CRIME_DATA WHERE PRIMARY_TYPE = "KIDNAPPING" AND DESCRIPTION LIKE "%CHILD%"`
+   - [ ] `SELECT * FROM CHICAGO_CRIME_DATA WHERE PRIMARY_TYPE = "KIDNAPPING" AND DESCRIPTION = "%CHILD%"`
+   - [ ] `SELECT * FROM CHICAGO_CRIME_DATA WHERE PRIMARY_TYPE = "KIDNAPPING"`
+   - [ ] `SELECT * FROM CHICAGO_CRIME_DATA WHERE DESCRIPTION LIKE "%CHILD%"`
+
+5. **Which two of the following clauses did you use to get the unique list of the types of crimes recorded in schools?**
+   - [ ] COUNT
+   - [ ] AVERAGE
+   - [x] DISTINCT
+   - [x] LIKE
+
+6. **What was the average safety score for middle schools?**
+   - [ ] 49.52
+   - [ ] 48.0
+   - [ ] 46.42
+   - [x] 49.62
+
+7. **What would you add to the following query to list five community areas with the highest % of households below the poverty line?**
+
+   ```sql
+      SELECT COMMUNITY_AREA_NAME FROM CENSUS_DATA ___________;
+   ```
+
+   - [ ] `ORDER BY PERCENT_HOUSEHOLDS_BELOW_POVERTY DESC`
+   - [ ] `ORDER BY PERCENT_HOUSEHOLDS_BELOW_POVERTY LIMIT 5`
+   - [x] `ORDER BY PERCENT_HOUSEHOLDS_BELOW_POVERTY DESC LIMIT 5`
+   - [ ] `ORDER BY PERCENT_HOUSEHOLDS_BELOW_POVERTY DESC LIMIT`
+
+8. **Which community area number has the most criminal incidents (most crime-prone)?**
+   - [x] 25.0
+   - [ ] 20.0
+   - [ ] 23.0
+   - [ ] 36.0
+
+9. **Which of the following would be the correct way to use a sub-query to find the name of the community area with the highest hardship index?**
+   - [ ] `SELECT COMMUNITY_AREA_NAME FROM CENSUS_DATA WHERE HARDSHIP_INDEX IN (SELECT HARDSHIP_INDEX FROM CENSUS_DATA;`
+   - [ ] `SELECT COMMUNITY_AREA_NAME FROM CENSUS_DATA WHERE HARDSHIP_INDEX IN (SELECT MOST(HARDSHIP_INDEX) FROM CENSUS_DATA);`
+   - [x] `SELECT COMMUNITY_AREA_NAME FROM CENSUS_DATA WHERE HARDSHIP_INDEX IN (SELECT MAX(HARDSHIP_INDEX) FROM CENSUS_DATA);`
+   - [ ] `SELECT COMMUNITY_AREA_NAME FROM CENSUS_DATA WHERE HARDSHIP_INDEX AS (SELECT MAX(HARDSHIP_INDEX) FROM CENSUS_DATA);`
+
+10. **What is the name of the community with the most number of crimes?**
+    - [x] Austin
+    - [ ] Englewood
+    - [ ] Fuller Park
+    - [ ] Riverdale
