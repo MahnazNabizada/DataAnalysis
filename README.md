@@ -98,6 +98,7 @@ Inside each course:
 | 04  | [Python for Data Science, AI & Development](./learning/courses/ibm/dataanalyst/04-python-for-data-science-ai-development/)                   | ✅ Complete | Python core, data structures, OOP, file I/O, pandas, NumPy, REST APIs, web scraping                  |
 | 05  | [Python Project for Data Science](./learning/courses/ibm/dataanalyst/05-projects-for-data-science/)                                          | ✅ Complete | Applied extraction and visualization, stock and revenue data, dashboard building                     |
 | 06  | [Databases and SQL for Data Science with Python](./learning/courses/ibm/dataanalyst/06-databases-sql-for-data-science-python/)               | ✅ Complete | ER diagrams, relational modelling, Relational DB, Intermediate SQL, Accessing Databases using Python |
+| 07  | [Data Analysis with Python](./learning/courses/ibm/dataanalyst/07-data-analysis-with-python/)                                                | ⏳ Module 1 | Importing Data Sets                                                                                  |
 
 ---
 

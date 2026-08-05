@@ -216,3 +216,121 @@
    - [ ] False
 
    **Answer:** Correct.
+
+## Bonus Module 6 - Views, Stored Procedures, and Transactions
+
+1. **Which of the following statements about SQL views is correct?**
+   - [ ] You cannot change data in the base tables through a view.
+   - [ ] A view is an independent copy of a single table's structure, including the data.
+   - [ ] A view can only represent data from a single table.
+   - [x] When you define a view, only the definition of the view is stored, not the data that it represents.
+
+   **Answer:** A view stores only the SQL query (its definition). The underlying data remains in the base tables and is retrieved whenever the view is queried.
+
+2. **Which SQL statement creates a view displaying job names and salary ranges for jobs where the salary range is between 50,000 and 100,000?**
+   - [ ]
+     ```sql
+     CREATE VIEW
+     AS
+     SELECT JOB_TITLE, MIN_SALARY, MAX_SALARY
+     FROM JOBS
+     WHERE MIN_SALARY > 50000
+       AND MAX_SALARY < 100000;
+     ```
+   - [x]
+     ```sql
+     CREATE VIEW JobSalaryRanges(Job, StartingSalary, MaximumSalary)
+     AS
+     SELECT JOB_TITLE, MIN_SALARY, MAX_SALARY
+     FROM JOBS
+     WHERE MIN_SALARY >= 50000
+       AND MAX_SALARY <= 100000;
+     ```
+   - [ ]
+     ```sql
+     CREATE VIEW JobSalaryRanges(Job, StartingSalary, MaximumSalary)
+     AS
+     SELECT JOB_TITLE, MIN_SALARY, MAX_SALARY
+     FROM JOBS
+     WHERE SALARY > 50000
+       AND SALARY < 100000;
+     ```
+   - [ ]
+     ```sql
+     CREATE VIEW JobSalaryRanges(Job, StartingSalary, MaximumSalary)
+     FROM JOBS
+     WHERE MIN_SALARY > 50000
+       AND MAX_SALARY < 100000;
+     ```
+
+   **Answer:** A valid `CREATE VIEW` statement requires the `AS SELECT` clause, and the `WHERE` clause correctly filters jobs whose minimum and maximum salaries fall within the specified range.
+
+3. **Which of the following are benefits of stored procedures?**
+   - [x] All are valid benefits.
+   - [ ] Reduction in network traffic.
+   - [ ] Reuse of code.
+   - [ ] Improvement in performance.
+
+   **Answer:** Stored procedures provide several advantages, including **code reuse**, **reduced network traffic**, and **improved performance**, making **"All are valid benefits"** the correct answer.
+
+4. **Which of the following parameters can a stored procedure use?**
+   - [x] Input and output parameters.
+   - [ ] No parameters, as a stored procedure cannot accept parameters.
+   - [ ] Input parameters.
+   - [ ] Output parameters.
+
+   **Answer:** Stored procedures can accept **input parameters**, return **output parameters**, or use both to pass values into and out of the procedure.
+
+5. **What does ACID stand for?**
+   - [ ] Asynchronous, Complete, Individual, Direct.
+   - [x] Atomic, Consistent, Isolated, Durable.
+   - [ ] Atomic, Consistent, Initiated, Duplicated.
+   - [ ] Alternative, Creative, Isolated, Durable.
+
+   **Answer:** ACID is a set of properties that ensure reliable database transactions:
+   - **Atomicity** – A transaction is completed entirely or not at all.
+   - **Consistency** – A transaction leaves the database in a valid state.
+   - **Isolation** – Concurrent transactions do not interfere with one another.
+   - **Durability** – Once committed, changes are permanent, even after a system failure.
+
+## Bonus Module 6 - JOIN Statements
+
+1. **You usually create a join between...?**
+   - [ ] The foreign keys in each table.
+   - [ ] Any column in either table.
+   - [x] The primary key in one table and the foreign key in another table.
+   - [ ] The primary keys in each table.
+
+   **Answer:** Joins are typically created by matching a **primary key** in one table with a corresponding **foreign key** in another table.
+
+2. **Which type of join returns all of the rows that an inner join returns and also all of the rows in the second table that do not have a match in the first table?**
+   - [ ] Full outer join
+   - [ ] Left outer join
+   - [ ] Left inner join
+   - [x] Right outer join
+
+   **Answer:** A **RIGHT OUTER JOIN** returns all matching rows plus all rows from the right (second) table, even if they have no corresponding match in the left table.
+
+3. **Which of the following statements correctly uses an `INNER JOIN`?**
+   - [ ] `SELECT * FROM EMPLOYEES e INNER JOIN DEPARTMENTS d ON DEP_ID`
+   - [ ] `SELECT * FROM EMPLOYEES INNER JOIN DEPARTMENTS ON DEP_ID = DEP_ID`
+   - [ ] `CREATE INNER JOIN BETWEEN EMPLOYEES e AND DEPARTMENTS d ON e.DEP_ID = d.DEP_ID`
+   - [x] `SELECT * FROM EMPLOYEES e INNER JOIN DEPARTMENTS d ON e.DEP_ID = d.DEP_ID`
+
+   **Answer:** When the join columns have the same name in both tables, you should qualify them using the table name or alias to avoid ambiguity.
+
+4. **Which of the following are the three valid types of outer join?**
+   - [ ] Left outer join, right outer join, left/right outer join
+   - [ ] Left outer join, right outer join, both outer join
+   - [x] Left outer join, right outer join, full outer join
+   - [ ] Left outer join, right outer join, total outer join
+
+   **Answer:** SQL supports three types of outer joins: **LEFT OUTER JOIN**, **RIGHT OUTER JOIN**, and **FULL OUTER JOIN**.
+
+5. **Which type of join would you use to select all the rows from both tables?**
+   - [ ] Left outer join
+   - [ ] Right outer join
+   - [x] Full outer join
+   - [ ] Total outer join
+
+   **Answer:** A **FULL OUTER JOIN** returns every row from both tables, including matching rows and non-matching rows from each side.
