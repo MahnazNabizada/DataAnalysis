@@ -93,15 +93,15 @@ Inside each course:
 
 **Track:** IBM Data Analyst — [`learning/courses/ibm/dataanalyst/`](./learning/courses/ibm/dataanalyst/)
 
-| #   | Course                                                                                                                                       | Status      | Topics                                                                                               |
-| :-- | :------------------------------------------------------------------------------------------------------------------------------------------- | :---------- | :--------------------------------------------------------------------------------------------------- |
-| 01  | [Introduction to Data Analytics](./learning/courses/ibm/dataanalyst/01-introduction-to-data-analytics/)                                      | ✅ Complete | Analytics fundamentals, data ecosystems, case analysis, outlier identification                       |
-| 02  | [Excel Basics for Data Analysis](./learning/courses/ibm/dataanalyst/02-excel-basics-for-data-analysis/)                                      | ✅ Complete | Data editing and formatting, cleaning, filtering and sorting, pivot tables                           |
-| 03  | [Data Visualization and Dashboards with Excel and Cognos](./learning/courses/ibm/dataanalyst/03-data-visualization-dashboards-excel-cognos/) | ✅ Complete | Basic and advanced charts, Excel dashboards, Cognos Analytics, Google Data Studio                    |
-| 04  | [Python for Data Science, AI & Development](./learning/courses/ibm/dataanalyst/04-python-for-data-science-ai-development/)                   | ✅ Complete | Python core, data structures, OOP, file I/O, pandas, NumPy, REST APIs, web scraping                  |
-| 05  | [Python Project for Data Science](./learning/courses/ibm/dataanalyst/05-projects-for-data-science/)                                          | ✅ Complete | Applied extraction and visualization, stock and revenue data, dashboard building                     |
-| 06  | [Databases and SQL for Data Science with Python](./learning/courses/ibm/dataanalyst/06-databases-sql-for-data-science-python/)               | ✅ Complete | ER diagrams, relational modelling, Relational DB, Intermediate SQL, Accessing Databases using Python |
-| 07  | [Data Analysis with Python](./learning/courses/ibm/dataanalyst/07-data-analysis-with-python/)                                                | ⏳ Module 2 | Importing Data Sets, Data Wrangling                                                                  |
+| #   | Course                                                                                                                                       | Status  | Topics                                                                                               |
+| :-- | :------------------------------------------------------------------------------------------------------------------------------------------- | :------ | :--------------------------------------------------------------------------------------------------- |
+| 01  | [Introduction to Data Analytics](./learning/courses/ibm/dataanalyst/01-introduction-to-data-analytics/)                                      | ✅ Done | Analytics fundamentals, data ecosystems, case analysis, outlier identification                       |
+| 02  | [Excel Basics for Data Analysis](./learning/courses/ibm/dataanalyst/02-excel-basics-for-data-analysis/)                                      | ✅ Done | Data editing and formatting, cleaning, filtering and sorting, pivot tables                           |
+| 03  | [Data Visualization and Dashboards with Excel and Cognos](./learning/courses/ibm/dataanalyst/03-data-visualization-dashboards-excel-cognos/) | ✅ Done | Basic and advanced charts, Excel dashboards, Cognos Analytics, Google Data Studio                    |
+| 04  | [Python for Data Science, AI & Development](./learning/courses/ibm/dataanalyst/04-python-for-data-science-ai-development/)                   | ✅ Done | Python core, data structures, OOP, file I/O, pandas, NumPy, REST APIs, web scraping                  |
+| 05  | [Python Project for Data Science](./learning/courses/ibm/dataanalyst/05-projects-for-data-science/)                                          | ✅ Done | Applied extraction and visualization, stock and revenue data, dashboard building                     |
+| 06  | [Databases and SQL for Data Science with Python](./learning/courses/ibm/dataanalyst/06-databases-sql-for-data-science-python/)               | ✅ Done | ER diagrams, relational modelling, Relational DB, Intermediate SQL, Accessing Databases using Python |
+| 07  | [Data Analysis with Python](./learning/courses/ibm/dataanalyst/07-data-analysis-with-python/)                                                | ⏳ M2   | Importing Data Sets, Data Wrangling                                                                  |
 
 ---
 
