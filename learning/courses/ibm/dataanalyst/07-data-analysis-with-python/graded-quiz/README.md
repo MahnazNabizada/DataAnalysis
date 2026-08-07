@@ -86,3 +86,69 @@
     - [ ] Run SQL using `execute()` directly
 
     **Answer:** Establishing a connection is the mandatory first step. It tells Python which database file to interact with and prepares the environment for SQL commands.
+
+## Module 2- Data Wrangling
+
+1. **Which method replaces a missing value in a column with continuous numeric data most appropriately?**
+   - [x] Use the average of the other values in the column
+   - [ ] Apply the mean square error of the other data in the column
+   - [ ] Use an educated guess to replace values in the column
+   - [ ] Use the difference between the minimum and maximum values
+
+   **Answer:** The average is often a good choice to fill in a missing value for an attribute with continuous values.
+
+2. **You need to decide on bin values while preprocessing continuous data. What should you do first?**
+   - [ ] Use the interquartile range value
+   - [ ] Convert object data types
+   - [ ] Divide the average by the standard deviation
+   - [x] Visualize the distribution of histogram
+
+   **Answer:** Creating a histogram of values can help you decide how to group your data.
+
+3. **You need to check and convert column names and units in a dataset using methods like rename() and astype(). What Pandas structure allows you to perform these operations across multiple features at once?**
+   - [x] DataFrame
+   - [ ] float
+   - [ ] int
+   - [ ] object
+
+   **Answer:** A DataFrame is the core structure in Pandas that allows you to manipulate entire datasets, including renaming columns, converting data types, and performing unit conversions.
+
+4. **Meera is scaling her dataset before feeding it into a model. She wants all features to be on a similar range. What is the purpose of this process?**
+   - [ ] Eliminate data outliers and incorrect values
+   - [ ] Remove missing entries from the dataset
+   - [x] Scale features to similar value ranges
+   - [ ] Set all features equal in values
+
+   **Answer:** Normalization scales features to a similar range, ensuring fair comparisons and balanced model influence.
+
+5. **Which function transforms categorical values into numerical columns suitable for analysis?**
+   - [x] Encode categories as numbers
+   - [ ] Transform column data types
+   - [ ] Converts numerical into labels
+   - [ ] Assign values to fixed bins
+
+   **Answer:** It creates a separate column with names as the variable's categorical value entries and assigns numerical values to each column based on the value of the actual attribute.
+
+6. **Which of the following is the correct sequence of steps in a typical data pre-processing pipeline?**
+   - [ ] Encoding → Visualization → Modeling → Cleaning
+   - [ ] Data import → Modeling → Normalization → Visualization
+   - [ ] Modeling → Normalization → Cleaning → Encoding
+   - [x] Cleaning → Formatting → Normalization → Encoding
+
+   **Answer:** The standard flow is to clean data, standardize formats, normalize values, and encode categorical variables.
+
+7. **Ahmed wants to prepare the "fuel type" column with values like "gas" and "diesel" for model training. What should he use?**
+   - [x] `get_dummies()`
+   - [ ] `dropna()`
+   - [ ] `astype()`
+   - [ ] `cut()`
+
+   **Answer:** The `get_dummies()` method transforms each category into its own column.
+
+8. **In a customer survey dataset, you found that the value "N/A" is used inconsistently to represent missing data, and you want to convert all "N/A" entries to actual NaN values for proper handling. Which Pandas function should you use in this scenario?**
+   - [ ] `dropna()`
+   - [ ] `astype()`
+   - [x] `replace()`
+   - [ ] `fillna()`
+
+   **Answer:** To replace missing values like NaNs with actual values, the Pandas library has a built-in method called `replace()`, which can be used to fill in the missing values with the newly calculated values.

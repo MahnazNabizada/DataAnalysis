@@ -39,3 +39,37 @@
    - [ ] `df.describe(include="summary")`
 
    **Answer:** By passing `include="all"`, you tell Pandas to calculate statistics for every column regardless of type. For text columns, it will provide the number of unique values, the most frequent value, and its frequency.
+
+## Module 2 - Data Wrangling
+
+1. **What is the correct syntax to access a column, say "symboling," from a dataframe, say df?**
+   - [ ] `df.get("symboling")`
+   - [x] `df["symboling"]`
+   - [ ] `df="symboling"`
+   - [ ] `df=="symboling"`
+
+   **Answer:** This is the correct syntax for accessing the column "symboling" from the data frame df.
+
+2. **How would you change the name of the column "city_mpg" to "city-L/100km"?**
+   - [ ] `df.rename(columns={"city_mpg": "city-L/100km"})`
+   - [ ] `df.columnname={"city_mpg": "city-L/100km"})`
+   - [ ] `df.columnheader(columns={"city_mpg": "city-L/100km"}, inplace=True)`
+   - [x] `df.rename(columns={"city_mpg": "city-L/100km"}, inplace=True)`
+
+   **Answer:** You rename the column "city_mpg" to "city-L/100km" using this syntax.
+
+3. **What is the primary purpose of normalization?**
+   - [ ] So all the variables have a similar influence on the models you build
+   - [x] To make the range of the values consistent and make comparing and analyzing values easier
+   - [ ] It brings data into a common standard of expression
+   - [ ] To get rid of "not a number" or NaN values
+
+   **Answer:** Normalization makes it so the range of values for a variable is consistent.
+
+4. **Why do we convert categorical variables into numerical values?**
+   - [x] Most statistical models require numerical values
+   - [ ] It makes it easier to visualize the data
+   - [ ] It makes it easier to fill in missing data
+   - [ ] To save memory
+
+   **Answer:** It is easier to deal with numerical values in statistical models than categorical variables.
