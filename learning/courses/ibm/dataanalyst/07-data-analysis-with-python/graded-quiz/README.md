@@ -87,7 +87,7 @@
 
     **Answer:** Establishing a connection is the mandatory first step. It tells Python which database file to interact with and prepares the environment for SQL commands.
 
-## Module 2- Data Wrangling
+## Module 2 - Data Wrangling
 
 1. **Which method replaces a missing value in a column with continuous numeric data most appropriately?**
    - [x] Use the average of the other values in the column
@@ -152,3 +152,45 @@
    - [ ] `fillna()`
 
    **Answer:** To replace missing values like NaNs with actual values, the Pandas library has a built-in method called `replace()`, which can be used to fill in the missing values with the newly calculated values.
+
+## Module 3 - Exploratory Data Analysis
+
+1. **While exploring a dataset with Pandas, Elina wants to view summary statistics such as count, mean, and standard deviation. What should she use?** — 1/1
+   - [ ] `summary()`
+   - [x] `describe()`
+   - [ ] `head()`
+   - [ ] `tail()`
+
+   **Answer:** The method described provides summary statistics.
+
+2. **What does a Pearson Correlation value near zero most likely indicate about two variables?** — 1/1
+   - [x] The variables are likely not correlated.
+   - [ ] The values of one variable deviate very little from the mean.
+   - [ ] The meaning of both variables is near zero.
+   - [ ] The correlation between variables is inconclusive.
+
+   **Answer:** The Pearson Correlation indicates the strength of the correlation between two variables.
+
+3. **You want to reshape grouped data so that one variable appears in rows and another in columns. Which Pandas method helps restructure this data into a more readable tabular format?** — 1/1
+   - [ ] `merge()`
+   - [x] `pivot()`
+   - [ ] `pcolor()`
+   - [ ] `groupby()`
+
+   **Answer:** The `pivot()` method rearranges data, so one variable becomes columns and another becomes rows, making the table easier to interpret.
+
+4. **Sara filters a dataset to include just the 'body-style' and 'price' columns. She then uses groupby with mean() to analyze it. What does this operation calculate?** — 1/1
+   - [x] It calculates the average price for each body style.
+   - [ ] It calculates the average price for all vehicles.
+   - [ ] It calculates the average body-style categories.
+   - [ ] It writes the mean price for each body style to the data frame.
+
+   **Answer:** The `groupby.mean()` method finds the means of different groups of values.
+
+5. **You have analyzed that as highway miles per gallon (MPG) increase, the car price tends to decrease on a scatter plot with a regression line. What type of correlation exists between highway MPG and price?**
+   - [ ] No correlation
+   - [ ] Cyclical correlation
+   - [x] Negative correlation
+   - [ ] Positive correlation
+
+   **Answer:** When the slope of the line is steep, it means that highway miles per gallon is still a good predictor of price. These two variables are said to have a negative correlation.

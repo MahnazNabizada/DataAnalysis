@@ -73,3 +73,50 @@
    - [ ] To save memory
 
    **Answer:** It is easier to deal with numerical values in statistical models than categorical variables.
+
+## Module 3 - Exploratory Data Analysis
+
+1. **Which method produces the following type of plot?**
+
+   <img src="./images/scatter.png" alt="A scatter plot chart" width="500"><br>
+   - [ ] `plot.box()`
+   - [ ] `plot.graph()`
+   - [x] `plot.scatter()`
+   - [ ] `plot.dot()`
+
+   **Answer:** The `plot.scatter()` method produces a scatter plot with the characteristics shown.
+
+2. **Select the appropriate description of a pivot table:**
+   - [ ] You can convert a pivot table to a Python dictionary.
+   - [x] A pivot table has one variable displayed along the columns and the other variable displayed along the rows.
+   - [ ] A pivot table should only contain object data types.
+   - [ ] A pivot table contains descriptive statistics in each column.
+
+   **Answer:** A pivot table organizes data by displaying one variable along the columns and another variable along the rows.
+
+3. **Select the scatter plot with a weak correlation:**
+   - [x]
+
+      <img src="./images/correlation1.png" alt="A chart showing an example 01 of correlation" width="500">
+
+   - [ ]
+
+      <img src="./images/correlation2.png" alt="A chart showing an example 02 of correlation" width="500">
+
+   - [ ]
+
+      <img src="./images/correlation3.png" alt="A chart showing an example 03 of correlation" width="500">
+
+   - [ ] None of these
+
+   **Answer:** The plot shows little relationship between the two variables.
+
+4. **Consider the following scatter plots a, b, and c. Which plot has the highest correlation coefficient?**
+
+   ![Three charts of different slopes](./images/correlations-coefficient.png)
+   - [ ] b
+   - [x] They all have the same value.
+   - [ ] c
+   - [ ] a
+
+   **Answer:** Correlation is not related to the slope of the line.
