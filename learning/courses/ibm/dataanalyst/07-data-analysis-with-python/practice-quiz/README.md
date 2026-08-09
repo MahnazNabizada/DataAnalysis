@@ -120,3 +120,57 @@
    - [ ] a
 
    **Answer:** Correlation is not related to the slope of the line.
+
+## Module 4 - Model Development
+
+1. **Consider the following lines of code. What is the name of the column that contains the target values?**
+
+   ```python
+      from sklearn.linear_model import LinearRegression
+      lm = LinearRegression()
+      X = df[['highway-mpg']]
+      Y = df['price']
+      lm.fit(X, Y)
+      Yhat = lm.predict(X)
+   ```
+
+   - [ ] 'highway-mpg'
+   - [ ] fit
+   - [x] 'price'
+   - [ ] Yhat
+
+   **Answer:** This is the column name of the target values.
+
+2. **Consider the following Residual Plot from a linear model. What information does it give you?**
+
+   <img src="./images/linearregression.png" alt="A chart showing an example of linear regression" width="500"><br>
+   - [ ] Since it does not show a pattern in the error values, it indicates the linear model is a good fit.
+   - [ ] Since it does not show a pattern in the error values, it indicates the linear model is not a good fit.
+   - [x] Since it shows a pattern in the error values, it indicates the linear model is not a good fit.
+
+   **Answer:** The variance of the residuals increases with x, which indicates that the model is not a good fit.
+
+3. **Which statement is most accurate about a higher-order polynomial model than a linear one?**
+   - [x] You cannot compare their R2 values to decide which is a better fit.
+   - [ ] The linear model will usually appear to fit the data better.
+   - [ ] When you compare their R2 values, the larger value indicates the better fit.
+   - [ ] When you compare their R2 values, the smaller value indicates the better fit.
+
+   **Answer:** Higher-order polynomials usually fit the data better because they have more curvature, so the R2 value does not provide this information.
+
+4. **Consider the following lines of code. What value does the variable out contain?**
+
+   ```python
+      lm = LinearRegression()
+      X = df[['highway-mpg']]
+      Y = df['price']
+      lm.fit(X, Y)
+      out = lm.score(X, Y)
+   ```
+
+   - [ ] A multiple linear regression
+   - [ ] Mean Squared Error with respect to X
+   - [x] The Coefficient of Determination
+   - [ ] Mean Square Error with respect to y.
+
+   **Answer:** The `score()` method will calculate the coefficient of determination of a linear regression model.

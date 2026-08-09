@@ -194,3 +194,50 @@
    - [ ] Positive correlation
 
    **Answer:** When the slope of the line is steep, it means that highway miles per gallon is still a good predictor of price. These two variables are said to have a negative correlation.
+
+## Module 4 - Model Development
+
+1. **Thomas came across the code `LinearRegression()`, while building a machine learning pipeline. Which of the following is correct about this code line?** — 1/1
+   - [x] Initializes and stores regression model in the lm variable
+   - [ ] Predicts outcomes using the lm model
+   - [ ] Evaluates the performance of the lm model
+   - [ ] Fits training data to the lm object
+
+   **Answer:** The code uses the constructor to initialize a linear regression model and assigns it to the lm variable.
+
+2. **A data analyst is evaluating the performance of a linear regression model using a residual plot. What pattern indicates that the model fits the data well?** — 1/1
+   - [ ] Residuals align directly with the fitted regression line.
+   - [ ] Residuals form a clear upward-sloping pattern.
+   - [ ] Residuals increase steadily as predictor values increase.
+   - [x] Residuals are randomly scattered around the zero line.
+
+   **Answer:** Randomly scattered residuals around the zero line indicate that the model captures the data's trend without systematic bias. Patterns or trends in the residuals suggest model misfit or violations of regression assumptions.
+
+3. **What is the order of a polynomial created with this code?**
+
+   ```python
+      Pr = PolynomialFeatures(degree=2)
+   ```
+
+   - [x] A polynomial of degree 2
+   - [ ] A maximum of 2
+   - [ ] A minimum of 2
+   - [ ] Between 0 and 2, inclusive
+
+   **Answer:** You can use the code `PolynomialFeatures(degree=2)` to create a 2nd-order polynomial.
+
+4. **An engineer is plotting a regression and mean lines for their model and sees that the blue regression mean square error (MSE) area is much smaller than the red mean line MSE area. What can be inferred about the regression model's fit?** — 1/1
+   - [ ] It adds variations to predictions.
+   - [ ] It copies the mean of the data.
+   - [ ] It performs poorly overall.
+   - [x] It captures data trends well.
+
+   **Answer:** Smaller blue squares (regression MSE) compared to the red ones (mean MSE) suggest that the model explains the data better than using just the mean.
+
+5. **Romy is predicting car prices using a model, showing a value of $13,771.30 for a car with 30 highway miles per gallon (MPG). What should he do next to ensure that the results make sense?**
+   - [x] Analyze values to validate their range
+   - [ ] Compare values using a residual plot
+   - [ ] Plot results using a regression graph
+   - [ ] Fit the model again using the same data
+
+   **Answer:** Before trusting predictions from the model, you should validate that the output is realistic and within expected bounds. This helps validate the model's usefulness.
