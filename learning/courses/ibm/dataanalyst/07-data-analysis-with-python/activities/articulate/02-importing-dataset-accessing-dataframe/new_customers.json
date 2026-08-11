@@ -1,0 +1,38 @@
+[
+    {
+        "customers":{
+            "customer_id":101,
+            "name":"Aisha Khan",
+            "email":"aisha.khan@example.com",
+            "purchase_history":[
+                {
+                    "order_id":"ORD-001",
+                    "date":"2025-01-10",
+                    "amount":89.99,
+                    "status":"Completed"
+                },
+                {
+                    "order_id":"ORD-004",
+                    "date":"2025-02-14",
+                    "amount":129.5,
+                    "status":"Pending"
+                }
+            ]
+        }
+    },
+    {
+        "customers":{
+            "customer_id":102,
+            "name":"David Chen",
+            "email":"david.chen@example.com",
+            "purchase_history":[
+                {
+                    "order_id":"ORD-002",
+                    "date":"2025-01-12",
+                    "amount":45.0,
+                    "status":"Completed"
+                }
+            ]
+        }
+    }
+]
