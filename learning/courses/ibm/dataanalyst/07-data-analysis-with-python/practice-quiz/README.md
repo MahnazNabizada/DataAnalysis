@@ -174,3 +174,49 @@
    - [ ] Mean Square Error with respect to y.
 
    **Answer:** The `score()` method will calculate the coefficient of determination of a linear regression model.
+
+# Module 5 - Model Evaluation and Refinement
+
+1. **What function randomly splits a data set into training and testing subsets?**
+   - [ ] `cross_val_score()`
+   - [x] `train_test_split()`
+   - [ ] `cross_val_predict()`
+   - [ ] `train_test(split=x)`
+
+   **Answer:** Correct! The function train_test_split() randomly splits a data set into training and testing subsets.
+
+2. **Consider the model in blue and the samples in blue dots. Which model has the best fit?**
+
+   <img src="./images/modelbestfit.png" alt="Model examples" width="500"><br>
+   - [ ] a
+   - [x] b
+   - [ ] c
+
+   **Answer:** Correct! The model seems to fit the data well.
+
+3. **In the following plot, the vertical axis shows the mean square error, and the horizontal axis represents the order of the polynomial. The red line represents the training error, and the blue line is the test error. Which order polynomial does this plot indicate you should use for your model?**
+
+   <img src="./images/polymonial.png" alt="Model examples" width="500"><br>
+   - [ ] 16
+   - [ ] 2
+   - [x] 8
+
+   **Answer:** Correct! You should use the test error to help you determine the order of your model.
+
+4. **The following models were all trained on the same data. Select the model with the highest alpha value.**
+
+   <img src="./images/trainedmodelshighestalpha.png" alt="Model examples" width="500"><br>
+   - [ ] a
+   - [ ] b
+   - [x] c
+
+   **Answer:** Correct! The highest alpha value is usually the model with the most underfitting.
+
+5. **The following models were all trained on the same data. Select the model with the lowest value for alpha.**
+
+   <img src="./images/trainedmodelslowestalpha.png" alt="Model examples" width="500"><br>
+   - [x] a
+   - [ ] b
+   - [ ] c
+
+   **Answer:** Correct! The lowest alpha value is usually the model with the most overfitting.

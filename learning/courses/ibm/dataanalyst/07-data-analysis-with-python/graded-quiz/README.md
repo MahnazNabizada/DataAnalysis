@@ -241,3 +241,50 @@
    - [ ] Fit the model again using the same data
 
    **Answer:** Before trusting predictions from the model, you should validate that the output is realistic and within expected bounds. This helps validate the model's usefulness.
+
+## Module 5 - Model Evaluation and Refinement
+
+1. **What is the result of the following code?**
+
+   ```python
+      cross_val_predict(lr2e, x_data, y_data, cv=3)
+   ```
+
+   - [ ] Calculated the average R2 score for each of the two folds
+   - [x] Predicted test values computed using cross-validation
+   - [ ] Evaluated a model on three different training datasets.
+   - [ ] Measured residual errors on the training datasets.
+
+   **Answer:** The method `cross_val_predict()` predicts values using cross-validation.
+
+2. **Sini is preparing to tune hyperparameters for ridge regression using grid search. What is the correct way to define a list of alpha values for this process?**
+   - [ ] `grid = alpha:[1,10,100]`
+   - [ ] `alpha = Ridge([1, 10, 100])`
+   - [ ] `parameter =[alpha: 1, 10, 100]`
+   - [x] `parameter = [{'alpha': [1,10,100]}]`
+
+   **Answer:** This is the correct syntax to define alpha values for grid search.
+
+3. **You trained a model with a 100th-order polynomial transformation and achieved an R2 of 0.99 on training data. What should you do to check for overfitting?** —
+   - [ ] Use `cross_val_predict` on the training data.
+   - [x] Evaluate the model on the test datasets.
+   - [ ] Reduce the number of features before training.
+   - [ ] Select the model based on the training score.
+
+   **Answer:** High performance on training data could mean overfitting, so test data evaluation is needed.
+
+4. **Lana observed that her linear model performs badly on new data due to overfitting. What method should she use to reduce the complexity of the model?** — 1/1
+   - [ ] Fit the model on all data without testing its complexity.
+   - [ ] Add more features to the linear model for overfitting
+   - [ ] Increase the degree of the polynomial in the model
+   - [x] Apply ridge regression to penalize large coefficients
+
+   **Answer:** Ridge regression applies L2 regularization to prevent overfitting.
+
+5. **A model closely matches the training data, but its curve is highly irregular and deviates from the true underlying function. What does this indicate?**
+   - [ ] The model generalizes well to new data.
+   - [ ] No conclusions can be drawn without test data.
+   - [ ] The model underfits the training data.
+   - [x] The model overfits the training data.
+
+   **Answer:** The model fits the noise in the training data, failing to capture the true pattern.
