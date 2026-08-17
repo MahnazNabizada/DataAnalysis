@@ -81,3 +81,84 @@
     - [x] `immigration_df.plot(x="Year", y="India", kind="line")`
 
     **Answer:** This command clearly identifies the x-axis, the y-axis, and the line plot type, which makes the intent of the chart easy to read.
+
+## Module 2 - Basic Visualization Tools
+
+1. **Select two: An area plot depicts cumulated totals using `_______` or `_______` over time.**
+   - [ ] Charts
+   - [x] Percentages
+   - [ ] Data
+   - [x] Numbers
+
+   **Answer:** An area plot depicts cumulated totals using percentages or numbers over time.
+
+2. **An area plot, also known as an area chart or graph, displays the `__________________` of multiple variables.**
+   - [ ] Proportion and area
+   - [x] Magnitude and proportion
+   - [ ] Proportion and perimeter
+   - [ ] Magnitude and area
+
+   **Answer:** An area plot displays the magnitude and proportion of multiple variables over a continuous axis, typically representing time or another ordered dimension.
+
+3. **A histogram is a way of representing the frequency distribution of a `________________`.**
+   - [ ] Statistical dataset
+   - [ ] Demographic dataset
+   - [ ] Alphabetical dataset
+   - [x] Numeric dataset
+
+   **Answer:** A histogram works by partitioning the spread of numeric data into bins, assigning each data point to a bin, and then counting the number of data points assigned to each bin.
+
+4. **In a Histogram, the `______________` axis is the frequency or the number of data points in each bin.**
+   - [x] Vertical
+   - [ ] Horizontal
+   - [ ] Perpendicular
+   - [ ] Parallel
+
+   **Answer:** The vertical axis is the frequency or the number of data points in each bin.
+
+5. **True or False. The following code will create a horizontal bar chart of the data in the pandas DataFrame `question`:**
+   `question.plot(type='bar', rot=90)`
+   - [ ] True
+   - [x] False
+
+   **Answer:** The parameters used are incorrect — for example, `type` is used instead of `kind`.
+
+## Module 2 - Specialized Visualization Tools
+
+1. **What is a scatter plot?**
+   - [ ] A scatter plot represents the frequency distribution of a numeric dataset
+   - [ ] A scatter plot displays the magnitude and proportion of multiple variables over a continuous axis
+   - [ ] A scatter plot is a circular statistical graphic divided into segments
+   - [x] A scatter plot is a type of plot that displays values pertaining to typically two variables against each other
+
+   **Answer:** A scatter plot is a type of plot that displays values pertaining to typically two variables against each other. Usually, it is a dependent variable plotted against an independent variable.
+
+2. **True or False. Matplotlib is a general-purpose comprehensive plotting library that provides a flexible interface for creating a wide range of plots.**
+   - [x] True
+   - [ ] False
+
+   **Answer:** Matplotlib is a general-purpose comprehensive plotting library that provides a flexible interface for creating a wide range of plots. Its pyplot module offers a convenient way to create and customize plots quickly.
+
+3. **What is a pie chart?**
+   - [ ] A pie chart is a type of plot in which the length of each bar is proportional to the value of the item that it represents
+   - [ ] A pie chart is a graphical representation that showcases the relative size and proportion of various variables along a continuous axis
+   - [ ] A pie chart visually depicts the distribution of a numeric dataset by showcasing the frequency of each category
+   - [x] A pie chart is a circular statistical graphic divided into segments to illustrate numerical proportions
+
+   **Answer:** A pie chart is a circular statistical graphic divided into segments to illustrate numerical proportions. The explode property in a pie chart enables you to offset slices from the center, highlighting specific sections.
+
+4. **A box plot is a way of statistically representing the distribution of a dataset using how many key statistical measures?**
+   - [ ] 3
+   - [ ] 8
+   - [x] 5
+   - [ ] 1
+
+   **Answer:** A box plot is a way of statistically representing the distribution of given data through five main measures. These include Minimum, First quartile, Median, Third quartile, and Maximum.
+
+5. **What is the first step when plotting with Matplotlib?**
+   - [ ] Import Pandas
+   - [x] Import matplotlib.pyplot as plt
+   - [ ] Call the subplot function
+   - [ ] Call the plot function
+
+   **Answer:** The first step is to import the library. You import matplotlib.pyplot as plt.
