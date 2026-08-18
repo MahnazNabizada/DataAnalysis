@@ -152,3 +152,75 @@
     - [x] Bar graph
 
     **Answer:** Unlike a histogram, a bar chart, also known as a bar graph, is a type of plot where the length of each bar is proportional to the value of the item that it represents.
+
+## Module 3 - Advanced Visualizations and Geospatial Data
+
+1. **True or False. Seaborn is based on Matplotlib.**
+   - [x] True
+   - [ ] False
+
+   **Answer:** Although Seaborn is another data visualization library, it is based on Matplotlib.
+
+2. **What is the default map style in Folium?**
+   - [x] Open Street Map
+   - [ ] Stamen Terrain
+   - [ ] Arial
+   - [ ] Stamen Toner
+
+   **Answer:** The default map style in Folium is the Open Street Map. It shows a street view of an area when you are zoomed in and the borders of the world countries when you are zoomed out all the way.
+
+3. **The code for setting the initial zoom level in Folium is `zoom_start=`parameter.**
+   - [x] True
+   - [ ] False
+
+   **Answer:** With the initial zoom, you can easily change the zoom level after the map is rendered by zooming in or out. You can play with this parameter to determine the initial zoom level for different values.
+
+4. **The `__________` parameter specifies the latitude and longitude coordinates of the map's center point.**
+   - [ ] Navigation
+   - [x] Location
+   - [ ] Destination
+   - [ ] Geographic
+
+   **Answer:** The 'location' parameter specifies the latitude and longitude coordinates of the map's center point.
+
+5. **True or False. Markers represent specific locations or points of interest, providing additional information when clicked.**
+   - [x] True
+   - [ ] False
+
+   **Answer:** Markers represent specific locations or points of interest, providing additional information when clicked. Markers are like signposts that guide us through the map, highlighting essential elements.
+
+6. **True or False. A choropleth map is a thematic map in which areas are shaded or patterned in proportion to the measurement of the statistical variable displayed on the map.**
+   - [ ] False
+   - [x] True
+
+   **Answer:** A choropleth map is a thematic map in which areas are shaded or patterned in proportion to the measurement of the statistical variable displayed on the map.
+
+7. **Folium is a `___________` library used for creating interactive maps and visualizations.**
+   - [ ] Folium
+   - [ ] Data
+   - [x] Python
+   - [ ] Choropleth
+
+   **Answer:** Folium is a Python library used for creating interactive maps and visualizations. It provides a simple and intuitive way to generate maps using data from various sources, including GeoJSON, Pandas DataFrames, and NumPy arrays.
+
+8. **To create a choropleth map of a region of interest, Folium requires a `___________` file that includes geospatial data of the region.**
+   - [ ] HTML
+   - [ ] Geo
+   - [ ] Json
+   - [x] GeoJson
+
+   **Answer:** To create a choropleth map of a region of interest, Folium requires a GeoJson file that includes geospatial data of the region.
+
+9. **Which of the following are specialized plot types in Seaborn? Select two.**
+   - [ ] Bar plot
+   - [ ] Pie plot
+   - [x] Regression plot
+   - [x] Categorical plot
+
+   **Answer:** Seaborn provides specialized plot types such as regression, distribution, and categorical plots that are particularly useful for analyzing data and modeling relationships.
+
+10. **True or False. Waffle charts are a visualization technique that represents categorical data in the form of square tiles or cells.**
+    - [x] True
+    - [ ] False
+
+    **Answer:** Waffle charts are a visualization technique that represents categorical data in the form of square tiles or cells.

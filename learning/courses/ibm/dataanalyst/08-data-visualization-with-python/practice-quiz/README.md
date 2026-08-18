@@ -202,3 +202,43 @@
    - [ ] Data visualization library
 
    **Answer:** Using the PyWaffle library in Python, you can easily create visually appealing waffle charts to communicate categorical data effectively.
+
+## Module 3 - Visualizing Geospatial Data
+
+1. **Which application is a powerful data visualization library in Python, built primarily to help people visualize geospatial data?**
+   - [x] Folium
+   - [ ] PyWaffle
+   - [ ] Plotly
+   - [ ] Matplotlib
+
+   **Answer:** Folium is an excellent library for geospatial data visualization. It creates interactive and customizable maps.
+
+2. **Which Folium map style enables you to visualize natural vegetation colors?**
+   - [ ] Stamen toner
+   - [x] Stamen terrain
+   - [ ] Street-level map
+   - [ ] Open Street map
+
+   **Answer:** The Stamen terrain style is great for visualizing hill shading and natural vegetation colors.
+
+3. **True or False: With Folium, you can display multiple markers on a map.**
+   - [x] True
+   - [ ] False
+
+   **Answer:** Yes, you can display multiple markers on a map using Folium.
+
+4. **Complete the following: To create a choropleth map of a region of interest, Folium requires a GeoJSON file that includes **\_\_\_\_**.**
+   - [x] Geospatial data of the region
+   - [ ] The Mapbox bright tiles set
+   - [ ] Statistical variable
+   - [ ] `df_Canada`
+
+   **Answer:** A GeoJSON file provides the geospatial data needed to define the borders and boundaries of the region. For example, a world choropleth map requires a GeoJSON file containing each country's geospatial information.
+
+5. **What is the first step when converting a world map into a choropleth map?**
+   - [x] Define the variable
+   - [ ] Use the country names to look up the geospatial information
+   - [ ] Apply the choropleth function
+   - [ ] Use the columns `"Country"` and `"Total"` in our `df_Canada` dataframe
+
+   **Answer:** The first step is to define a variable that points to the GeoJSON file containing the required geospatial information.
