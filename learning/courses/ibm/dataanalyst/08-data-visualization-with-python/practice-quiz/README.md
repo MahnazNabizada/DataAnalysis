@@ -162,3 +162,43 @@
    - [ ] Call the plot function
 
    **Answer:** The first step is to import the library. You import matplotlib.pyplot as plt.
+
+## Module 3 - Advanced Visualization Tools
+
+1. **True or false. Waffle charts are a visualization technique that represents categorical data in the form of square tiles or cells.**
+   - [x] True
+   - [ ] False
+
+   **Answer:** Waffle charts are a visualization technique that represents categorical data in the form of square tiles or cells. Their shape has square boxes on a grid that resembles a waffle appearance.
+
+2. **What do the squares on a waffle chart represent?**
+   - [ ] These squares resemble a grid of different-sized squares, each representing a specific value or category.
+   - [ ] The squares represent location plots on the graph.
+   - [x] These squares resemble a grid of equal-sized squares, with each square representing a specific value or category.
+   - [ ] The squares represent the trajectory of the statistics.
+
+   **Answer:** The equal-sized squares represent a specific value or category.
+
+3. **What is Seaborn based on?**
+   - [x] Matplotlib
+   - [ ] Python
+   - [ ] Waffle Charts
+   - [ ] Word Clouds
+
+   **Answer:** Although Seaborn is another data visualization library, it is based on Matplotlib.
+
+4. **`___________` is a visualization library that provides a higher level interface for creating visually appealing and informative statistical graphics and deals with complex visualizations and statistical analysis.**
+   - [ ] Pandas
+   - [ ] numpy
+   - [x] Seaborn
+   - [ ] matplotlib
+
+   **Answer:** Seaborn is a visualization library that provides a higher level interface for creating visually appealing and informative statistical graphics and deals with complex visualizations and statistical analysis.
+
+5. **The easiest way to create a waffle chart in Python is using the Python package `____________`.**
+   - [x] PyWaffle
+   - [ ] Matplotlib
+   - [ ] Waffle chart
+   - [ ] Data visualization library
+
+   **Answer:** Using the PyWaffle library in Python, you can easily create visually appealing waffle charts to communicate categorical data effectively.
