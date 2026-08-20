@@ -282,3 +282,41 @@
    - [ ] `fig.modify()`
 
    **Answer:** The `fig.update_layout()` method is used to update the layout of a figure.
+
+## Module 4 - Working with Dash
+
+1. **True or False: Dashboard simplifies the dynamic aspects of the business.**
+   - [x] True
+   - [ ] False
+
+   **Answer:** With real-time visuals on the dashboard, understanding business moving parts becomes easy.
+
+2. **Fill in the blank. Plotly express is a `_____________` wrapper.**
+   - [x] High-level
+   - [ ] Low-level
+
+   **Answer:** Plotly Express is a high-level wrapper for Plotly. It is a recommended starting point for creating the most common figures provided by Plotly because of its simple syntax. It uses graph objects internally.
+
+3. **A Callback function is a Python function that is automatically called by **\_** whenever an input component's property changes.**
+   - [x] Dash
+   - [ ] Matplotlib
+   - [ ] Plotly
+   - [ ] HTML
+
+   **Answer:** A Callback function is a Python function automatically called by Dash whenever an input component's property changes. Callback functions use the `@app.callback` decorator.
+
+4. **Which of the following is the correct way to add the callback decorator?**
+   - [ ] `@app.callback[Output(component_id='bar-plot', component_property='figure'), Input(component_id='input-yr', component_property='value')]`
+   - [ ] `@app.callback( Output{component_id='bar-plot', component_property='figure'}, Input{component_id='input-yr', component_property='value'})`
+   - [ ] `@app.callback{ Output{component_id='bar-plot', component_property='figure'}, Input{component_id='input-yr', component_property='value'}}`
+   - [x] `@app.callback( Output(component_id='bar-plot', component_property='figure'), Input(component_id='input-yr', component_property='value'))`
+
+   **Answer:** The correct way of adding a callback decorator is: `@app.callback( Output(component_id='bar-plot', component_property='figure'), Input(component_id='input-yr', component_property='value'))`.
+
+5. **The callback function takes input and output components as `_____________`.**
+   - [x] Parameters
+   - [ ] Data
+   - [ ] Matplotlib
+   - [ ] Perimeter
+
+   **Answer:** The callback function takes input and output components as parameters and performs operations to return the desired result for the output component.

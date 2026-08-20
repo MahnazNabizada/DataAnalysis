@@ -317,7 +317,7 @@ Ctrl + C
 You should see the application stop and return to the PowerShell prompt:
 
 ```text
-(.venv) PS D:\Developer\...\09-dash-basics-html-core-components>
+(.venv) PS [Your_Work_Directory]\...\09-dash-basics-html-core-components>
 ```
 
 The local Dash URL will no longer be available after the server is stopped.

@@ -26,11 +26,11 @@ This project is part of a hands-on data visualization exercise and demonstrates 
 ## 📁 Project Structure
 
 ```text
-09-dash-basics-html-core-components/
+11-flight-delay-time-statistics-dashboard/
 │
 ├── .venv/
-├── dash_interactivity.py
-├── dash_interactivity_barplot.py
+├── flight_delay.py
+├── util.py
 ├── requirements.txt
 └── README.md
 ```
@@ -48,7 +48,7 @@ Open the project folder in VS Code and open a terminal at the project root.
 For example:
 
 ```powershell
-cd "[Your_Work_Directory]\DataAnalysis\learning\courses\ibm\dataanalyst\08-data-visualization-with-python\activities\hands-on\10-dash-interactive-user-input-callbacks"
+cd "[Your_Work_Directory]\DataAnalysis\learning\courses\ibm\dataanalyst\08-data-visualization-with-python\activities\hands-on\11-flight-delay-time-statistics-dashboard"
 ```
 
 Confirm that the project files are present:
@@ -60,8 +60,8 @@ dir
 You should see files such as:
 
 ```text
-dash_interactivity.py
-dash_interactivity_barplot.py
+flight_delay.py
+util.py
 requirements.txt
 README.md
 ```
@@ -121,7 +121,7 @@ python -c "import sys; print(sys.executable)"
 The path should point to:
 
 ```text
-...\10-dash-interactive-user-input-callbacks\.venv\Scripts\python.exe
+...\11-flight-delay-time-statistics-dashboard\.venv\Scripts\python.exe
 ```
 
 ---
@@ -131,7 +131,7 @@ The path should point to:
 With the virtual environment activated, upgrade the Python packaging tools:
 
 ```powershell
-python -m pip install --upgrade pip setuptools wheel
+python -m pip install --upgrade pip
 ```
 
 Verify pip:
@@ -223,7 +223,7 @@ print(sys.executable)
 The output should point to:
 
 ```text
-...\10-dash-interactive-user-input-callbacks\.venv\Scripts\python.exe
+...\11-flight-delay-time-statistics-dashboard\.venv\Scripts\python.exe
 ```
 
 This confirms that your notebook is using the project's virtual environment.
@@ -237,37 +237,33 @@ Make sure the terminal is located in the project root and `.venv` is activated.
 Run:
 
 ```powershell
-python dash_basics.py
+python flight_delay.py
 ```
 
 You can also run the file using VS Code's **Run Python File** button.
 
-> **Note:** When running a Python file directly, use `python dash_interactivity.py` or `python dash_interactivity_barplot.py`.
+> **Note:** When running a Python file directly, use `python flight_delay.py`.
 >
-> If using the module syntax, use `python -m dash_interactivity` or `python -m dash_interactivity_barplot` — **do not include `.py`**.
+> If using the module syntax, use `python -m flight_delay` — **do not include `.py`**.
 
 Correct:
 
 ```powershell
-python dash_interactivity.py
-or
-python dash_interactivity_barplot.py
+python flight_delay.py
 ```
 
 or:
 
 ```powershell
-python -m dash_interactivity
-or
-python -m dash_interactivity_barplot
+python -m flight_delay
 ```
 
 Incorrect:
 
 ```powershell
-python -m dash_interactivity.py
+python -m flight_delay.py
 or
-python -m dash_interactivity_barplot.py
+python -m flight_delay.py
 ```
 
 ---
@@ -325,7 +321,7 @@ Ctrl + C
 You should see the application stop and return to the PowerShell prompt:
 
 ```text
-(.venv) PS [Your_Work_Directory]\...\10-dash-interactive-user-input-callbacks>
+(.venv) PS [Your_Work_Directory]\...\11-flight-delay-time-statistics-dashboard>
 ```
 
 The local Dash URL will no longer be available after the server is stopped.
@@ -448,7 +444,7 @@ CTRL + C
 restart it:
 
 ```powershell
-python dash_basics.py
+python flight_delay.py
 ```
 
 Then visit:

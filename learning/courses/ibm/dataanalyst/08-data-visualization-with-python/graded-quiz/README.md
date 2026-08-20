@@ -224,3 +224,75 @@
     - [ ] False
 
     **Answer:** Waffle charts are a visualization technique that represents categorical data in the form of square tiles or cells.
+
+## Module 4 - Creating Dashboards with Plotly and Dash
+
+1. **Fill in the blank. Web-based visualizations created using `_____________` can be displayed in Jupyter Notebook, saved to standalone HTML files, or served as part of pure Python-built web applications using Dash.**
+   - [ ] Matplotlib
+   - [ ] Dash
+   - [x] Plotly
+   - [ ] Figma
+
+   **Answer:** Web-based visualizations created using Plotly Python can be displayed in Jupyter Notebook, saved to standalone HTML files, or served as part of pure Python-built web applications using Dash.
+
+2. **Fill in the blank. Plotly Graph Objects is a `_____________` level interface to figures, traces, and layout.**
+   - [ ] High
+   - [x] Low
+   - [ ] Open
+   - [ ] Simple
+
+   **Answer:** Correct. Plotly Graph Objects is a low level interface to figures, traces, and layout.
+
+3. **True or False. A Plotly graph contains a JSON object which has a dictionary structure.**
+   - [x] True
+   - [ ] False
+
+   **Answer:** A Plotly graph contains a JSON object which has a dictionary structure.
+
+4. **True or False. Real-time visuals on the dashboard simplify the comprehension of various aspects of the business.**
+   - [ ] False
+   - [x] True
+
+   **Answer:** Real-time visuals on the dashboard simplify the comprehension of various aspects of the business. Also, getting the big picture in one place can help businesses make informed decisions, thereby improving performance.
+
+5. **Fill in the blank. Matplotlib is a comprehensive library for creating static, animated, and interactive `_____________` in Python.**
+   - [ ] Charts
+   - [x] Visualizations
+   - [ ] Videos
+   - [ ] Graphs
+
+   **Answer:** Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.
+
+6. **True or False. Data can be presented by using different types of dashboards.**
+   - [ ] False
+   - [x] True
+
+   **Answer:** Data can be presented by using different types of dashboards.
+
+7. **`_____________` Express is a high-level wrapper for Plotly.**
+   - [ ] Python
+   - [ ] JSON
+   - [ ] Matplotlib
+   - [x] Plotly
+
+   **Answer:** Plotly Express is a high-level wrapper for Plotly. It is a recommended starting point for creating the most common figures provided by Plotly because of its simple syntax. It uses graph objects internally.
+
+8. **A callback function is a `______________`.**
+   - [ ] A line of Code
+   - [x] Decorator
+   - [ ] A file
+   - [ ] An extension
+
+   **Answer:** Whenever there is a change in the input component value, the Callback function wrapped by the decorator is called, followed by the update to the output component children in the application layout.
+
+9. **True or False. Dash is an Open-Source User Interface Python library for creating reactive, web-based applications.**
+   - [ ] False
+   - [x] True
+
+   **Answer:** Dash is an Open-Source User Interface Python library for creating reactive, web-based applications. It is enterprise-ready and a first-class member of Plotly's open-source tools.
+
+10. **True or False. Output sets results returned from the callback function to a component id.**
+    - [x] True
+    - [ ] False
+
+    **Answer:** Output sets results returned from the callback function to a component id. The set input is provided to the callback function to a component id.
