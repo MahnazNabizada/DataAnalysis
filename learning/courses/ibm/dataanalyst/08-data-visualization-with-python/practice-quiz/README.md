@@ -242,3 +242,43 @@
    - [ ] Use the columns `"Country"` and `"Total"` in our `df_Canada` dataframe
 
    **Answer:** The first step is to define a variable that points to the GeoJSON file containing the required geospatial information.
+
+## Module 4 - Creating Dashboards with Plotly and Dash
+
+1. **Dashboards can provide real-time visuals.**
+   - [x] True
+   - [ ] False
+
+   **Answer:** Dashboards can provide real-time visuals. With real-time visuals on the dashboard, understanding business moving parts becomes easy.
+
+2. **What is Dash?**
+   - [ ] Dash is a Python framework tool used for building Plotly applications.
+   - [x] Dash is a Python framework for building web analytic applications.
+   - [ ] A framework tool used for building software.
+   - [ ] A framework application used for creating statistical graphs.
+
+   **Answer:** Dash is a Python framework for building web analytic applications.
+
+3. **What is Plotly?**
+   - [ ] An interactive coding library.
+   - [ ] An interactive open-source code.
+   - [x] Plotly is an interactive, open-source plotting library that supports over 40 unique chart types.
+   - [ ] An interactive chart that displays statistical data.
+
+   **Answer:** Plotly is an interactive, open-source plotting library that supports over 40 unique chart types.
+
+4. **Which programming languages does Plotly support?**
+   - [ ] R and MATLAB
+   - [x] Python and JavaScript
+   - [ ] Java and C++
+   - [ ] Ruby and PHP
+
+   **Answer:** Python and JavaScript support Plotly.
+
+5. **Which method is used to update the layout of a figure in Plotly Graph Objects?**
+   - [ ] `fig.plot()`
+   - [ ] `fig.add_trace()`
+   - [x] `fig.update_layout()`
+   - [ ] `fig.modify()`
+
+   **Answer:** The `fig.update_layout()` method is used to update the layout of a figure.
