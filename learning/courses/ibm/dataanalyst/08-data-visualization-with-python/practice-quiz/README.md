@@ -81,3 +81,242 @@
     - [x] `immigration_df.plot(x="Year", y="India", kind="line")`
 
     **Answer:** This command clearly identifies the x-axis, the y-axis, and the line plot type, which makes the intent of the chart easy to read.
+
+## Module 2 - Basic Visualization Tools
+
+1. **Select two: An area plot depicts cumulated totals using `_______` or `_______` over time.**
+   - [ ] Charts
+   - [x] Percentages
+   - [ ] Data
+   - [x] Numbers
+
+   **Answer:** An area plot depicts cumulated totals using percentages or numbers over time.
+
+2. **An area plot, also known as an area chart or graph, displays the `__________________` of multiple variables.**
+   - [ ] Proportion and area
+   - [x] Magnitude and proportion
+   - [ ] Proportion and perimeter
+   - [ ] Magnitude and area
+
+   **Answer:** An area plot displays the magnitude and proportion of multiple variables over a continuous axis, typically representing time or another ordered dimension.
+
+3. **A histogram is a way of representing the frequency distribution of a `________________`.**
+   - [ ] Statistical dataset
+   - [ ] Demographic dataset
+   - [ ] Alphabetical dataset
+   - [x] Numeric dataset
+
+   **Answer:** A histogram works by partitioning the spread of numeric data into bins, assigning each data point to a bin, and then counting the number of data points assigned to each bin.
+
+4. **In a Histogram, the `______________` axis is the frequency or the number of data points in each bin.**
+   - [x] Vertical
+   - [ ] Horizontal
+   - [ ] Perpendicular
+   - [ ] Parallel
+
+   **Answer:** The vertical axis is the frequency or the number of data points in each bin.
+
+5. **True or False. The following code will create a horizontal bar chart of the data in the pandas DataFrame `question`:**
+   `question.plot(type='bar', rot=90)`
+   - [ ] True
+   - [x] False
+
+   **Answer:** The parameters used are incorrect — for example, `type` is used instead of `kind`.
+
+## Module 2 - Specialized Visualization Tools
+
+1. **What is a scatter plot?**
+   - [ ] A scatter plot represents the frequency distribution of a numeric dataset
+   - [ ] A scatter plot displays the magnitude and proportion of multiple variables over a continuous axis
+   - [ ] A scatter plot is a circular statistical graphic divided into segments
+   - [x] A scatter plot is a type of plot that displays values pertaining to typically two variables against each other
+
+   **Answer:** A scatter plot is a type of plot that displays values pertaining to typically two variables against each other. Usually, it is a dependent variable plotted against an independent variable.
+
+2. **True or False. Matplotlib is a general-purpose comprehensive plotting library that provides a flexible interface for creating a wide range of plots.**
+   - [x] True
+   - [ ] False
+
+   **Answer:** Matplotlib is a general-purpose comprehensive plotting library that provides a flexible interface for creating a wide range of plots. Its pyplot module offers a convenient way to create and customize plots quickly.
+
+3. **What is a pie chart?**
+   - [ ] A pie chart is a type of plot in which the length of each bar is proportional to the value of the item that it represents
+   - [ ] A pie chart is a graphical representation that showcases the relative size and proportion of various variables along a continuous axis
+   - [ ] A pie chart visually depicts the distribution of a numeric dataset by showcasing the frequency of each category
+   - [x] A pie chart is a circular statistical graphic divided into segments to illustrate numerical proportions
+
+   **Answer:** A pie chart is a circular statistical graphic divided into segments to illustrate numerical proportions. The explode property in a pie chart enables you to offset slices from the center, highlighting specific sections.
+
+4. **A box plot is a way of statistically representing the distribution of a dataset using how many key statistical measures?**
+   - [ ] 3
+   - [ ] 8
+   - [x] 5
+   - [ ] 1
+
+   **Answer:** A box plot is a way of statistically representing the distribution of given data through five main measures. These include Minimum, First quartile, Median, Third quartile, and Maximum.
+
+5. **What is the first step when plotting with Matplotlib?**
+   - [ ] Import Pandas
+   - [x] Import matplotlib.pyplot as plt
+   - [ ] Call the subplot function
+   - [ ] Call the plot function
+
+   **Answer:** The first step is to import the library. You import matplotlib.pyplot as plt.
+
+## Module 3 - Advanced Visualization Tools
+
+1. **True or false. Waffle charts are a visualization technique that represents categorical data in the form of square tiles or cells.**
+   - [x] True
+   - [ ] False
+
+   **Answer:** Waffle charts are a visualization technique that represents categorical data in the form of square tiles or cells. Their shape has square boxes on a grid that resembles a waffle appearance.
+
+2. **What do the squares on a waffle chart represent?**
+   - [ ] These squares resemble a grid of different-sized squares, each representing a specific value or category.
+   - [ ] The squares represent location plots on the graph.
+   - [x] These squares resemble a grid of equal-sized squares, with each square representing a specific value or category.
+   - [ ] The squares represent the trajectory of the statistics.
+
+   **Answer:** The equal-sized squares represent a specific value or category.
+
+3. **What is Seaborn based on?**
+   - [x] Matplotlib
+   - [ ] Python
+   - [ ] Waffle Charts
+   - [ ] Word Clouds
+
+   **Answer:** Although Seaborn is another data visualization library, it is based on Matplotlib.
+
+4. **`___________` is a visualization library that provides a higher level interface for creating visually appealing and informative statistical graphics and deals with complex visualizations and statistical analysis.**
+   - [ ] Pandas
+   - [ ] numpy
+   - [x] Seaborn
+   - [ ] matplotlib
+
+   **Answer:** Seaborn is a visualization library that provides a higher level interface for creating visually appealing and informative statistical graphics and deals with complex visualizations and statistical analysis.
+
+5. **The easiest way to create a waffle chart in Python is using the Python package `____________`.**
+   - [x] PyWaffle
+   - [ ] Matplotlib
+   - [ ] Waffle chart
+   - [ ] Data visualization library
+
+   **Answer:** Using the PyWaffle library in Python, you can easily create visually appealing waffle charts to communicate categorical data effectively.
+
+## Module 3 - Visualizing Geospatial Data
+
+1. **Which application is a powerful data visualization library in Python, built primarily to help people visualize geospatial data?**
+   - [x] Folium
+   - [ ] PyWaffle
+   - [ ] Plotly
+   - [ ] Matplotlib
+
+   **Answer:** Folium is an excellent library for geospatial data visualization. It creates interactive and customizable maps.
+
+2. **Which Folium map style enables you to visualize natural vegetation colors?**
+   - [ ] Stamen toner
+   - [x] Stamen terrain
+   - [ ] Street-level map
+   - [ ] Open Street map
+
+   **Answer:** The Stamen terrain style is great for visualizing hill shading and natural vegetation colors.
+
+3. **True or False: With Folium, you can display multiple markers on a map.**
+   - [x] True
+   - [ ] False
+
+   **Answer:** Yes, you can display multiple markers on a map using Folium.
+
+4. **Complete the following: To create a choropleth map of a region of interest, Folium requires a GeoJSON file that includes **\_\_\_\_**.**
+   - [x] Geospatial data of the region
+   - [ ] The Mapbox bright tiles set
+   - [ ] Statistical variable
+   - [ ] `df_Canada`
+
+   **Answer:** A GeoJSON file provides the geospatial data needed to define the borders and boundaries of the region. For example, a world choropleth map requires a GeoJSON file containing each country's geospatial information.
+
+5. **What is the first step when converting a world map into a choropleth map?**
+   - [x] Define the variable
+   - [ ] Use the country names to look up the geospatial information
+   - [ ] Apply the choropleth function
+   - [ ] Use the columns `"Country"` and `"Total"` in our `df_Canada` dataframe
+
+   **Answer:** The first step is to define a variable that points to the GeoJSON file containing the required geospatial information.
+
+## Module 4 - Creating Dashboards with Plotly and Dash
+
+1. **Dashboards can provide real-time visuals.**
+   - [x] True
+   - [ ] False
+
+   **Answer:** Dashboards can provide real-time visuals. With real-time visuals on the dashboard, understanding business moving parts becomes easy.
+
+2. **What is Dash?**
+   - [ ] Dash is a Python framework tool used for building Plotly applications.
+   - [x] Dash is a Python framework for building web analytic applications.
+   - [ ] A framework tool used for building software.
+   - [ ] A framework application used for creating statistical graphs.
+
+   **Answer:** Dash is a Python framework for building web analytic applications.
+
+3. **What is Plotly?**
+   - [ ] An interactive coding library.
+   - [ ] An interactive open-source code.
+   - [x] Plotly is an interactive, open-source plotting library that supports over 40 unique chart types.
+   - [ ] An interactive chart that displays statistical data.
+
+   **Answer:** Plotly is an interactive, open-source plotting library that supports over 40 unique chart types.
+
+4. **Which programming languages does Plotly support?**
+   - [ ] R and MATLAB
+   - [x] Python and JavaScript
+   - [ ] Java and C++
+   - [ ] Ruby and PHP
+
+   **Answer:** Python and JavaScript support Plotly.
+
+5. **Which method is used to update the layout of a figure in Plotly Graph Objects?**
+   - [ ] `fig.plot()`
+   - [ ] `fig.add_trace()`
+   - [x] `fig.update_layout()`
+   - [ ] `fig.modify()`
+
+   **Answer:** The `fig.update_layout()` method is used to update the layout of a figure.
+
+## Module 4 - Working with Dash
+
+1. **True or False: Dashboard simplifies the dynamic aspects of the business.**
+   - [x] True
+   - [ ] False
+
+   **Answer:** With real-time visuals on the dashboard, understanding business moving parts becomes easy.
+
+2. **Fill in the blank. Plotly express is a `_____________` wrapper.**
+   - [x] High-level
+   - [ ] Low-level
+
+   **Answer:** Plotly Express is a high-level wrapper for Plotly. It is a recommended starting point for creating the most common figures provided by Plotly because of its simple syntax. It uses graph objects internally.
+
+3. **A Callback function is a Python function that is automatically called by **\_** whenever an input component's property changes.**
+   - [x] Dash
+   - [ ] Matplotlib
+   - [ ] Plotly
+   - [ ] HTML
+
+   **Answer:** A Callback function is a Python function automatically called by Dash whenever an input component's property changes. Callback functions use the `@app.callback` decorator.
+
+4. **Which of the following is the correct way to add the callback decorator?**
+   - [ ] `@app.callback[Output(component_id='bar-plot', component_property='figure'), Input(component_id='input-yr', component_property='value')]`
+   - [ ] `@app.callback( Output{component_id='bar-plot', component_property='figure'}, Input{component_id='input-yr', component_property='value'})`
+   - [ ] `@app.callback{ Output{component_id='bar-plot', component_property='figure'}, Input{component_id='input-yr', component_property='value'}}`
+   - [x] `@app.callback( Output(component_id='bar-plot', component_property='figure'), Input(component_id='input-yr', component_property='value'))`
+
+   **Answer:** The correct way of adding a callback decorator is: `@app.callback( Output(component_id='bar-plot', component_property='figure'), Input(component_id='input-yr', component_property='value'))`.
+
+5. **The callback function takes input and output components as `_____________`.**
+   - [x] Parameters
+   - [ ] Data
+   - [ ] Matplotlib
+   - [ ] Perimeter
+
+   **Answer:** The callback function takes input and output components as parameters and performs operations to return the desired result for the output component.
