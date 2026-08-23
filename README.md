@@ -108,7 +108,7 @@ Inside each course:
 | 06  | [Databases and SQL for Data Science with Python](./learning/courses/ibm/dataanalyst/06-databases-sql-for-data-science-python/)               | ✅ C6      | ER diagrams, relational modelling, Relational DB, Intermediate SQL, Accessing Databases using Python                                                 |
 | 07  | [Data Analysis with Python](./learning/courses/ibm/dataanalyst/07-data-analysis-with-python/)                                                | ✅ C7      | Importing Data Sets, Data Wrangling, Exploratory Data Analysis, Model Development, Model Evaluation and Refinement                                   |
 | 08  | [Data Visualization with Python](./learning/courses/ibm/dataanalyst/08-data-visualization-with-python/)                                      | ✅ C8      | Data Visualization, Basic and Specialized Visualization Tools, Advanced Visualizations and Geospatial Data, Creating Dashboards with Plotty and Dash |
-| 09  | [Data Visualization with Python](./learning/courses/ibm/dataanalyst/09-data-analyst-capstone-project/)                                       | ⏳&nbsp;M1 | Collecting Data Using APIs, Exploring Data                                                                                                           |
+| 09  | [IBM Data Analyst Capstone Project](./learning/courses/ibm/dataanalyst/09-data-analyst-capstone-project/)                                    | ⏳&nbsp;M1 | Collecting Data Using APIs, Exploring Data                                                                                                           |
 
 ---
 
