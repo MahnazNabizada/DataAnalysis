@@ -169,3 +169,85 @@
    - [ ] No
 
    **Feedback:** Nice work. Make sure you save the screenshot to upload later or answer the graded quiz.
+
+## Module 2 - Removing Duplicates
+
+1. **Did you identify the critical columns for defining uniqueness in the dataset and remove duplicates based on a subset of columns?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you save the screenshot to upload later or answer the graded quiz.
+
+2. **Did you load the dataset into a DataFrame?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you save the screenshot to upload later or answer the graded quiz.
+
+3. **Have you removed duplicate rows from the dataset using the `drop_duplicates()` function?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you save the screenshot to upload later or answer the graded quiz.
+
+4. **Did you identify the missing values for all columns in the dataset?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you save the screenshot to upload later or answer the graded quiz.
+
+5. **Did you normalize compensation data using `ConvertedCompYearly`?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you save the screenshot to upload later or answer the graded quiz.
+
+## Module 2 - Finding Missing Values
+
+1. **Have you loaded the dataset?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you save the screenshot to upload later or answer the graded quiz.
+
+2. **Did you display the basic information and summary statistics of the dataset?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you save the screenshot to upload later or answer the graded quiz.
+
+3. **Did you identify the missing values for all columns?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you save the screenshot to upload later or answer the graded quiz.
+
+4. **Did you find out how many rows are missing in a specific column?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you save the screenshot to upload later or answer the graded quiz.
+
+5. **Did you identify the most frequent value in a specific column?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you save the screenshot to upload later or answer the graded quiz.
+
+6. **Did you impute the missing values?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you save the screenshot to upload later or answer the graded quiz.
+
+7. **Did you create a new column based on existing data?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you save the screenshot to upload later or answer the graded quiz.
+
+8. **Did you visualize the distribution of a particular column?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you save the screenshot to upload later or answer the graded quiz.
