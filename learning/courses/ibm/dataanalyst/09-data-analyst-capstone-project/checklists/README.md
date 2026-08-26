@@ -90,44 +90,82 @@
 
 ## Module 1 - Exploring Data
 
-1. **Have you successfully loaded the dataset into a DataFrame?** — 1/1
+1. **Have you successfully loaded the dataset into a DataFrame?**
    - [x] Yes
    - [ ] No
 
    **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
 
-2. **Have you displayed the first 5 rows of the dataset to preview its structure?** — 1/1
+2. **Have you displayed the first 5 rows of the dataset to preview its structure?**
    - [x] Yes
    - [ ] No
 
    **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
 
-3. **Have you printed the number of rows in the dataset?** — 1/1
+3. **Have you printed the number of rows in the dataset?**
    - [x] Yes
    - [ ] No
 
    **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
 
-4. **Have you printed the number of columns in the dataset?** — 1/1
+4. **Have you printed the number of columns in the dataset?**
    - [x] Yes
    - [ ] No
 
    **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
 
-5. **Have you identified and printed the data types of each column?** — 1/1
+5. **Have you identified and printed the data types of each column?**
    - [x] Yes
    - [ ] No
 
    **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
 
-6. **Have you calculated and printed the mean age of survey participants?** — 1/1
+6. **Have you calculated and printed the mean age of survey participants?**
    - [x] Yes
    - [ ] No
 
    **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
 
-7. **Have you counted and printed the number of unique countries in the Country column?** — 1/1
+7. **Have you counted and printed the number of unique countries in the Country column?**
    - [x] Yes
    - [ ] No
 
    **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+## Module 2 - Finding Duplicates
+
+1. **Did you identify which columns have the same values in duplicate rows?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you save the screenshot to upload later or answer the graded quiz.
+
+2. **Did you load the data into a pandas DataFrame?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you save the screenshot to upload later or answer the graded quiz.
+
+3. **Did you count the number of duplicate rows in the dataset and identify the duplicate rows' structure?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you save the screenshot to upload later or answer the graded quiz.
+
+4. **Did you identify the column(s) that define record uniqueness and assess whether duplicate removal should be based on a subset of columns?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you save the screenshot to upload later or answer the graded quiz.
+
+5. **Did you visualize, using bar or pie charts, to show the distribution of duplicates across different categories?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you save the screenshot to upload later or answer the graded quiz.
+
+6. **Did you download the dataset into your browser?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you save the screenshot to upload later or answer the graded quiz.
