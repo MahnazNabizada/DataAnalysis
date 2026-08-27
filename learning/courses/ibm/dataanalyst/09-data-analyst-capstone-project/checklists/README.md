@@ -251,3 +251,111 @@
    - [ ] No
 
    **Feedback:** Nice work. Make sure you save the screenshot to upload later or answer the graded quiz.
+
+## Module 2 - Inputing Missing Values
+
+1. **Did you import the required libraries?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you save the screenshot to upload later or answer the graded quiz.
+
+2. **Did you load the dataset into a DataFrame?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you save the screenshot to upload later or answer the graded quiz.
+
+3. **Did you find and remove duplicates from the DataFrame?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you save the screenshot to upload later or answer the graded quiz.
+
+4. **Did you identify the missing values for all columns?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you save the screenshot to upload later or answer the graded quiz.
+
+5. **Did you identify how many rows are missing in the 'RemoteWork' column?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you save the screenshot to upload later or answer the graded quiz.
+
+6. **Did you impute the missing values for the 'RemoteWork' column?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you save the screenshot to upload later or answer the graded quiz.
+
+## Module 2 - Normalizing Data
+
+1. **Did you identify the duplicate rows in the dataset and remove them from the DataFrame?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you save the screenshot to upload later or answer the graded quiz.
+
+2. **Did you identify how many rows are missing in the 'CodingActivities' column?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you save the screenshot to upload later or answer the graded quiz.
+
+3. **Did you impute the missing values for the 'CodingActivities' column?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you save the screenshot to upload later or answer the graded quiz.
+
+4. **Did you identify relevant compensation-related columns?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you save the screenshot to upload later or answer the graded quiz.
+
+5. **Did you visualize the distribution of a particular column?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you save the screenshot to upload later or answer the graded quiz.
+
+## Module 2 - Data Wrangling
+
+1. **Have you loaded the dataset into a DataFrame by importing the necessary module?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you save the screenshot to upload later or answer the graded quiz.
+
+2. **Have you identified and removed inconsistencies?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you save the screenshot to upload later or answer the graded quiz.
+
+3. **Have you encoded categorical variables?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you save the screenshot to upload later or answer the graded quiz.
+
+4. **Have you handled missing values?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you save the screenshot to upload later or answer the graded quiz.
+
+5. **Have you completed the task on feature scaling and transformation?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you save the screenshot to upload later or answer the graded quiz.
+
+6. **Have you applied feature engineering to the given column?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you save the screenshot to upload later or answer the graded quiz.
