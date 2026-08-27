@@ -359,3 +359,115 @@
    - [ ] No
 
    **Feedback:** Nice work. Make sure you save the screenshot to upload later or answer the graded quiz.
+
+## Module 3 - Exploratory Data Analysis
+
+1. **Have you imported the required libraries (pandas, matplotlib.pyplot, seaborn)?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+2. **Have you successfully loaded the Stack Overflow survey dataset using the provided code?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+3. **Have you displayed the first few rows of the dataset using `df.head()`?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+4. **Have you identified and handled any missing values in the dataset?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+5. **Have you analyzed key features such as job satisfaction, and developer experience?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+6. **Have you created visualizations for job satisfaction?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+7. **Have you analyzed and visualized the most popular programming languages (LanguageHaveWorkedWith) in the dataset?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+8. **Have you analyzed trends related to remote work (RemoteWork) in the dataset?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+9. **Have you plotted a scatterplot to investigate the correlation between job satisfaction and coding experience using the WorkExp and JobSatPoints_1 columns?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+10. **Have you conducted a cross-tabulation analysis between employment status (Employment) and education level (EdLevel)?**
+    - [x] Yes
+    - [ ] No
+
+    **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+11. **Have you exported the cleaned data for future use or sharing?**
+    - [x] Yes
+    - [ ] No
+
+    **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+## Module 3 - Analyzing the Data Distribution
+
+1. **Have you imported the required libraries (pandas, matplotlib.pyplot, seaborn)?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+2. **Have you computed the correlation between Job Satisfaction and Experience?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+3. **Have you plotted a pie chart for the "JobSat" column to understand its distribution?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+4. **Have you compared the frequency of programming languages in 'LanguageHaveWorkedWith' and 'LanguageWantToWorkWith'?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+5. **Have you visualized the distribution of 'RemoteWork' by region using a grouped bar chart or heatmap?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+6. **Have you visualized the relationship between "Employment" and "EdLevel" using a stacked bar plot?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+7. **Have you displayed the first few rows of the dataset using `df.head()`?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
