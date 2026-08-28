@@ -146,4 +146,88 @@
    - [x] `df['RemoteWork'].fillna('value', inplace=True)`
    - [ ] `df['RemoteWork'].replace()`
 
-   **Answer:**
+   **Answer:** Using `df['RemoteWork'].fillna('value', inplace=True)` replaces missing values with a specific value
+
+## Module 3 - Exploratory Data Analysis
+
+## Data Analysis, Correlation, and Outlier Detection Quiz
+
+1. **Which function helps identify missing values in each column of a DataFrame?**
+   - [ ] `df.describe()`
+   - [x] `df.isnull().sum()`
+   - [ ] `df.info()`
+   - [ ] `df.missing_values()`
+
+   **Answer:** `df.isnull().sum()` identifies missing values in each column.
+
+2. **Which of the following commands is used to visualize the distribution of a categorical variable?**
+   - [ ] `sns.lineplot(data=df, x='column')`
+   - [ ] `sns.scatterplot(data=df, x='column')`
+   - [ ] `sns.histplot(data=df, x='column')`
+   - [x] `sns.countplot(data=df, x='column')`
+
+   **Answer:** `sns.countplot()` is effective for visualizing categorical data distributions.
+
+3. **Which pandas function can you use to compute cross-tabulations?**
+   - [x] `pd.crosstab()`
+   - [ ] `pd.correlation()`
+   - [ ] `pd.merge()`
+   - [ ] `pd.groupby()`
+
+   **Answer:** `pd.crosstab()` computes cross-tabulations between two variables.
+
+4. **What is the median ConvertedCompYearly of respondents in the dataset?**
+   - [x] 65,000
+   - [ ] 55,000
+   - [ ] 50,000
+   - [ ] 60,000
+
+   **Answer:** The median ConvertedCompYearly is 65,000, providing insight into typical yearly compensation.
+
+5. **Which method is used to detect outliers by calculating the range between the 25th and 75th percentiles?**
+   - [ ] Standard deviation
+   - [ ] Mean absolute deviation
+   - [x] Interquartile Range (IQR)
+   - [ ] Z-score
+
+   **Answer:** The IQR method is commonly used to detect outliers by analyzing the spread of the middle 50% of data.
+
+6. **Which pandas function can you use to calculate the skewness of a data column?**
+   - [x] `df.skew()`
+   - [ ] `df.corr()`
+   - [ ] `df.describe()`
+   - [ ] `df.var()`
+
+   **Answer:** The `skew()` function in pandas is used to calculate the skewness of a column.
+
+7. **What is the best practice for handling extreme outliers in a dataset when analyzing average compensation?**
+   - [x] Remove the outliers to prevent skewing the analysis
+   - [ ] Replace outliers with NaN
+   - [ ] Ignore the outliers as they are part of the data
+   - [ ] Set outliers to the maximum value within 1.5 IQR
+
+   **Answer:** Removing extreme outliers helps in obtaining a more accurate measure of central tendency, like the median.
+
+8. **How would you identify the median ConvertedCompYearly for full-time employees in the dataset?**
+   - [ ] By calculating the mode of ConvertedCompYearly
+   - [ ] By removing all outliers first
+   - [x] By filtering the dataset for full-time employees and calculating the median
+   - [ ] By calculating the mean of all ConvertedCompYearly values
+
+   **Answer:** Filtering for full-time employees first ensures accurate median calculation.
+
+9. **What does the correlation between Age and WorkExp indicate?**
+   - [ ] As age increases, work experience decreases.
+   - [ ] Work experience is unrelated to the dataset.
+   - [ ] Age has no impact on work experience in the dataset.
+   - [x] There is a strong relationship between Age and Work Experience, but it is not perfect.
+
+   **Answer:** The correlation of 0.85 indicates that Work Experience strongly correlates with Age, but other factors might also contribute.
+
+10. **What is the purpose of removing outliers from the ConvertedCompYearly column before analyzing salary trends?**
+    - [ ] Ensure all data points are unique
+    - [ ] Increase the median salary
+    - [ ] Decrease the dataset size
+    - [x] Focus on more common salary values and reduce skewness
+
+    **Answer:** Removing outliers provides a clearer view of common salary trends by reducing skewness.
