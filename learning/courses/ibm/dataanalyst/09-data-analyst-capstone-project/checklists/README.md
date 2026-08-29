@@ -553,3 +553,55 @@
    - [x] Yes
 
    **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+## Module 4 - Data Visualization
+
+## Hands-on Lab: Working with SQLite Databases Check-in
+
+1. **Have you downloaded the database file using the provided command?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+2. **Have you installed the required libraries (pandas and matplotlib)?**
+   - [ ] No
+   - [x] Yes
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+3. **Have you loaded the CSV file into a Pandas DataFrame and displayed the first few rows?**
+   - [ ] No
+   - [x] Yes
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+4. **Have you created a new SQLite database and inserted the data?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+5. **Have you verified that the data has been correctly inserted into the SQLite database?**
+   - [ ] No
+   - [x] Yes
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+6. **Have you counted the number of rows in the table?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+7. **Did you list all tables in the SQLite database?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+8. **Have you created a grouped data view of Age and its count within the dataset?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
