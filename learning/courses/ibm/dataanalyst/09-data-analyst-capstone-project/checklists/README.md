@@ -655,3 +655,29 @@
    - [x] Yes
 
    **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+## Module 4 - Visualizing Composition of Data
+
+1. **Have you created a pie chart to show the top 5 databases respondents wish to learn next year?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+2. **Have you created a pie chart to visualize the top 5 tools developers are currently using for AI development?**
+   - [ ] No
+   - [x] Yes
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+3. **Have you created a stacked chart showing median 'JobSatPoints_6' and 'JobSatPoints_7' for different age groups?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+4. **Have you analyzed how programming language preferences (LanguageAdmired) vary across age groups?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
