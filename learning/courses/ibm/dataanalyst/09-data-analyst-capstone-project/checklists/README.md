@@ -556,8 +556,6 @@
 
 ## Module 4 - Data Visualization
 
-## Hands-on Lab: Working with SQLite Databases Check-in
-
 1. **Have you downloaded the database file using the provided command?**
    - [x] Yes
    - [ ] No
@@ -601,6 +599,32 @@
    **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
 
 8. **Have you created a grouped data view of Age and its count within the dataset?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+## Module 4 - Distribution of Data
+
+1. **Have you created a box plot to visualize the age distribution in the dataset?**
+   - [ ] No
+   - [x] Yes
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+2. **Have you closed the connection to the SQLite database after completing the box plots lab?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+3. **Have you created a histogram to visualize the distribution of CompTotal?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+4. **Have you closed the connection to the SQLite database after completing the histogram lab?**
    - [x] Yes
    - [ ] No
 
