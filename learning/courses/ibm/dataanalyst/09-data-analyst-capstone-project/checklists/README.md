@@ -629,3 +629,29 @@
    - [ ] No
 
    **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+## Module 4 - Visualizing Relationship
+
+1. **Have you created a bubble plot of 'Age' and 'SOPartFreq' with 'JobSat' as the bubble size?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Ensure you have saved the screenshot for upload later or to answer the graded quiz.
+
+2. **Have you visualized the relationship between the collaboration tools used (NEWCollabToolsHaveWorkedWith) and age groups?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+3. **Have you created a scatter plot of Age and JobSatPoints_6?**
+   - [ ] No
+   - [x] Yes
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+4. **Have you visualized the relationship between Age (Age) and Work Experience (YearsCodePro) using a scatter plot?**
+   - [ ] No
+   - [x] Yes
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
