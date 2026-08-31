@@ -231,3 +231,85 @@
     - [x] Focus on more common salary values and reduce skewness
 
     **Answer:** Removing outliers provides a clearer view of common salary trends by reducing skewness.
+
+# Module 4 - Data Visualization
+
+1. **Which visualization method is most suitable for displaying the distribution of YearsCodePro among respondents?**
+   - [ ] Pie chart
+   - [x] Histogram
+   - [ ] Line chart
+   - [ ] Bubble plot
+
+   **Answer:** A histogram is appropriate as it effectively shows the spread of continuous data like YearsCodePro.
+
+2. **Which of the following variables is most appropriate for examining the distribution of work arrangement preferences?**
+   - [ ] The end of the whisker
+   - [ ] CompTotal
+   - [ ] The upper boundary of the box
+   - [x] RemoteWork
+
+   **Answer:** RemoteWork indicates work arrangement preferences, suitable for distribution analysis.
+
+3. **Which of the following visualizations is ideal for analyzing the composition of desired databases among respondents?**
+   - [ ] Box plot
+   - [ ] Line chart
+   - [ ] Bubble plot
+   - [x] Histogram
+
+   **Answer:** Histogram is ideal for analyzing the composition of desired databases among respondents.
+
+4. **Which column combination is most suitable for creating a bubble plot to analyze job satisfaction and compensation, with age as the bubble size?**
+   - [ ] ConvertedCompYearly and DatabaseWantToWorkWith
+   - [x] ConvertedCompYearly and JobSatPoints_6
+   - [ ] Age and ConvertedCompYearly
+   - [ ] JobSatPoints_6 and MainBranch
+
+   **Answer:** The combination of ConvertedCompYearly and JobSatPoints_6, with age as the bubble size, allows for analyzing job satisfaction relative to compensation.
+
+5. **Why is it essential to understand data relationships before choosing variables for scatterplots?**
+   - [ ] To ensure visualization is aesthetically pleasing
+   - [x] To choose variables that show meaningful correlations
+   - [ ] To convert all data into numeric format
+   - [ ] To use data for decorative purposes
+
+   **Answer:** Selecting variables with meaningful relationships allows scatterplots to reveal insightful correlations.
+
+6. **For visualizing the top 5 programming languages respondents have experience with, which column is most suitable?**
+   - [ ] MainBranch
+   - [x] LanguageHaveWorkedWith
+   - [ ] DatabaseWantToWorkWith
+   - [ ] LanguageAdmired
+
+   **Answer:** 'LanguageHaveWorkedWith' contains the programming languages respondents have experience with.
+
+7. **In the lab, how do you create a stacked chart comparing median job satisfaction for 'JobSatPoints_6' and 'JobSatPoints_7' across different employment statuses?**
+   - [ ] Use a scatter plot with `Employment` as one axis
+   - [ ] Use `.hist()` for histogram plotting
+   - [x] Use `.groupby()` on `Employment` and plot with `kind='bar', stacked=True`
+   - [ ] Use `plt.plot()` for a line chart
+
+   **Answer:** Grouping by 'Employment' and plotting with `stacked=True` shows median values across categories.
+
+8. **Which type of data is most suitable for visualization with a line chart?**
+   - [x] Continuous data over time
+   - [ ] Categorical data
+   - [ ] Nominal data
+   - [ ] Ordinal data without a specific order
+
+   **Answer:** Line charts are excellent for visualizing continuous data over time.
+
+9. **Where should the age groups typically be placed in a line chart showing median compensation by age group?**
+   - [x] On the X-axis
+   - [ ] On the Y-axis
+   - [ ] In the legend
+   - [ ] In tooltips
+
+   **Answer:** Age groups should typically be displayed on the X-axis to represent categories across the timeline.
+
+10. **What advantage does a grouped bar chart provide over a standard bar chart when comparing median compensation across age groups?**
+    - [ ] It combines all categories into a single visual
+    - [ ] It focuses on a single category at a time
+    - [x] It provides a comparison across multiple categories side by side
+    - [ ] It eliminates the need for a legend
+
+    **Answer:** Grouped bar charts allow comparison across multiple categories side by side.
