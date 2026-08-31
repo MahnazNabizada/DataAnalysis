@@ -471,3 +471,213 @@
    - [ ] No
 
    **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+## Module 3 - Handling Outliers
+
+1. **Have you installed the pandas library using pip in your Jupyterlab environment?**
+   - [ ] No
+   - [x] Yes
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+2. **Have you performed correlation analysis between Age and other numerical columns in the dataset?**
+   - [ ] No
+   - [x] Yes
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+3. **Have you detected outliers in the ConvertedCompYearly column using a box plot?**
+   - [ ] No
+   - [x] Yes
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+4. **Have you calculated the interquartile range (IQR) to find the upper and lower bounds for outliers?**
+   - [ ] No
+   - [x] Yes
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+5. **Have you identified respondents with extremely high yearly compensation?**
+   - [ ] No
+   - [x] Yes
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+6. **Have you created a new DataFrame by removing the outliers from the ConvertedCompYearly column?**
+   - [ ] No
+   - [x] Yes
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+7. **Have you plotted a bar chart to visualize the distribution of respondents by industry?**
+   - [ ] No
+   - [x] Yes
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+## Module 3 - Finding Correlation
+
+1. **Have you plotted the distribution and histogram for ConvertedCompYearly to examine the spread of yearly compensation among respondents?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+2. **Have you filtered the data to calculate the median compensation for respondents whose employment status is "Employed, full-time"?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+3. **Have you analyzed compensation range and distribution by country?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+4. **Have you created a new DataFrame by removing outliers from the ConvertedCompYearly column to get a refined dataset for correlation analysis?**
+   - [ ] No
+   - [x] Yes
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+5. **Have you calculated correlations between ConvertedCompYearly, WorkExp, and JobSatPoints_1, and visualized these correlations with a heatmap?**
+   - [ ] No
+   - [x] Yes
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+6. **Have you created scatter plots to examine specific correlations between ConvertedCompYearly and WorkExp, as well as between ConvertedCompYearly and JobSatPoints_1?**
+   - [ ] No
+   - [x] Yes
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+## Module 4 - Data Visualization
+
+1. **Have you downloaded the database file using the provided command?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+2. **Have you installed the required libraries (pandas and matplotlib)?**
+   - [ ] No
+   - [x] Yes
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+3. **Have you loaded the CSV file into a Pandas DataFrame and displayed the first few rows?**
+   - [ ] No
+   - [x] Yes
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+4. **Have you created a new SQLite database and inserted the data?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+5. **Have you verified that the data has been correctly inserted into the SQLite database?**
+   - [ ] No
+   - [x] Yes
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+6. **Have you counted the number of rows in the table?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+7. **Did you list all tables in the SQLite database?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+8. **Have you created a grouped data view of Age and its count within the dataset?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+## Module 4 - Distribution of Data
+
+1. **Have you created a box plot to visualize the age distribution in the dataset?**
+   - [ ] No
+   - [x] Yes
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+2. **Have you closed the connection to the SQLite database after completing the box plots lab?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+3. **Have you created a histogram to visualize the distribution of CompTotal?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+4. **Have you closed the connection to the SQLite database after completing the histogram lab?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+## Module 4 - Visualizing Relationship
+
+1. **Have you created a bubble plot of 'Age' and 'SOPartFreq' with 'JobSat' as the bubble size?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Ensure you have saved the screenshot for upload later or to answer the graded quiz.
+
+2. **Have you visualized the relationship between the collaboration tools used (NEWCollabToolsHaveWorkedWith) and age groups?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+3. **Have you created a scatter plot of Age and JobSatPoints_6?**
+   - [ ] No
+   - [x] Yes
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+4. **Have you visualized the relationship between Age (Age) and Work Experience (YearsCodePro) using a scatter plot?**
+   - [ ] No
+   - [x] Yes
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+## Module 4 - Visualizing Composition of Data
+
+1. **Have you created a pie chart to show the top 5 databases respondents wish to learn next year?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+2. **Have you created a pie chart to visualize the top 5 tools developers are currently using for AI development?**
+   - [ ] No
+   - [x] Yes
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+3. **Have you created a stacked chart showing median 'JobSatPoints_6' and 'JobSatPoints_7' for different age groups?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+4. **Have you analyzed how programming language preferences (LanguageAdmired) vary across age groups?**
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
