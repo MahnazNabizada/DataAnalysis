@@ -1,0 +1,420 @@
+{
+  "job_total": 27005,
+  "job_top": [
+    "Washington DC",
+    5316
+  ],
+  "job_top3_share": 46.8,
+  "job_bottom": [
+    "Philadelphia",
+    41
+  ],
+  "job_n_loc": 13,
+  "skills_top": [
+    [
+      "C",
+      25114
+    ],
+    [
+      "Java",
+      3428
+    ],
+    [
+      "JavaScript",
+      2248
+    ],
+    [
+      "Python",
+      1173
+    ]
+  ],
+  "sal_top": [
+    "Swift",
+    130801
+  ],
+  "sal_bottom": [
+    "PHP",
+    84727
+  ],
+  "sal_spread": 46074,
+  "sal_python": 114383,
+  "sal_mean": 101540,
+  "rows": 18845,
+  "cols": 114,
+  "countries": 161,
+  "Language_have_top5": [
+    [
+      "JavaScript",
+      14943
+    ],
+    [
+      "SQL",
+      12602
+    ],
+    [
+      "HTML/CSS",
+      12410
+    ],
+    [
+      "TypeScript",
+      10709
+    ],
+    [
+      "Python",
+      9590
+    ]
+  ],
+  "Language_want_top5": [
+    [
+      "JavaScript",
+      11541
+    ],
+    [
+      "SQL",
+      10944
+    ],
+    [
+      "TypeScript",
+      10437
+    ],
+    [
+      "HTML/CSS",
+      10016
+    ],
+    [
+      "Python",
+      8919
+    ]
+  ],
+  "Database_have_top5": [
+    [
+      "PostgreSQL",
+      11514
+    ],
+    [
+      "MySQL",
+      8556
+    ],
+    [
+      "SQLite",
+      7021
+    ],
+    [
+      "MongoDB",
+      5930
+    ],
+    [
+      "Microsoft SQL Server",
+      5870
+    ]
+  ],
+  "Database_want_top5": [
+    [
+      "PostgreSQL",
+      12193
+    ],
+    [
+      "Redis",
+      6384
+    ],
+    [
+      "SQLite",
+      6295
+    ],
+    [
+      "MySQL",
+      6204
+    ],
+    [
+      "MongoDB",
+      5618
+    ]
+  ],
+  "Platform_have_top5": [
+    [
+      "Amazon Web Services (AWS)",
+      10871
+    ],
+    [
+      "Microsoft Azure",
+      6681
+    ],
+    [
+      "Google Cloud",
+      5537
+    ],
+    [
+      "Cloudflare",
+      3874
+    ],
+    [
+      "Digital Ocean",
+      3170
+    ]
+  ],
+  "Platform_want_top5": [
+    [
+      "Amazon Web Services (AWS)",
+      10516
+    ],
+    [
+      "Microsoft Azure",
+      6380
+    ],
+    [
+      "Google Cloud",
+      5431
+    ],
+    [
+      "Cloudflare",
+      4219
+    ],
+    [
+      "Digital Ocean",
+      2908
+    ]
+  ],
+  "Webframe_have_top5": [
+    [
+      "Node.js",
+      9230
+    ],
+    [
+      "React",
+      8999
+    ],
+    [
+      "jQuery",
+      4810
+    ],
+    [
+      "Express",
+      4408
+    ],
+    [
+      "Next.js",
+      4399
+    ]
+  ],
+  "Webframe_want_top5": [
+    [
+      "React",
+      8223
+    ],
+    [
+      "Node.js",
+      8096
+    ],
+    [
+      "Next.js",
+      4458
+    ],
+    [
+      "ASP.NET CORE",
+      4166
+    ],
+    [
+      "Vue.js",
+      3903
+    ]
+  ],
+  "Language_sel_have": 116557,
+  "Language_sel_want": 106356,
+  "Language_per_resp": [
+    6.19,
+    5.64
+  ],
+  "Language_gainers": [
+    [
+      "Rust",
+      3.3
+    ],
+    [
+      "Go",
+      2.5
+    ],
+    [
+      "Kotlin",
+      0.9
+    ],
+    [
+      "TypeScript",
+      0.6
+    ]
+  ],
+  "Language_losers": [
+    [
+      "JavaScript",
+      -2.0
+    ],
+    [
+      "PHP",
+      -1.4
+    ],
+    [
+      "Java",
+      -1.3
+    ],
+    [
+      "HTML/CSS",
+      -1.2
+    ]
+  ],
+  "Database_sel_have": 69586,
+  "Database_sel_want": 65913,
+  "Database_per_resp": [
+    3.69,
+    3.5
+  ],
+  "Database_gainers": [
+    [
+      "PostgreSQL",
+      2.0
+    ],
+    [
+      "Redis",
+      1.3
+    ],
+    [
+      "Supabase",
+      0.8
+    ],
+    [
+      "Elasticsearch",
+      0.5
+    ]
+  ],
+  "Database_losers": [
+    [
+      "MySQL",
+      -2.9
+    ],
+    [
+      "Microsoft SQL Server",
+      -1.8
+    ],
+    [
+      "MariaDB",
+      -1.1
+    ],
+    [
+      "Oracle",
+      -1.1
+    ]
+  ],
+  "country_top5": [
+    [
+      "United States",
+      3441
+    ],
+    [
+      "Germany",
+      1339
+    ],
+    [
+      "India",
+      1316
+    ],
+    [
+      "United Kingdom",
+      1053
+    ],
+    [
+      "Ukraine",
+      931
+    ]
+  ],
+  "country_top5_share": 42.9,
+  "age_top": [
+    "25-34",
+    7788
+  ],
+  "age_2534_share": 41.3,
+  "age_under35_share": 57.9,
+  "ed_top": [
+    "Bachelor's",
+    8629
+  ],
+  "ed_degree_share": 79.2,
+  "comp_valid": 9550,
+  "comp_missing_pct": 49.3,
+  "comp_median": 65857,
+  "comp_mean": 84589,
+  "comp_iqr_upper": 226667,
+  "comp_outliers": 346,
+  "comp_outlier_pct": 3.6,
+  "comp_country_top3": [
+    [
+      "United States",
+      148000
+    ],
+    [
+      "United Kingdom",
+      89172
+    ],
+    [
+      "Canada",
+      87231
+    ]
+  ],
+  "comp_country_bottom": [
+    [
+      "Brazil",
+      24243
+    ],
+    [
+      "India",
+      19142
+    ]
+  ],
+  "corr_pairs": {
+    "comp_workexp": 0.242,
+    "comp_yearspro": 0.245,
+    "jobsat_yearspro": 0.107,
+    "jobsat_comp": 0.06,
+    "n": 6843
+  },
+  "comp_age_peak": [
+    "55-64",
+    126937
+  ],
+  "comp_age_youngest": [
+    "<18",
+    12001
+  ],
+  "remote_pct": {
+    "Remote": 43.4,
+    "Hybrid (some remote, some in-person)": 41.5,
+    "In-person": 15.2
+  },
+  "remote_missing_pct": 0.0,
+  "jobsat_n": 12111,
+  "jobsat_missing_pct": 35.7,
+  "jobsat_median": 8.0,
+  "jobsat_mean": 7.15,
+  "jobsat_7plus": 71.4,
+  "dupes_response_id": 0,
+  "dupes_full_row": 0,
+  "miss_top": [
+    [
+      "ConvertedCompYearly",
+      49.3
+    ],
+    [
+      "JobSat",
+      35.7
+    ],
+    [
+      "WorkExp",
+      34.9
+    ],
+    [
+      "YearsCodePro",
+      4.1
+    ],
+    [
+      "RemoteWork",
+      0.0
+    ]
+  ]
+}

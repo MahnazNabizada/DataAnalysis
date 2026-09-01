@@ -1,0 +1,36 @@
+DatabaseWantToWorkWith,count
+PostgreSQL,12193
+Redis,6384
+SQLite,6295
+MySQL,6204
+MongoDB,5618
+Microsoft SQL Server,4345
+Elasticsearch,3665
+MariaDB,3078
+Dynamodb,2154
+Supabase,1623
+Firebase Realtime Database,1303
+BigQuery,1296
+Cosmos DB,1172
+Cloud Firestore,1155
+Oracle,1113
+Cassandra,1083
+Snowflake,843
+Neo4J,780
+DuckDB,684
+Clickhouse,636
+H2,573
+Cockroachdb,567
+InfluxDB,560
+Databricks SQL,526
+Couch DB,308
+Solr,292
+Microsoft Access,242
+EventStoreDB,200
+Couchbase,185
+Firebird,174
+IBM DB2,165
+Datomic,147
+Presto,140
+TiDB,111
+RavenDB,99
