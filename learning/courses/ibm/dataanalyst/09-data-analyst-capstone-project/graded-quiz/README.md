@@ -313,3 +313,85 @@
     - [ ] It eliminates the need for a legend
 
     **Answer:** Grouped bar charts allow comparison across multiple categories side by side.
+
+# Module 5 - Bulding a Dashboard
+
+1. **What is the primary purpose of creating a dashboard in tools like IBM Cognos Analytics or Google Looker Studio?** — 1/1
+   - [ ] Share raw datasets with stakeholders
+   - [ ] Store raw data for future use
+   - [ ] Write code for data transformations
+   - [x] Visualize and analyze data effectively
+
+   **Answer:** Dashboards are designed to provide visual insights and facilitate data analysis for better decision-making.
+
+2. **What dashboard layout template organizes visualizations in both labs (Option A: Building A Dashboard with IBM Cognos Analytics or Option B: Building A Dashboard with Google Looker Studio)?** — 1/1
+   - [ ] 3 x 3 grid
+   - [ ] Freeform layout
+   - [x] 2 x 2 rectangle areas
+   - [ ] Single-column layout
+
+   **Answer:** Both labs use the 2 x 2 rectangle areas layout for organizing visualizations effectively.
+
+3. **Why is it important to include chart titles and value labels in visualizations?** — 1/1
+   - [ ] To make the chart visually appealing
+   - [x] To help viewers understand the chart's purpose and details
+   - [ ] To increase the file size of the dashboard
+   - [ ] To meet software requirements
+
+   **Answer:** Titles and labels enhance clarity and make visualizations easier to interpret.
+
+4. **Which type of chart is most suitable for visualizing trends or distributions in respondent ages?** — 1/1
+   - [ ] Word cloud
+   - [ ] Stacked bar chart
+   - [x] Line chart
+   - [ ] Pie chart
+
+   **Answer:** Line charts are ideal for showing trends or distributions over continuous variables, such as respondent ages.
+
+5. **What is a necessary step before using a dataset in either IBM Cognos Analytics or Google Looker Studio?** — 1/1
+   - [ ] Editing the dataset in a text editor
+   - [ ] Deleting unused rows from the dataset
+   - [ ] Copying the dataset to multiple tabs
+   - [x] Uploading the dataset as a data asset to the tool
+
+   **Answer:** The dataset must be uploaded to the analytics tool to use it for creating visualizations.
+
+6. **Why should you apply filters to exclude null values in your dashboard?** — 1/1
+   - [ ] Reduce the dataset size
+   - [ ] Speed up the dashboard loading time
+   - [ ] Increase the number of data points displayed
+   - [x] Improve the accuracy of visualizations
+
+   **Answer:** Filtering null values ensures that visualizations represent valid and meaningful data.
+
+7. **Which metric is used in both labs (Option A: Building A Dashboard with IBM Cognos Analytics or Option B: Building A Dashboard with Google Looker Studio) to visualize the current technology usage?** — 1/1
+   - [ ] Education levels
+   - [ ] Respondent age distribution
+   - [ ] Desired platforms
+   - [x] Top 10 languages used
+
+   **Answer:** Both labs include a visualization for the top 10 programming languages currently used by developers.
+
+8. **Which chart type displays hierarchical data in the dashboard section focusing on PlatformWantToWorkWith in the Future Technology Trends dashboard?** — 1/1
+   - [ ] Bar chart
+   - [ ] Word cloud
+   - [x] Tree map chart
+   - [ ] Hierarchy bubble chart
+
+   **Answer:** Tree map charts commonly represent hierarchical data with varying sizes and colors.
+
+9. **What chart type is most suitable for visualizing respondent distribution by gender?** — 1/1
+   - [ ] Scatter bubble chart
+   - [ ] Stacked column chart
+   - [x] Pie chart
+   - [ ] Line chart
+
+   **Answer:** A pie chart is ideal for showing proportions, such as the distribution of respondents by gender.
+
+10. **What must students submit to meet the grading requirements for their dashboard?** — 1/1
+    - [x] A link to the PDF export of the dashboard
+    - [ ] A CSV file containing raw data
+    - [ ] Screenshots of the dashboard in a Word document
+    - [ ] The original dataset
+
+    **Answer:** Students must submit a link to a PDF export of their dashboard for grading.

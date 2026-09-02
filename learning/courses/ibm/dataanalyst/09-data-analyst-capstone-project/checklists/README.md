@@ -707,3 +707,40 @@
    - [x] Yes
 
    **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+## Module 5 - Dashboards
+
+## Hands-on Lab: Dashboard Creation Check-in
+
+1. **Does the dashboard contain the "Current Technology Usage" tab with the following visualizations?**
+   - Top 10 LanguageHaveWorkedWith (Bar chart)
+   - Top 10 DatabaseHaveWorkedWith (Column chart)
+   - PlatformHaveWorkedWith (Word cloud chart)
+   - Top 10 WebframeHaveWorkedWith (Hierarchy bubble chart/Scatter Bubble)
+
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+2. **Did the dashboard you create contain the Future Technology Trend tab with the following four visualizations?**
+   - Top 10 LanguageWantToWorkWith (Bar chart)
+   - Top 10 DatabaseWantToWorkWith (Column chart)
+   - PlatformWantToWorkWith (Tree map chart)
+   - Top 10 WebframeWantToWorkWith (Hierarchy bubble chart/Scatter Bubble)
+
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
+
+3. **Did the dashboard you create contain the Demographic tab with the following five visualizations?**
+   - Respondent distribution by Age (Pie chart)
+   - Respondent Count by Country (Map chart)
+   - Respondent distribution by Formal Education Level (Line chart)
+   - Respondent Count by Age, classified by Education Level (Stacked bar chart)
+
+   - [x] Yes
+   - [ ] No
+
+   **Feedback:** Nice work. Make sure you have saved the screenshot for upload later or to answer the graded quiz.
