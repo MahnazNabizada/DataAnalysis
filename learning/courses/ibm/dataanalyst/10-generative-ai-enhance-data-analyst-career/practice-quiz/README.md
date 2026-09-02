@@ -2,7 +2,7 @@
 
 ## Module 1 - Data Analytics and Generative AI
 
-1. **Which is the best definition of Generative AI?** — 1/1
+1. **Which is the best definition of Generative AI?**
    - [ ] Generative AI cannot modify existing data.
    - [x] Generative AI is a type of AI that focuses on creating new, synthetic data.
    - [ ] Generative AI is a type of AI that focuses on repetitive tasks and automating manual processes.
@@ -10,7 +10,7 @@
 
    **Answer:** Generative AI models generate entirely new data points, opening a realm of possibilities for data analytics.
 
-2. **How does Generative AI solve the challenge of limited data availability?** — 1/1
+2. **How does Generative AI solve the challenge of limited data availability?**
    - [ ] It collects data from all available resources.
    - [x] It can create synthetic data sets and augment the existing ones.
    - [ ] It reduces the complexity of models, making them less reliant on extensive training data.
@@ -18,7 +18,7 @@
 
    **Answer:** Generative AI can create synthetic data sets and augment the existing ones for robust analysis and model training.
 
-3. **How does Generative AI help in creating interactive visualizations and storytelling?** — 1/1
+3. **How does Generative AI help in creating interactive visualizations and storytelling?**
    - [x] It generates visually appealing representations and narrative elements.
    - [ ] It relies on static, pre-defined templates and graphics.
    - [ ] It provides basic charts and graphs without the ability to adapt and respond to user interactions.
@@ -26,7 +26,7 @@
 
    **Answer:** Generative AI can generate visually appealing representations and highlight key insights, transforming raw data into interactive visualizations and compelling narratives.
 
-4. **DataRobot uses which Generative AI technique to provide comprehensive training data?** — 1/1
+4. **DataRobot uses which Generative AI technique to provide comprehensive training data?**
    - [ ] Querying of databases
    - [ ] Storytelling
    - [ ] Visualization
@@ -34,10 +34,52 @@
 
    **Answer:** DataRobot uses generative AI to augment data sets by creating synthetic data points. This data augmentation technique helps improve machine learning models' performance by providing more diverse and comprehensive training data.
 
-5. **How does Generative AI help in transforming data representation?** — 1/1
+5. **How does Generative AI help in transforming data representation?**
    - [ ] It can directly transform audio data into visual presentations.
    - [ ] It can compress the data, reducing its size for easier storage and analysis.
    - [x] It can convert text into images or vice versa.
    - [ ] It can generate visually appealing but irrelevant images and graphics, adding complexity.
 
    **Answer:** Generative AI can convert text into images or vice versa, giving analysts creative ways to represent complex information.
+
+## Module 1 - Generative AI for Data Preparation and Insights
+
+1. **How can Generative AI create captivating data visualizations?**
+   - [x] By generating creative visualizations, adapting visualizations to different audiences, and generating interactive visualizations
+   - [ ] By identifying hidden patterns and correlations, generating hypotheses and explanations, and providing personalized insights
+   - [ ] By imputing data, detecting anomalies, and normalizing data
+   - [ ] By enabling natural language queries, generating SQL queries automatically, and providing real-time query responses
+
+   **Answer:** By generating creative visualizations, adapting visualizations to different audiences, and generating interactive visualizations, Generative AI can create captivating data visualizations.
+
+2. **How can Generative AI uncover deeper insights?**
+   - [ ] By enabling natural language queries, generating SQL queries automatically, and providing real-time query responses
+   - [ ] By imputing data, detecting anomalies, and normalizing data
+   - [ ] By generating creative visualizations, adapting visualizations to different audiences, and generating interactive visualizations
+   - [x] By identifying hidden patterns and correlations, generating hypotheses and explanations, and providing personalized insights
+
+   **Answer:** By identifying hidden patterns and correlations, generating hypotheses and explanations, and providing personalized insights, Generative AI can uncover deeper insights.
+
+3. **What are the key aspects of question and answer (Q&A) for data in data analytics?**
+   - [x] Utilizing machine learning and natural language processing algorithms to comprehend queries and provide relevant responses
+   - [ ] Learning the latent code to encapsulate the core information of customer data
+   - [ ] Predicting future question trends and patterns in time-dependent data and preparing responses accordingly
+   - [ ] Analyzing customer behavior and purchase patterns to provide relevant responses to customer queries
+
+   **Answer:** Q&A for data involves utilizing machine learning and natural language processing algorithms to interpret queries and provide accurate responses.
+
+4. **Which of the following SQL queries will generate if you type "What is the count of rows in the Boston_house_price data set" in the prompt box of a Generative AI SQL query tool?**
+   - [x] `SELECT COUNT * FROM Boston_house_price`
+   - [ ] `SELECT COUNT FROM Boston_house_price`
+   - [ ] `SELECT * FROM Boston_house_price`
+   - [ ] `SELECT COUNT * Boston_house_price`
+
+   **Answer:** To retrieve the count of rows in a database, you can use the following SQL statement: `SELECT COUNT * FROM <database name>`.
+
+5. **What is the definition of data preparation?**
+   - [ ] Uploading the data
+   - [x] Cleaning, transforming, and organizing raw data
+   - [ ] Querying the data
+   - [ ] Visualizing the data
+
+   **Answer:** Data preparation involves cleaning, transforming, and organizing raw data.
