@@ -83,3 +83,87 @@
    - [ ] Visualizing the data
 
    **Answer:** Data preparation involves cleaning, transforming, and organizing raw data.
+
+# Module 2 - Generative AI for Data Visualization and Storytelling
+
+1. **Which statistical analysis can be run on any pair of attributes?**
+   - [ ] histplot
+   - [ ] multivariate
+   - [x] bivariate
+   - [ ] univariate
+
+   **Answer:** Bivariate analysis for any pair of attributes.
+
+2. **Which application is a helpful assistant in Tableau that automates repetitive tasks?**
+   - [ ] ChatGPT
+   - [ ] Sisense
+   - [x] Einstein Copilot
+   - [ ] DataSquirrel
+
+   **Answer:** Einstein Copilot is a helpful assistant in Tableau that speeds up creating dashboards by automating repetitive tasks.
+
+3. **Which tool can create graphs and charts with GPT-4 through specialized prompt engineering?** — 0/1
+   - [ ] Sisense
+   - [ ] ThoughtSpot
+   - [ ] DataSquirrel
+   - [x] Akkio
+
+   **Answer:** Correct! Akkio can create graphs and charts with GPT-4 through specialized prompt engineering.
+
+4. **You want to use a storytelling tool that enables you to use conversational prompts to enhance content creation and refine narrative elements, such as titles, headings, bullet points, introductions, and conclusions. Which tool would be most appropriate?**
+   - [ ] DesignerBot
+   - [ ] GoogleSlides
+   - [ ] Akkio's Generative Reports
+   - [x] ChatGPT
+
+   **Answer:** ChatGPT allows you to employ prompts to enhance content creation and refine narrative elements, such as titles, headings, bullet points, introductions, and conclusions.
+
+5. **Which aspect of storytelling helps to give your narrative a clear and consistent structure?**
+   - [ ] Discussions
+   - [ ] Data visualization
+   - [ ] Contextualization
+   - [x] Logical organization
+
+   **Answer:** Logical organization gives your narrative a clear and logical structure.
+
+# Module 2 - Generative AI Considerations for Data Professionals
+
+1. **What is a key consideration under model considerations?**
+   - [ ] Prevention of malicious activities
+   - [x] Explainability
+   - [ ] Regulatory requirements
+   - [ ] Quality of data
+
+   **Answer:** The choice of generative AI model and training parameters determines the explainability that refers to the model's ability to provide clear insights into its decision-making process.
+
+2. **Which technique can be used to check for biased loan approvals in the finance industry?**
+   - [ ] Anonymize data
+   - [ ] Interpretability
+   - [x] Fairness metrics
+   - [ ] Data augmentation
+
+   **Answer:** Data scientists need to check the data for potential biases by using techniques such as fairness metrics and adversarial training.
+
+3. **Which is a technical challenge using generative AI?**
+   - [ ] Lack of data sharing
+   - [ ] Copyright and IP issues
+   - [x] Lack of standardization
+   - [ ] Risk aversion
+
+   **Answer:** Lack of standardization and tools is a technical challenge when using generative AI in multiple industries.
+
+4. **What causes AI hallucinations?**
+   - [ ] Lack of expertise
+   - [ ] Model complexity
+   - [ ] Biases
+   - [x] Flawed training data
+
+   **Answer:** This term refers to the generation of inaccurate or illogical information by generative AI models due to flawed training data.
+
+5. **If you manipulate public opinion while using generative AI, which type of consideration is violated?**
+   - [ ] Model
+   - [ ] Data
+   - [x] Ethical
+   - [ ] Technical
+
+   **Answer:** Manipulating public opinion is a malicious practice and is against ethical guidelines of generative AI usage.
